@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/aniketsharma/Desktop/Gauri-creations /**)",
+      "Bash(cp index.html index.php)",
+      "Bash(cp about.html about.php)",
+      "Bash(cp courses.html courses.php)",
+      "Bash(cp contact.html contact.php)",
+      "Bash(cp course-details.html course-details.php)",
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(sed -i '' 's|href=\"\"index\\\\.html\"\"|href=\"\"/\"\"|g' \"$f\")",
+      "Bash(sed -i '' 's|href=\"\"about\\\\.html\"\"|href=\"\"/about\"\"|g' \"$f\")",
+      "Bash(sed -i '' 's|href=\"\"courses\\\\.html\"\"|href=\"\"/courses\"\"|g' \"$f\")",
+      "Bash(sed -i '' 's|info@gauricreation\\\\.com|gauricreationsmkt@gmail.com|g' \"$f\")",
+      "Bash(done)"
+    ],
+    "additionalDirectories": [
+      "/Users/aniketsharma/Desktop/Gauri-creations ",
+      "/Users/aniketsharma/Desktop/Gauri-creations /includes"
+    ]
+  }
+}
