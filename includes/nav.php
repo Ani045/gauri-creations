@@ -14,7 +14,7 @@
 
             <div class="ec-nav-right">
                 <a href="https://wa.me/918527780181?text=Hi%20Gauri%20Creations!%20I%20want%20to%20enquire%20about%20your%20courses." target="_blank" class="ec-wa-btn ec-book-btn-desktop"><i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp</a>
-                <a href="/#courses" class="ec-book-btn ec-book-btn-desktop">Book Now</a>
+                <a href="/#" class="ec-book-btn ec-book-btn-desktop">Book Now</a>
                 <button class="ec-hamburger" id="ec-hamburger" aria-label="Open Menu">
                     <i data-lucide="menu" class="w-6 h-6"></i>
                 </button>
@@ -38,7 +38,7 @@
             </div>
             <div class="ec-mobile-cta" style="display:flex;flex-direction:column;gap:8px;">
                 <a href="https://wa.me/918527780181?text=Hi%20Gauri%20Creations!%20I%20want%20to%20enquire%20about%20your%20courses." target="_blank" class="ec-wa-btn" style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;"><i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Enquiry</a>
-                <a href="/#courses" class="ec-book-btn" style="display:block;text-align:center;width:100%;">Book Now</a>
+                <a href="/#" class="ec-book-btn" style="display:block;text-align:center;width:100%;">Book Now</a>
             </div>
         </div>
     </div>

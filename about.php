@@ -12,7 +12,7 @@
     <?php include 'includes/nav.php'; ?>
 
     <!-- ===== PAGE HERO ===== -->
-    <section class="bg-[#2a2522] py-14 relative overflow-hidden">
+    <section class="bg-[#2a2522] py-20 relative overflow-hidden">
         <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10 text-center">
             <h1 class="font-serif text-4xl md:text-5xl text-white font-bold mb-4">About Gauri Creations</h1>
@@ -21,7 +21,7 @@
     </section>
 
     <!-- ===== ABOUT SECTION ===== -->
-    <section class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="grid md:grid-cols-[380px_1fr] lg:grid-cols-[420px_1fr] gap-10 lg:gap-16 items-center">
                 
@@ -79,7 +79,7 @@
     </section>
 
     <!-- ===== MISSION & VISION ===== -->
-    <section class="py-10 md:py-14 bg-dark relative overflow-hidden text-white">
+    <section class="py-16 md:py-20 bg-dark relative overflow-hidden text-white">
         <div class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
         
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
@@ -116,7 +116,7 @@
     </section>
 
     <!-- ===== OUR VALUES ===== -->
-    <section class="py-10 md:py-14 bg-[#FAF7F2] relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-[#FAF7F2] relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="text-center mb-16">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">

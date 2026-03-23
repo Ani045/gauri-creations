@@ -23,7 +23,7 @@
     </div>
 
     <!-- ===== COURSE HERO ===== -->
-    <section class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="grid lg:grid-cols-[1fr_420px] gap-10 lg:gap-12 items-start">
 
@@ -162,7 +162,7 @@
     </section>
 
     <!-- ===== OTHER COURSES ===== -->
-    <section class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="flex justify-between items-end mb-8">
                 <div>
@@ -447,7 +447,10 @@
     }
 
     loadCourseData();
-    window.addEventListener('hashchange', loadCourseData);
+    window.addEventListener('hashchange', function() {
+        loadCourseData();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
     </script>
 
     <?php include 'includes/footer.php'; ?>

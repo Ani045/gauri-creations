@@ -685,7 +685,7 @@
                 <!-- Right side: Book Now + Hamburger -->
                 <div class="ec-nav-right">
                     <a href="https://wa.me/918527780181?text=Hi%20Gauri%20Creations!%20I%20want%20to%20enquire%20about%20your%20courses." target="_blank" class="ec-wa-btn ec-book-btn-desktop"><i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp</a>
-                    <a href="#courses" class="ec-book-btn ec-book-btn-desktop">Book Now</a>
+                    <a href="#" class="ec-book-btn ec-book-btn-desktop">Book Now</a>
                     <button class="ec-hamburger" id="ec-hamburger" aria-label="Open Menu">
                         <i data-lucide="menu" class="w-6 h-6"></i>
                     </button>
@@ -696,14 +696,14 @@
         <!-- ===== CATEGORY BAR ===== -->
         <nav class="ec-cat-bar" id="ec-cat-bar">
             <div class="ec-cat-inner">
-                <a href="#courses" class="ec-cat-all"><i data-lucide="layout-grid" class="w-4 h-4"></i> All
+                <a href="#" class="ec-cat-all"><i data-lucide="layout-grid" class="w-4 h-4"></i> All
                     Categories</a>
-                <a href="#courses" class="ec-cat-link active">Desserts</a>
-                <a href="#courses" class="ec-cat-link">Baking</a>
-                <a href="#courses" class="ec-cat-link">Main Course</a>
-                <a href="#courses" class="ec-cat-link">Healthy Diet</a>
+                <a href="#" class="ec-cat-link active">Desserts</a>
+                <a href="#" class="ec-cat-link">Baking</a>
+                <a href="#" class="ec-cat-link">Main Course</a>
+                <a href="#" class="ec-cat-link">Healthy Diet</a>
                 <a href="#about" class="ec-cat-link">Workshops</a>
-                <a href="#courses" class="ec-cat-link">Courses</a>
+                <a href="#" class="ec-cat-link">Courses</a>
                 <a href="#" class="ec-cat-link">Trousseau</a>
                 <a href="#" class="ec-cat-link">Gift Hampers</a>
             </div>
@@ -725,7 +725,7 @@
                 </div>
                 <div class="ec-mobile-cta" style="display:flex;flex-direction:column;gap:8px;">
                     <a href="https://wa.me/918527780181?text=Hi%20Gauri%20Creations!%20I%20want%20to%20enquire%20about%20your%20courses." target="_blank" class="ec-wa-btn" style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;"><i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Enquiry</a>
-                    <a href="#courses" class="ec-book-btn" style="display:block;text-align:center;width:100%;">Book
+                    <a href="#" class="ec-book-btn" style="display:block;text-align:center;width:100%;">Book
                         Now</a>
                 </div>
             </div>
@@ -743,7 +743,7 @@
                         <h2 class="hero-slide-title">Master Artisan Desserts with Expert Guidance</h2>
                         <p class="hero-slide-desc">Join our hands-on workshop and learn to craft show-stopping pastries,
                             cakes, and treats from scratch.</p>
-                        <a href="#courses" class="hero-slide-btn">Explore Courses <i data-lucide="arrow-right"
+                        <a href="#" class="hero-slide-btn">Explore Courses <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -757,7 +757,7 @@
                         <p class="hero-slide-desc">Learn professional frosting, fondant art, and modern cake design in
                             our
                             flagship course.</p>
-                        <a href="#courses" class="hero-slide-btn">Enroll Now <i data-lucide="arrow-right"
+                        <a href="#" class="hero-slide-btn">Enroll Now <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -770,7 +770,7 @@
                         <p class="hero-slide-desc">Discover wholesome recipes that are as beautiful as they are
                             nourishing.
                             Perfect for all levels.</p>
-                        <a href="#courses" class="hero-slide-btn">Start Learning <i data-lucide="arrow-right"
+                        <a href="#" class="hero-slide-btn">Start Learning <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -782,7 +782,7 @@
                         <h2 class="hero-slide-title">Curated Gift Hampers for Every Occasion</h2>
                         <p class="hero-slide-desc">Handpicked gourmet treats, artisan snacks, and beautifully crafted
                             trousseau — delivered fresh.</p>
-                        <a href="#courses" class="hero-slide-btn">Shop Hampers <i data-lucide="arrow-right"
+                        <a href="#" class="hero-slide-btn">Shop Hampers <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -823,7 +823,7 @@
     </div><!-- END hero-full-wrapper -->
 
     <!-- ===== ABOUT SECTION — Compact Ecommerce Style ===== -->
-    <section id="about" class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section id="about" class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="grid md:grid-cols-[380px_1fr] lg:grid-cols-[420px_1fr] gap-10 lg:gap-16 items-center">
 
@@ -902,11 +902,11 @@
 
                     <!-- Actions Row -->
                     <div class="flex flex-wrap items-center gap-4">
-                        <a href="#courses"
+                        <a href="#"
                             class="inline-flex items-center gap-2 bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold px-7 py-3 rounded-full shadow-[0_4px_16px_rgba(252,136,13,0.3)] transition-all text-sm">
                             Explore Courses <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
-                        <a href="#courses"
+                        <a href="#"
                             class="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-[#fc880d] text-dark font-semibold px-7 py-3 rounded-full transition-all text-sm">
                             View Menu <i data-lucide="book-open" class="w-4 h-4"></i>
                         </a>
@@ -932,7 +932,7 @@
                 <p class="font-semibold text-sm md:text-base">Experience the finest culinary creations — freshly made &
                     delivered to your door.</p>
             </div>
-            <a href="#courses"
+            <a href="#"
                 class="bg-white text-[#e27a0c] px-6 py-2.5 rounded-full font-bold text-sm hover:bg-gray-50 transition-all shadow-lg shrink-0 inline-flex items-center gap-2">
                 Explore Menu <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
             </a>
@@ -944,7 +944,7 @@
     </section>
 
     <!-- ===== SHOP BY CATEGORY — Slider ===== -->
-    <section class="py-12 md:py-16 bg-[#FAFAFA] relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-[#FAFAFA] relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex justify-between items-end mb-8">
@@ -964,7 +964,7 @@
             <!-- Category Slider -->
             <div class="flex gap-6 md:gap-8 overflow-x-auto hide-scroll-bar scroll-smooth pb-4 snap-x" id="cat-slider">
                 <!-- Category 1 -->
-                <a href="#courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/chocolate-mousse-cups.jpeg" alt="Desserts"
@@ -974,7 +974,7 @@
                         class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Desserts</span>
                 </a>
                 <!-- Category 2 -->
-                <a href="#courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/cupcakes-brownies-box.jpeg" alt="Baking"
@@ -984,7 +984,7 @@
                         class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Baking</span>
                 </a>
                 <!-- Category 3 -->
-                <a href="#courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/caterpillar-cupcakes.jpeg" alt="Cakes"
@@ -994,7 +994,7 @@
                         class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Cakes</span>
                 </a>
                 <!-- Category 4 -->
-                <a href="#courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/pad-thai-dish.jpeg" alt="Main Course"
@@ -1004,7 +1004,7 @@
                         Course</span>
                 </a>
                 <!-- Category 5 -->
-                <a href="#courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/fresh-salad-plate.jpeg" alt="Healthy Diet"
@@ -1014,7 +1014,7 @@
                         Diet</span>
                 </a>
                 <!-- Category 6 -->
-                <a href="#courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/fun-face-sandwich-art.jpeg" alt="Gift Hampers"
@@ -1028,7 +1028,7 @@
     </section>
 
     <!-- ===== OUR COURSES — Course Cards ===== -->
-    <section id="courses" class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section id="courses" class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1182,7 +1182,7 @@
     </section>
 
     <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-12 md:py-16 bg-white relative overflow-hidden">
+    <section id="why-choose-us" class="py-16 md:py-20 bg-white relative overflow-hidden">
         <!-- Subtle background pattern to match brand -->
         <div
             class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none">
@@ -1344,7 +1344,7 @@
     </section>
 
     <!-- ===== WORKSHOP GALLERY ===== -->
-    <section class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="text-center mb-12">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
@@ -1420,7 +1420,7 @@
     <!-- ===== TESTIMONIAL VIDEO SLIDER ===== -->
   
 
-    <section id="faq-info" class="py-12 md:py-16 bg-white relative overflow-hidden">
+    <section id="faq-info" class="py-16 md:py-20 bg-white relative overflow-hidden">
         <!-- Subtle background blobs -->
         <div class="absolute top-0 right-0 w-80 h-80 bg-mustard/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
         <div class="absolute bottom-0 left-0 w-64 h-64 bg-mustard/5 rounded-full blur-3xl pointer-events-none translate-y-1/3 -translate-x-1/3"></div>
@@ -1586,7 +1586,7 @@
     </section>
 
     <!-- ===== VIDEO TESTIMONIALS (Gumlet) ===== -->
-    <section id="video-testimonials" class="py-10 md:py-14 bg-white relative overflow-hidden">
+    <section id="video-testimonials" class="py-16 md:py-20 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1647,7 +1647,7 @@
     </section>
 
     <!-- Contact & Enroll Section -->
-    <section id="contact-testimonials" class="py-12 md:py-16 bg-[#FAF7F2] relative overflow-hidden">
+    <section id="contact-testimonials" class="py-16 md:py-20 bg-[#FAF7F2] relative overflow-hidden">
         <!-- Decorative blobs -->
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-mustard/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
         <div class="absolute bottom-0 left-0 w-80 h-80 bg-mustard/5 rounded-full blur-3xl pointer-events-none translate-y-1/2 -translate-x-1/3"></div>

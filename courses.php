@@ -35,7 +35,7 @@
     </section>
 
     <!-- ===== COURSES GRID ===== -->
-    <section class="py-10 md:py-14 bg-[#FAF7F2] relative overflow-hidden" id="courses-section">
+    <section class="py-16 md:py-20 bg-[#FAF7F2] relative overflow-hidden" id="courses-section">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
                 <div>
@@ -284,7 +284,7 @@
     </section>
 
     <!-- ===== UNIQUE WHY CHOOSE US ===== -->
-    <section class="py-12 md:py-16 bg-[#2A2522] text-white relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-[#2A2522] text-white relative overflow-hidden">
         <!-- Floating shapes background -->
         <div class="absolute -top-[10%] -left-[5%] w-96 h-96 bg-[#fc880d] rounded-full mix-blend-multiply filter blur-[100px] opacity-20"></div>
         <div class="absolute bottom-[10%] -right-[5%] w-96 h-96 bg-[#fc880d] rounded-full mix-blend-multiply filter blur-[100px] opacity-10"></div>
@@ -367,7 +367,7 @@
     </section>
 
     <!-- ===== FAQS SECTION ===== -->
-    <section class="py-10 md:py-14 bg-[#FAF7F2] relative">
+    <section class="py-16 md:py-20 bg-[#FAF7F2] relative">
         <div class="max-w-[800px] mx-auto px-6 md:px-12">
             <div class="text-center mb-12">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
