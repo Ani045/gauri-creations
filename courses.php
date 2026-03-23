@@ -12,7 +12,7 @@
     <?php include 'includes/nav.php'; ?>
 
     <!-- ===== PAGE HERO ===== -->
-    <section class="bg-dark py-16 md:py-24 relative overflow-hidden">
+    <section class="bg-dark py-12 md:py-16 relative overflow-hidden">
         <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
         <div class="absolute top-0 right-0 w-96 h-96 bg-mustard/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute bottom-0 left-0 w-64 h-64 bg-mustard/5 rounded-full blur-3xl pointer-events-none"></div>
@@ -35,7 +35,7 @@
     </section>
 
     <!-- ===== COURSES GRID ===== -->
-    <section class="py-16 md:py-20 bg-[#FAF7F2] relative overflow-hidden" id="courses-section">
+    <section class="py-10 md:py-14 bg-[#FAF7F2] relative overflow-hidden" id="courses-section">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
                 <div>
@@ -284,7 +284,7 @@
     </section>
 
     <!-- ===== UNIQUE WHY CHOOSE US ===== -->
-    <section class="py-20 md:py-28 bg-[#2A2522] text-white relative overflow-hidden">
+    <section class="py-12 md:py-16 bg-[#2A2522] text-white relative overflow-hidden">
         <!-- Floating shapes background -->
         <div class="absolute -top-[10%] -left-[5%] w-96 h-96 bg-[#fc880d] rounded-full mix-blend-multiply filter blur-[100px] opacity-20"></div>
         <div class="absolute bottom-[10%] -right-[5%] w-96 h-96 bg-[#fc880d] rounded-full mix-blend-multiply filter blur-[100px] opacity-10"></div>
@@ -367,7 +367,7 @@
     </section>
 
     <!-- ===== FAQS SECTION ===== -->
-    <section class="py-16 md:py-24 bg-[#FAF7F2] relative">
+    <section class="py-10 md:py-14 bg-[#FAF7F2] relative">
         <div class="max-w-[800px] mx-auto px-6 md:px-12">
             <div class="text-center mb-12">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
@@ -418,6 +418,45 @@
             </div>
         </div>
     </section>
+
+    <script>
+    // Course filtering
+    function filterCourses(category) {
+        const cards = document.querySelectorAll('.course-card');
+        const btns = document.querySelectorAll('.filter-btn');
+        let count = 0;
+
+        cards.forEach(card => {
+            if (category === 'all' || card.dataset.category === category) {
+                card.style.display = '';
+                count++;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        btns.forEach(btn => {
+            btn.classList.remove('active', 'bg-[#fc880d]', 'text-white', 'shadow-sm');
+            btn.classList.add('bg-[#FAF7F2]', 'text-gray-600', 'border', 'border-gray-200');
+            if (btn.dataset.filter === category) {
+                btn.classList.add('active', 'bg-[#fc880d]', 'text-white', 'shadow-sm');
+                btn.classList.remove('bg-[#FAF7F2]', 'text-gray-600');
+            }
+        });
+
+        document.getElementById('course-count').textContent = `Showing ${count} course${count !== 1 ? 's' : ''}`;
+        document.getElementById('no-results').classList.toggle('hidden', count > 0);
+    }
+
+    // FAQ toggle
+    function toggleFaq(id) {
+        const content = document.getElementById(id.replace('rec-', 'rec-content-'));
+        const icon = document.getElementById(id.replace('rec-', 'rec-icon-'));
+        if (!content) return;
+        content.classList.toggle('hidden');
+        if (icon) icon.style.transform = content.classList.contains('hidden') ? '' : 'rotate(180deg)';
+    }
+    </script>
 
     <?php include 'includes/footer.php'; ?>
 </body>

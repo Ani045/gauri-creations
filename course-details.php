@@ -162,7 +162,7 @@
     </section>
 
     <!-- ===== OTHER COURSES ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section class="py-10 md:py-14 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="flex justify-between items-end mb-8">
                 <div>
@@ -178,6 +178,277 @@
             </div>
         </div>
     </section>
+
+    <script>
+    // ===== ALL COURSE DATA =====
+    const allCourses = {
+        "home-baker": {
+            title: "Start Your Own Business as Home Baker",
+            category: "Baking & Icing",
+            badge: "Bestseller",
+            badgeColor: "#fc880d",
+            image: "assets/images/cupcakes-brownies-box.jpeg",
+            date: "15th, 16th & 17th March",
+            days: "(Monday, Tuesday & Wednesday)",
+            timing: "11:30 AM to 5:30 PM",
+            venue: "Gurgaon Sec 38",
+            batch: "6-7 Students",
+            desc: "Complete Hands-On Class — Complete Icing & Baking would be done in class. This is a Certified Course designed to help you start your own business as a home baker. Learn over 30+ cake varieties from scratch!",
+            highlights: ["Certified Course", "Lunch & Refreshment Provided", "Take Home Made Cake", "Maximum 6-7 Students", "100% Pure Vegetarian / Eggless"],
+            curriculum: [
+                "Wedding Cake", "Professional Vanilla & Chocolate Sponge", "Basic Vanilla & Chocolate Sponge",
+                "Shimmer Cake", "Wave Design Cake", "Pinata Cake", "Red Velvet Cake", "Geode Cake",
+                "Painting Cake", "Faultline Cake", "Oreo Mousse Cake", "Doll Cake", "Two Tier Cake",
+                "Photo Print Cake", "Gel Carving Cake", "Glass Effect Cake", "Tiger Print Cake",
+                "Mirror Glaze Marble", "Thread Designing", "Dutch Chocolate Cake", "Sphere Cake",
+                "Black Forest Cake", "Fresh Fruit Gateau", "Sharp Edges Cake",
+                "Rasmalai Cake (NEW)", "Mango Mouse Cake (NEW)", "Heart Shape Cake (NEW)",
+                "Flower Bouquet Cake (NEW)", "Standing Photo Cake (NEW)", "Crunchy Cake (NEW)",
+                "Piping Designs (NEW)", "Bomb Cake (NEW)"
+            ]
+        },
+        "sugar-craft": {
+            title: "Sugar Craft Cake Decorating Course",
+            category: "Cake Decorating",
+            badge: "New",
+            badgeColor: "#16a34a",
+            image: "assets/images/caterpillar-cupcakes.jpeg",
+            date: "8th & 9th April",
+            days: "(Tuesday & Wednesday)",
+            timing: "11:30 AM to 6:00 PM",
+            venue: "Gurgaon",
+            batch: "6-7 Students",
+            desc: "This TWO DAYS Sugar Craft Cake Decorating course will teach you all of the techniques to decorate cakes that would be amazing! Learn how to cover a cake with Ganache, Sugar paste, and make incredible decorations.",
+            highlights: ["Fully Hands-On Class", "Lunch Provided", "Includes Cake Covered with Ganache", "All Materials Provided", "Certified Course"],
+            curriculum: [
+                "How to Make Fondant Dough From Scratch", "Covering Cake with Ganache",
+                "Covering Cake with Sugar Paste", "Ruffles", "Rose Making", "Flower Making",
+                "Leaves Making", "Animal Figure Making", "Cartoon Character Figure Making",
+                "Sugar Craft Baby Shower and Birthday Theme Cake", "Rainbow Cake",
+                "Use of Sugar Craft Tools", "Message Plaque Making"
+            ]
+        },
+        "italian": {
+            title: "Italian Food Class",
+            category: "Italian Cuisine",
+            badge: "Popular",
+            badgeColor: "#9333ea",
+            image: "assets/images/pad-thai-dish.jpeg",
+            date: "4th & 5th January",
+            days: "(Saturday & Sunday)",
+            timing: "12:00 PM to 4:00 PM",
+            venue: "Karol Bagh",
+            batch: "6-7 Students",
+            fee: "₹4,500",
+            desc: "Italian food is one of the most popular and loved cuisines all around the world. Learn the perfect way to enjoy Italian food at home — from Pizzas to Pastas, Risottos to Ravioli and much more!",
+            highlights: ["20+ Italian Recipes", "Hands-On Practical", "Lunch Provided", "Printed Recipes", "Future Assistance"],
+            curriculum: [
+                "Pizza (Margarita, Farmhouse, Peppy Paneer)", "White Sauce Pasta",
+                "Red Sauce Pasta", "Pink Sauce Pasta", "Alfredo Pasta", "Macaroni",
+                "Lasagne", "Baked Pasta", "Spaghetti", "Penne Arrabiata",
+                "Ravioli", "Risotto", "Bruschetta", "Garlic Bread",
+                "Focaccia Bread", "Minestrone Soup", "Tiramisu",
+                "Panna Cotta", "Italian Dressing", "Marinara Sauce"
+            ]
+        },
+        "mughlai": {
+            title: "Mughlai Food Class",
+            category: "Mughlai Cuisine",
+            badge: "Popular",
+            badgeColor: "#9333ea",
+            image: "assets/images/snacks-spread-collage.jpeg",
+            date: "22nd & 23rd March",
+            days: "(Saturday & Sunday)",
+            timing: "12:00 PM to 5:30 PM",
+            venue: "Gurgaon Sec 38",
+            batch: "6-7 Students",
+            desc: "Mughlai food is known for its richness and exotic use of spices. Learn the most popular, traditional and beloved Mughlai recipes with complete hands-on practice. This class covers over 20 aromatic dishes!",
+            highlights: ["Printed Recipe Provided", "Lunch Provided", "Future Assistance", "100% Pure Vegetarian", "Hands-On Practical"],
+            curriculum: [
+                "Dal Maharani", "Paneer Lababdar", "Dum Biryani", "Gulab Jamun",
+                "Malai Kofta", "Navratan Korma", "Shahi Paneer", "Kadhai Paneer",
+                "Dum Aloo", "Butter Paneer", "Mughlai Paratha", "Roomali Roti",
+                "Lucknowi Pulao", "Mughlai Curry", "Paneer Tikka Masala",
+                "Zafrani Kheer", "Phirni", "Korma Sauce",
+                "Mughlai Raita", "Kashmiri Naan"
+            ]
+        },
+        "swiss-roll-pastries": {
+            title: "Swiss Roll & Pastries Class",
+            category: "Pastries & Baking",
+            badge: "Specialty",
+            badgeColor: "#dc2626",
+            image: "assets/images/strawberry-cheesecake.jpeg",
+            date: "23rd & 24th May",
+            days: "(Friday & Saturday)",
+            timing: "11:00 AM to 4:00 PM",
+            venue: "Gurgaon",
+            batch: "6-7 Students",
+            desc: "Learn Delicious Swiss Roll & Pastries with different shapes. Master the art of slitting, soaking, filling, and finishing pastries like a professional baker! All recipes are 100% eggless.",
+            highlights: ["Professional Baking Tricks", "Different Pastry Shapes", "Eggless Recipes", "Samples Take Home", "Lunch Included"],
+            curriculum: [
+                "Mango Swiss Roll", "Chocolate Swiss Roll", "Red Velvet Swiss Roll",
+                "Butterscotch Swiss Roll", "Pineapple Swiss Roll",
+                "Chocolate Pastry", "Butterscotch Pastry", "Pineapple Pastry",
+                "Black Forest Pastry", "White Forest Pastry", "Strawberry Pastry",
+                "Mango Pastry", "Red Velvet Pastry", "Blueberry Pastry",
+                "Opera Pastry", "Tiramisu Pastry", "Coffee Pastry",
+                "Rainbow Pastry"
+            ]
+        },
+        "brownies": {
+            title: "Eggless Brownies, Crownies, Brookies & Blondies",
+            category: "Brownies & Bars",
+            badge: "Trending",
+            badgeColor: "#dc2626",
+            image: "assets/images/chocolate-mousse-cups.jpeg",
+            date: "23rd & 24th July",
+            days: "(Wednesday & Thursday)",
+            timing: "12:00 PM to 5:00 PM",
+            venue: "Gurgaon",
+            batch: "6-7 Students",
+            desc: "Looking for the best homemade Brownie recipe? From fudgy brownie to cakey brownie, you are sure to find a favorite here. Learn the complete range of brownies, blondies, crownies, and brookies — all 100% eggless!",
+            highlights: ["100% Pure Vegetarian", "Samples Take Home", "Lunch Included", "All Materials Provided", "Printed Recipes"],
+            curriculum: [
+                "Classic Fudgy Brownie", "Cakey Brownie", "Chewy Brownie",
+                "Stuffed Brownie", "Red Velvet Brownie", "Nutella Brownie",
+                "Cream Cheese Brownie", "Lotus Biscoff Brownie", "Cookie Brownie (Brookies)",
+                "Crownies (Croissant + Brownies)", "Classic Blondie", "White Chocolate Blondie",
+                "Peanut Butter Blondie", "Brownie Cake", "Brownie Truffle",
+                "Brownie in a Jar", "S'mores Brownie", "Mint Chocolate Brownie"
+            ]
+        },
+        "kids-special": {
+            title: "Kids Special Workshop (Mini Chefs)",
+            category: "Kids Special",
+            badge: "Kids Favorite",
+            badgeColor: "#ef4444",
+            image: "assets/images/kids-yellow-aprons-group.jpeg",
+            date: "8th, 9th & 10th June",
+            days: "(Sunday, Monday & Tuesday)",
+            timing: "12:00 PM to 3:00 PM",
+            venue: "Gurgaon",
+            batch: "8-10 Kids",
+            fee: "₹4,500",
+            desc: "Calling all Mini Chefs! Make Delicious and Healthy food while having fun. This workshop is specially designed for children aged 6 to 18 years. 18-20 practicals included over 3 fun-filled days!",
+            highlights: ["Age Limit 6 to 18 Years", "18-20 Practicals", "Certificate Provided", "Fun & Interactive", "All Materials Included"],
+            curriculum: [
+                "Shakes & Smoothies", "Sandwiches", "Cupcakes", "Muffins",
+                "Pizza from Scratch", "Pasta", "Garlic Bread", "Cookies",
+                "Chocolate Truffles", "Brownies", "Pancakes", "French Fries",
+                "Spring Rolls", "Fruit Salad", "Mocktails", "Burgers",
+                "Wraps & Rolls", "Pudding"
+            ]
+        },
+        "subways-sauces": {
+            title: "Subways, Sauces, Fillings & Kababs Workshop",
+            category: "Subways & Dips",
+            badge: "New",
+            badgeColor: "#16a34a",
+            image: "assets/images/club-sandwich-fries.jpeg",
+            date: "28th & 29th March",
+            days: "(Friday & Saturday)",
+            timing: "11:30 AM to 6:00 PM",
+            venue: "Gurgaon Sec 38",
+            batch: "6-7 Students",
+            desc: "Varieties of Subways and 30+ Dips & Sauces! Master homemade fillings and amazing flavour combinations. Learn to make restaurant-style subways with professional techniques. 100% Pure Vegetarian.",
+            highlights: ["100% Pure Vegetarian", "Samples Take Home", "Lunch Included", "30+ Dips & Sauces", "Printed Recipes"],
+            curriculum: [
+                "Paneer Tikka Subway", "Veggie Delight Subway", "Aloo Patty Subway",
+                "Corn & Peas Subway", "Mexican Subway", "Italian BMT Subway",
+                "Tandoori Subway", "Mushroom Subway", "Thai Chilli Subway",
+                "BBQ Paneer Subway", "Club Subway", "Schezwan Subway",
+                "Chipotle Subway", "Honey Mustard Subway", "Herb & Cheese Subway",
+                "Mayonnaise (5 types)", "Chipotle Sauce", "Honey Mustard Sauce",
+                "Barbeque Sauce", "Ranch Sauce", "Sriracha Sauce",
+                "Teriyaki Sauce", "Marinara Sauce", "Sweet Chilli Sauce",
+                "Harissa Sauce", "Peri Peri Sauce", "Tandoori Mayo",
+                "Hara Bhara Kabab", "Paneer Tikka Kabab", "Seekh Kabab (Veg)",
+                "Shammi Kabab (Veg)"
+            ]
+        },
+        "cheesecakes": {
+            title: "Eggless Gelatin Free Baked & Non-Baked Cheesecakes",
+            category: "Cheesecakes",
+            badge: "Premium",
+            badgeColor: "#9333ea",
+            image: "assets/images/dessert-spread-table.jpeg",
+            date: "21st & 22nd December",
+            days: "(Sunday & Monday)",
+            timing: "11:30 AM to 6:00 PM",
+            venue: "Gurgaon",
+            batch: "6-7 Students",
+            desc: "Learn to make Eggless, Gelatin Free Baked & Non-Baked Cheesecakes. Rich, Creamy, Tangy-Sweet perfection with NO gelatin at all! Learn to make your own Mascarpone cheese and Cream cheese at home.",
+            highlights: ["Perfect Baking Techniques", "Make Homemade Mascarpone", "Make Cream Cheese at Home", "All Cakes Delivered to You", "Gelatin Free & Eggless"],
+            curriculum: [
+                "New York Cheesecake", "Jiggly Japanese Cheesecake", "Baklava Cheesecake",
+                "Tiramisu Cheesecake", "Biscoff (Lotus) Cheesecake", "Blueberry Cheesecake",
+                "Mango Cheesecake", "Strawberry Cheesecake", "Oreo Cheesecake",
+                "Nutella Cheesecake", "Red Velvet Cheesecake", "Chocolate Cheesecake",
+                "Pumpkin Spice Cheesecake", "Basque Burnt Cheesecake",
+                "Raspberry Cheesecake", "Lemon Cheesecake", "Pineapple Cheesecake",
+                "Homemade Cream Cheese", "Homemade Mascarpone Cheese",
+                "Cheesecake Biscuit Base Techniques", "No-Bake Setting Methods"
+            ]
+        }
+    };
+
+    // ===== LOAD COURSE DATA =====
+    function loadCourseData() {
+        const hash = window.location.hash.substring(1) || "home-baker";
+        const course = allCourses[hash];
+        if (!course) { window.location.href = "/courses"; return; }
+
+        document.getElementById('breadcrumb-title').textContent = course.title;
+        document.getElementById('course-image').src = course.image;
+        document.getElementById('course-title').textContent = course.title;
+        document.getElementById('course-badge').textContent = course.badge;
+        document.getElementById('course-badge').style.background = course.badgeColor;
+        document.getElementById('course-category').textContent = course.category;
+        document.getElementById('course-date').textContent = course.date;
+        document.getElementById('course-days').textContent = course.days;
+        document.getElementById('course-timing').textContent = course.timing;
+        document.getElementById('course-venue').textContent = course.venue;
+        document.getElementById('course-batch').textContent = course.batch;
+        document.getElementById('course-desc').textContent = course.desc;
+
+        const highlightsList = document.getElementById('course-highlights');
+        highlightsList.innerHTML = course.highlights.map(h =>
+            `<li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>${h}</span></li>`
+        ).join('');
+
+        const curriculumGrid = document.getElementById('course-curriculum');
+        curriculumGrid.innerHTML = course.curriculum.map(item =>
+            `<div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">${item}</span></div>`
+        ).join('');
+
+        // Other courses
+        const otherCourses = document.getElementById('other-courses');
+        const otherKeys = Object.keys(allCourses).filter(k => k !== hash).slice(0, 3);
+        otherCourses.innerHTML = otherKeys.map(key => {
+            const c = allCourses[key];
+            return `<a href="/course-details#${key}" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
+                <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
+                    <img src="${c.image}" alt="${c.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:${c.badgeColor}">${c.badge}</span>
+                </div>
+                <div class="p-5">
+                    <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">${c.category}</p>
+                    <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">${c.title}</h3>
+                    <div class="flex items-center gap-2 text-[12px] text-gray-500">
+                        <i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> ${c.date}
+                    </div>
+                </div>
+            </a>`;
+        }).join('');
+
+        lucide.createIcons();
+        document.title = course.title + " | Gauri Creations";
+    }
+
+    loadCourseData();
+    window.addEventListener('hashchange', loadCourseData);
+    </script>
 
     <?php include 'includes/footer.php'; ?>
 </body>

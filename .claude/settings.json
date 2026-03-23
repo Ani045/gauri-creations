@@ -13,7 +13,9 @@
       "Bash(sed -i '' 's|href=\"\"about\\\\.html\"\"|href=\"\"/about\"\"|g' \"$f\")",
       "Bash(sed -i '' 's|href=\"\"courses\\\\.html\"\"|href=\"\"/courses\"\"|g' \"$f\")",
       "Bash(sed -i '' 's|info@gauricreation\\\\.com|gauricreationsmkt@gmail.com|g' \"$f\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(sed -i '' 's/py-20 relative overflow-hidden/py-14 relative overflow-hidden/g' about.php contact.php)",
+      "Bash(sed -i '' 's/py-16 md:py-24 relative overflow-hidden/py-12 md:py-16 relative overflow-hidden/' courses.php)"
     ],
     "additionalDirectories": [
       "/Users/aniketsharma/Desktop/Gauri-creations ",

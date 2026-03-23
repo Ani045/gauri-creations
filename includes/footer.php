@@ -1,7 +1,7 @@
     <!-- Footer -->
-    <footer id="footer" class="bg-dark text-gray-300 pt-24 pb-10 border-t border-white/5">
+    <footer id="footer" class="bg-dark text-gray-300 pt-14 pb-8 border-t border-white/5">
         <div class="max-w-[1400px] mx-auto px-6 md:px-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8 mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-10">
                 <div class="lg:col-span-2">
                     <a href="/" class="block mb-6">
                         <img src="assets/logo-removebg-preview.png" alt="Gauri Creations" class="h-16 w-auto object-contain brightness-0 invert">

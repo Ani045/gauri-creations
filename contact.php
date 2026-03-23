@@ -12,7 +12,7 @@
     <?php include 'includes/nav.php'; ?>
 
     <!-- ===== PAGE HERO ===== -->
-    <section class="bg-[#2a2522] py-20 relative overflow-hidden">
+    <section class="bg-[#2a2522] py-14 relative overflow-hidden">
         <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10 text-center">
             <h1 class="font-serif text-4xl md:text-5xl text-white font-bold mb-4">Contact Us</h1>
@@ -21,7 +21,7 @@
     </section>
 
     <!-- ===== CONTACT SECTION ===== -->
-    <section class="py-20 md:py-24 bg-[#FAF7F2] relative overflow-hidden">
+    <section class="py-12 md:py-16 bg-[#FAF7F2] relative overflow-hidden">
         <div class="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10">
             <div class="bg-dark rounded-[2rem] relative overflow-hidden text-white shadow-2xl">
                 <!-- Mustard top accent bar -->

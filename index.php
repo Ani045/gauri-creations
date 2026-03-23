@@ -54,26 +54,9 @@
             scrollbar-width: none;
         }
 
-        /* ===== ECOMMERCE NAVBAR ===== */
-        .ec-topbar {
-            background: #1a1a1a;
-            color: #ccc;
-            font-size: 12px;
-            padding: 6px 0;
-            letter-spacing: 0.03em;
-        }
-
-        .ec-topbar a {
-            color: #fc880d;
-        }
-
+        /* ===== NAVBAR ===== */
         @media (max-width: 768px) {
-            .ec-topbar { display: none; }
             .ec-cat-bar { display: none; }
-        }
-
-        .ec-topbar a:hover {
-            text-decoration: underline;
         }
 
         .ec-nav-main {
@@ -683,18 +666,6 @@
     <!-- ===== FULL-PAGE HERO WRAPPER ===== -->
     <div class="hero-full-wrapper">
 
-        <!-- ===== TOP UTILITY BAR ===== -->
-        <div class="ec-topbar">
-            <div
-                style="max-width:1400px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:center;">
-                <span>📍 Gurgaon Sec 38, India &nbsp;|&nbsp; Hands-on workshops — Small batches of 6-7 students!</span>
-                <div style="display:flex;gap:16px;align-items:center;">
-                    <a href="#faq-info">Help & FAQ</a>
-                    <a href="tel:+918527780181">📞 +91 8527780181</a>
-                </div>
-            </div>
-        </div>
-
         <!-- ===== MAIN NAVBAR ===== -->
         <header class="ec-nav-main" id="navbar">
             <div class="ec-nav-inner">
@@ -852,7 +823,7 @@
     </div><!-- END hero-full-wrapper -->
 
     <!-- ===== ABOUT SECTION — Compact Ecommerce Style ===== -->
-    <section id="about" class="py-14 md:py-20 bg-white relative overflow-hidden">
+    <section id="about" class="py-10 md:py-14 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="grid md:grid-cols-[380px_1fr] lg:grid-cols-[420px_1fr] gap-10 lg:gap-16 items-center">
 
@@ -1057,7 +1028,7 @@
     </section>
 
     <!-- ===== OUR COURSES — Course Cards ===== -->
-    <section id="courses" class="py-14 md:py-20 bg-white relative overflow-hidden">
+    <section id="courses" class="py-10 md:py-14 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1211,7 +1182,7 @@
     </section>
 
     <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-20 md:py-24 bg-white relative overflow-hidden">
+    <section id="why-choose-us" class="py-12 md:py-16 bg-white relative overflow-hidden">
         <!-- Subtle background pattern to match brand -->
         <div
             class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none">
@@ -1373,7 +1344,7 @@
     </section>
 
     <!-- ===== WORKSHOP GALLERY ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section class="py-10 md:py-14 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="text-center mb-12">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
@@ -1449,7 +1420,7 @@
     <!-- ===== TESTIMONIAL VIDEO SLIDER ===== -->
   
 
-    <section id="faq-info" class="py-20 md:py-24 bg-white relative overflow-hidden">
+    <section id="faq-info" class="py-12 md:py-16 bg-white relative overflow-hidden">
         <!-- Subtle background blobs -->
         <div class="absolute top-0 right-0 w-80 h-80 bg-mustard/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
         <div class="absolute bottom-0 left-0 w-64 h-64 bg-mustard/5 rounded-full blur-3xl pointer-events-none translate-y-1/3 -translate-x-1/3"></div>
@@ -1615,7 +1586,7 @@
     </section>
 
     <!-- ===== VIDEO TESTIMONIALS (Gumlet) ===== -->
-    <section id="video-testimonials" class="py-16 md:py-20 relative overflow-hidden" style="background:#f5f0e8;">
+    <section id="video-testimonials" class="py-10 md:py-14 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1676,7 +1647,7 @@
     </section>
 
     <!-- Contact & Enroll Section -->
-    <section id="contact-testimonials" class="py-20 md:py-28 bg-[#FAF7F2] relative overflow-hidden">
+    <section id="contact-testimonials" class="py-12 md:py-16 bg-[#FAF7F2] relative overflow-hidden">
         <!-- Decorative blobs -->
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-mustard/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
         <div class="absolute bottom-0 left-0 w-80 h-80 bg-mustard/5 rounded-full blur-3xl pointer-events-none translate-y-1/2 -translate-x-1/3"></div>
