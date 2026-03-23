@@ -41,9 +41,9 @@
                     </div>
 
                     <!-- Highlights -->
-                    <div id="course-highlights" class="flex flex-wrap gap-2">
+                    <ul id="course-highlights" class="flex flex-col gap-3">
                         <!-- Populated by JS -->
-                    </div>
+                    </ul>
                 </div>
 
                 <!-- Right: Sticky enrollment card -->
@@ -136,7 +136,7 @@
                 <p class="text-muted text-sm mt-2">Everything covered in this workshop</p>
             </div>
 
-            <div id="curriculum-grid" class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            <div id="course-curriculum" class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 <!-- Populated by JS -->
             </div>
 
