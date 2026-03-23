@@ -427,7 +427,7 @@
         const otherKeys = Object.keys(allCourses).filter(k => k !== hash).slice(0, 3);
         otherCourses.innerHTML = otherKeys.map(key => {
             const c = allCourses[key];
-            return `<a href="/course-details#${key}" onclick="window.location.href='/course-details#${key}';window.location.reload();" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
+            return `<a href="/course-details#${key}" onclick="event.preventDefault();window.location.hash='${key}';loadCourseData();window.scrollTo({top:0,behavior:'smooth'});" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
                 <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
                     <img src="${c.image}" alt="${c.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:${c.badgeColor}">${c.badge}</span>
