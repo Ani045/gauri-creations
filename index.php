@@ -906,10 +906,6 @@
                             class="inline-flex items-center gap-2 bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold px-7 py-3 rounded-full shadow-[0_4px_16px_rgba(252,136,13,0.3)] transition-all text-sm">
                             Explore Courses <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-[#fc880d] text-dark font-semibold px-7 py-3 rounded-full transition-all text-sm">
-                            View Menu <i data-lucide="book-open" class="w-4 h-4"></i>
-                        </a>
                         <!-- Social -->
                         <a href="https://www.instagram.com/gauricreations_/" target="_blank"
                             class="w-9 h-9 rounded-full bg-gray-100 hover:bg-[#fc880d] hover:text-white text-gray-500 flex items-center justify-center transition-all ml-auto">
@@ -955,10 +951,6 @@
                     </span>
                     <h2 class="font-serif text-3xl md:text-4xl text-dark font-bold tracking-tight">Shop by Category</h2>
                 </div>
-                <a href="#"
-                    class="text-[#fc880d] font-semibold text-sm hover:underline hidden sm:inline-flex items-center gap-1">
-                    View All <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-                </a>
             </div>
 
             <!-- Category Slider -->
