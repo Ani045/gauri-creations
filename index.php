@@ -685,7 +685,7 @@
                 <!-- Right side: Book Now + Hamburger -->
                 <div class="ec-nav-right">
                     <a href="https://wa.me/918527780181?text=Hi%20Gauri%20Creations!%20I%20want%20to%20enquire%20about%20your%20courses." target="_blank" class="ec-wa-btn ec-book-btn-desktop"><i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp</a>
-                    <a href="#" class="ec-book-btn ec-book-btn-desktop">Book Now</a>
+                    <a href="/courses" class="ec-book-btn ec-book-btn-desktop">Book Now</a>
                     <button class="ec-hamburger" id="ec-hamburger" aria-label="Open Menu">
                         <i data-lucide="menu" class="w-6 h-6"></i>
                     </button>
@@ -696,16 +696,16 @@
         <!-- ===== CATEGORY BAR ===== -->
         <nav class="ec-cat-bar" id="ec-cat-bar">
             <div class="ec-cat-inner">
-                <a href="#" class="ec-cat-all"><i data-lucide="layout-grid" class="w-4 h-4"></i> All
+                <a href="/courses" class="ec-cat-all"><i data-lucide="layout-grid" class="w-4 h-4"></i> All
                     Categories</a>
-                <a href="#" class="ec-cat-link active">Desserts</a>
-                <a href="#" class="ec-cat-link">Baking</a>
-                <a href="#" class="ec-cat-link">Main Course</a>
-                <a href="#" class="ec-cat-link">Healthy Diet</a>
+                <a href="/courses" class="ec-cat-link active">Desserts</a>
+                <a href="/courses" class="ec-cat-link">Baking</a>
+                <a href="/courses" class="ec-cat-link">Main Course</a>
+                <a href="/courses" class="ec-cat-link">Healthy Diet</a>
                 <a href="#about" class="ec-cat-link">Workshops</a>
-                <a href="#" class="ec-cat-link">Courses</a>
-                <a href="#" class="ec-cat-link">Trousseau</a>
-                <a href="#" class="ec-cat-link">Gift Hampers</a>
+                <a href="/courses" class="ec-cat-link">Courses</a>
+                <a href="/courses" class="ec-cat-link">Trousseau</a>
+                <a href="/courses" class="ec-cat-link">Gift Hampers</a>
             </div>
         </nav>
 
@@ -725,7 +725,7 @@
                 </div>
                 <div class="ec-mobile-cta" style="display:flex;flex-direction:column;gap:8px;">
                     <a href="https://wa.me/918527780181?text=Hi%20Gauri%20Creations!%20I%20want%20to%20enquire%20about%20your%20courses." target="_blank" class="ec-wa-btn" style="display:flex;align-items:center;justify-content:center;gap:8px;width:100%;"><i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Enquiry</a>
-                    <a href="#" class="ec-book-btn" style="display:block;text-align:center;width:100%;">Book
+                    <a href="/courses" class="ec-book-btn" style="display:block;text-align:center;width:100%;">Book
                         Now</a>
                 </div>
             </div>
@@ -743,7 +743,7 @@
                         <h2 class="hero-slide-title">Master Artisan Desserts with Expert Guidance</h2>
                         <p class="hero-slide-desc">Join our hands-on workshop and learn to craft show-stopping pastries,
                             cakes, and treats from scratch.</p>
-                        <a href="#" class="hero-slide-btn">Explore Courses <i data-lucide="arrow-right"
+                        <a href="/courses" class="hero-slide-btn">Explore Courses <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -757,7 +757,7 @@
                         <p class="hero-slide-desc">Learn professional frosting, fondant art, and modern cake design in
                             our
                             flagship course.</p>
-                        <a href="#" class="hero-slide-btn">Enroll Now <i data-lucide="arrow-right"
+                        <a href="/courses" class="hero-slide-btn">Enroll Now <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -770,7 +770,7 @@
                         <p class="hero-slide-desc">Discover wholesome recipes that are as beautiful as they are
                             nourishing.
                             Perfect for all levels.</p>
-                        <a href="#" class="hero-slide-btn">Start Learning <i data-lucide="arrow-right"
+                        <a href="/courses" class="hero-slide-btn">Start Learning <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -782,7 +782,7 @@
                         <h2 class="hero-slide-title">Curated Gift Hampers for Every Occasion</h2>
                         <p class="hero-slide-desc">Handpicked gourmet treats, artisan snacks, and beautifully crafted
                             trousseau — delivered fresh.</p>
-                        <a href="#" class="hero-slide-btn">Shop Hampers <i data-lucide="arrow-right"
+                        <a href="/courses" class="hero-slide-btn">Shop Hampers <i data-lucide="arrow-right"
                                 class="w-4 h-4"></i></a>
                     </div>
                 </div>
@@ -902,7 +902,7 @@
 
                     <!-- Actions Row -->
                     <div class="flex flex-wrap items-center gap-4">
-                        <a href="#"
+                        <a href="/courses"
                             class="inline-flex items-center gap-2 bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold px-7 py-3 rounded-full shadow-[0_4px_16px_rgba(252,136,13,0.3)] transition-all text-sm">
                             Explore Courses <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
@@ -928,7 +928,7 @@
                 <p class="font-semibold text-sm md:text-base">Experience the finest culinary creations — freshly made &
                     delivered to your door.</p>
             </div>
-            <a href="#"
+            <a href="/courses"
                 class="bg-white text-[#e27a0c] px-6 py-2.5 rounded-full font-bold text-sm hover:bg-gray-50 transition-all shadow-lg shrink-0 inline-flex items-center gap-2">
                 Explore Menu <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
             </a>
@@ -956,7 +956,7 @@
             <!-- Category Slider -->
             <div class="flex gap-6 md:gap-8 overflow-x-auto hide-scroll-bar scroll-smooth pb-4 snap-x" id="cat-slider">
                 <!-- Category 1 -->
-                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/chocolate-mousse-cups.jpeg" alt="Desserts"
@@ -966,7 +966,7 @@
                         class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Desserts</span>
                 </a>
                 <!-- Category 2 -->
-                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/cupcakes-brownies-box.jpeg" alt="Baking"
@@ -976,7 +976,7 @@
                         class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Baking</span>
                 </a>
                 <!-- Category 3 -->
-                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/caterpillar-cupcakes.jpeg" alt="Cakes"
@@ -986,7 +986,7 @@
                         class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Cakes</span>
                 </a>
                 <!-- Category 4 -->
-                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/pad-thai-dish.jpeg" alt="Main Course"
@@ -996,7 +996,7 @@
                         Course</span>
                 </a>
                 <!-- Category 5 -->
-                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/fresh-salad-plate.jpeg" alt="Healthy Diet"
@@ -1006,7 +1006,7 @@
                         Diet</span>
                 </a>
                 <!-- Category 6 -->
-                <a href="#" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
+                <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
                         <img src="assets/images/fun-face-sandwich-art.jpeg" alt="Gift Hampers"
@@ -1794,6 +1794,85 @@
     </section>
 
 
+
+    <!-- Page Scripts -->
+    <script>
+        // ===== HERO SLIDER =====
+        const heroSlides = document.getElementById('heroSlides');
+        const heroArrowLeft = document.getElementById('heroArrowLeft');
+        const heroArrowRight = document.getElementById('heroArrowRight');
+        const heroDots = document.getElementById('heroDots');
+        let currentSlide = 0;
+        const slideCount = heroSlides ? heroSlides.children.length : 0;
+
+        function goToSlide(index) {
+            if (!heroSlides) return;
+            currentSlide = (index + slideCount) % slideCount;
+            heroSlides.style.transform = `translateX(-${currentSlide * 100}%)`;
+            // Update dots
+            if (heroDots) {
+                heroDots.querySelectorAll('button').forEach((dot, i) => {
+                    dot.classList.toggle('bg-[#fc880d]', i === currentSlide);
+                    dot.classList.toggle('bg-white/50', i !== currentSlide);
+                });
+            }
+            // Animate slide content
+            heroSlides.querySelectorAll('.hero-slide-overlay').forEach((overlay, i) => {
+                overlay.classList.toggle('slide-animate', i === currentSlide);
+            });
+        }
+
+        // Create dots
+        if (heroDots && slideCount > 0) {
+            for (let i = 0; i < slideCount; i++) {
+                const dot = document.createElement('button');
+                dot.className = `w-3 h-3 rounded-full transition-all ${i === 0 ? 'bg-[#fc880d]' : 'bg-white/50'}`;
+                dot.addEventListener('click', () => goToSlide(i));
+                heroDots.appendChild(dot);
+            }
+        }
+
+        if (heroArrowLeft) heroArrowLeft.addEventListener('click', () => goToSlide(currentSlide - 1));
+        if (heroArrowRight) heroArrowRight.addEventListener('click', () => goToSlide(currentSlide + 1));
+
+        // Auto-slide
+        let autoSlide = setInterval(() => goToSlide(currentSlide + 1), 5000);
+        if (heroSlides) {
+            heroSlides.parentElement.addEventListener('mouseenter', () => clearInterval(autoSlide));
+            heroSlides.parentElement.addEventListener('mouseleave', () => {
+                autoSlide = setInterval(() => goToSlide(currentSlide + 1), 5000);
+            });
+        }
+
+        // Initial animation
+        goToSlide(0);
+
+        // ===== RECIPE SLIDER SCROLL =====
+        const recipeSlider = document.getElementById('recipe-slider');
+        const recipeBtnLeft = document.getElementById('recipe-slider-left');
+        const recipeBtnRight = document.getElementById('recipe-slider-right');
+        const recipeScrollAmount = 320;
+
+        if (recipeBtnLeft && recipeSlider) {
+            recipeBtnLeft.addEventListener('click', () => {
+                recipeSlider.scrollBy({ left: -recipeScrollAmount, behavior: 'smooth' });
+            });
+        }
+        if (recipeBtnRight && recipeSlider) {
+            recipeBtnRight.addEventListener('click', () => {
+                recipeSlider.scrollBy({ left: recipeScrollAmount, behavior: 'smooth' });
+            });
+        }
+
+        // ===== FAQ TOGGLE =====
+        function toggleFaq(id) {
+            const content = document.getElementById(id + '-content');
+            const icon = document.getElementById(id + '-icon');
+            if (!content) return;
+            content.classList.toggle('hidden');
+            if (icon) icon.style.transform = content.classList.contains('hidden') ? '' : 'rotate(180deg)';
+        }
+    </script>
 
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
