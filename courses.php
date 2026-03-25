@@ -63,7 +63,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Baking & Icing</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#home-baker">Start Your Own Business as Home Baker</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/home-baker">Start Your Own Business as Home Baker</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 15th, 16th & 17th March</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 11:30 am – 5:30 pm</div>
@@ -75,7 +75,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Lunch Included</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Take-Home Cake</span>
                         </div>
-                        <a href="/course-details#home-baker" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/home-baker" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -88,7 +88,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Cake Decorating</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#sugar-craft">Sugar Craft Cake Decorating Course</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/sugar-craft">Sugar Craft Cake Decorating Course</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 8th & 9th April</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 11:30 am – 6:00 pm</div>
@@ -100,7 +100,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">All Materials</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Lunch Included</span>
                         </div>
-                        <a href="/course-details#sugar-craft" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/sugar-craft" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -113,7 +113,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Italian</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#italian">Italian Food Class</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/italian">Italian Food Class</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 4th & 5th January</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 12:00 pm – 4:00 pm</div>
@@ -125,7 +125,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Printed Recipes</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Lunch Included</span>
                         </div>
-                        <a href="/course-details#italian" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/italian" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -138,7 +138,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Mughlai</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#mughlai">Mughlai Food Class</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/mughlai">Mughlai Food Class</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 22nd & 23rd March</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 12:00 pm – 5:30 pm</div>
@@ -150,7 +150,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">100% Vegetarian</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Lunch Included</span>
                         </div>
-                        <a href="/course-details#mughlai" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/mughlai" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -163,7 +163,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Pastries</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#swiss-roll-pastries">Swiss Roll & Pastries Class</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/swiss-roll-pastries">Swiss Roll & Pastries Class</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 23rd & 24th May</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 11:00 am – 4:00 pm</div>
@@ -177,7 +177,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Eggless</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Samples Take Home</span>
                         </div>
-                        <a href="/course-details#swiss-roll-pastries" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/swiss-roll-pastries" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -190,7 +190,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Brownies</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#brownies">Eggless Brownies, Crownies, Brookies & Blondies</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/brownies">Eggless Brownies, Crownies, Brookies & Blondies</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 23rd & 24th July</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 12:00 pm – 5:00 pm</div>
@@ -201,7 +201,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">100% Eggless</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Samples Take Home</span>
                         </div>
-                        <a href="/course-details#brownies" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/brownies" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -214,7 +214,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Kids Special</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#kids-special">Kids Special Workshop (Mini Chefs)</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/kids-special">Kids Special Workshop (Mini Chefs)</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 8th, 9th & 10th June</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 12:00 pm – 3:00 pm</div>
@@ -226,7 +226,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Certificate</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Fun & Interactive</span>
                         </div>
-                        <a href="/course-details#kids-special" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/kids-special" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -239,7 +239,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Subways & Dips</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#subways-sauces">Subways, Sauces, Fillings & Kababs</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/subways-sauces">Subways, Sauces, Fillings & Kababs</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 28th & 29th March</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 11:30 am – 6:00 pm</div>
@@ -250,7 +250,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">30+ Sauces</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">100% Veg</span>
                         </div>
-                        <a href="/course-details#subways-sauces" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/subways-sauces" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -263,7 +263,7 @@
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Cheesecakes</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/course-details#cheesecakes">Eggless Gelatin-Free Cheesecakes</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/cheesecakes">Eggless Gelatin-Free Cheesecakes</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 21st & 22nd December</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 11:30 am – 6:00 pm</div>
@@ -274,7 +274,7 @@
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Gelatin Free</span>
                             <span class="text-[10px] bg-[#FFF8F0] text-[#fc880d] border border-[#fc880d]/20 px-2.5 py-1 rounded-full font-semibold">Homemade Cream Cheese</span>
                         </div>
-                        <a href="/course-details#cheesecakes" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
+                        <a href="/courses/cheesecakes" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-3 px-5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(252,136,13,0.3)]">
                             View Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>

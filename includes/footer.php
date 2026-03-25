@@ -25,11 +25,11 @@
                 <div>
                     <h4 class="text-white text-xl font-medium mb-6">Workshops</h4>
                     <ul class="space-y-4 text-base">
-                        <li><a href="/courses" class="hover:text-mustard transition-colors">Cake Baking & Icing</a></li>
-                        <li><a href="/courses" class="hover:text-mustard transition-colors">Sugar Craft Decorating</a></li>
-                        <li><a href="/courses" class="hover:text-mustard transition-colors">Mughlai & Italian Class</a></li>
-                        <li><a href="/courses" class="hover:text-mustard transition-colors">Subways & Sauces</a></li>
-                        <li><a href="/courses" class="hover:text-mustard transition-colors">Kids Special</a></li>
+                        <li><a href="/courses/home-baker" class="hover:text-mustard transition-colors">Cake Baking & Icing</a></li>
+                        <li><a href="/courses/sugar-craft" class="hover:text-mustard transition-colors">Sugar Craft Decorating</a></li>
+                        <li><a href="/courses/mughlai" class="hover:text-mustard transition-colors">Mughlai & Italian Class</a></li>
+                        <li><a href="/courses/subways-sauces" class="hover:text-mustard transition-colors">Subways & Sauces</a></li>
+                        <li><a href="/courses/kids-special" class="hover:text-mustard transition-colors">Kids Special</a></li>
                     </ul>
                 </div>
                 <div>
