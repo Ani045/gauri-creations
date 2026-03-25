@@ -2,7 +2,7 @@
     <header class="ec-nav-main" id="navbar">
         <div class="ec-nav-inner">
             <a href="/" class="ec-logo" id="logo">
-                <img id="logo-img" src="assets/logo-removebg-preview.png" alt="Gauri Creations">
+                <img id="logo-img" src="/assets/logo-removebg-preview.png" alt="Gauri Creations">
             </a>
 
             <nav class="hidden md:flex items-center gap-8">
@@ -26,7 +26,7 @@
     <div class="ec-mobile-menu" id="ec-mobile-menu">
         <div class="ec-mobile-panel">
             <div class="ec-mobile-header">
-                <img src="assets/logo-removebg-preview.png" alt="Gauri Creations" style="height:36px;">
+                <img src="/assets/logo-removebg-preview.png" alt="Gauri Creations" style="height:36px;">
                 <button id="ec-mobile-close" style="background:none;border:none;cursor:pointer;color:#222;"><i
                         data-lucide="x" class="w-6 h-6"></i></button>
             </div>

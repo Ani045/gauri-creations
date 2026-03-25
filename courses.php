@@ -58,7 +58,7 @@
                 <!-- Course home-baker -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="baking">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/cupcakes-brownies-box.jpeg" alt="Start your own business as home baker" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/cupcakes-brownies-box.jpeg" alt="Start your own business as home baker" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#fc880d] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Bestseller</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Baking & Icing</span>
                     </div>
@@ -83,7 +83,7 @@
                 <!-- Course sugar-craft -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="cake-decorating">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">New</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Cake Decorating</span>
                     </div>
@@ -108,7 +108,7 @@
                 <!-- Course italian -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="italian">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/pad-thai-dish.jpeg" alt="Italian Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Popular</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Italian</span>
                     </div>
@@ -133,7 +133,7 @@
                 <!-- Course mughlai -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="mughlai">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Popular</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Mughlai</span>
                     </div>
@@ -158,7 +158,7 @@
                 <!-- Course swiss-roll-pastries -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="pastries">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/strawberry-cheesecake.jpeg" alt="Swiss Roll & Pastries Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/strawberry-cheesecake.jpeg" alt="Swiss Roll & Pastries Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#dc2626] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Specialty</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Pastries</span>
                     </div>
@@ -185,7 +185,7 @@
                 <!-- Course brownies -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="pastries">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/chocolate-mousse-cups.jpeg" alt="Eggless Brownies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/chocolate-mousse-cups.jpeg" alt="Eggless Brownies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#dc2626] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Trending</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Brownies</span>
                     </div>
@@ -209,7 +209,7 @@
                 <!-- Course kids-special -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="kids">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special Workshop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special Workshop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#ef4444] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Kids Fav</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Kids Special</span>
                     </div>
@@ -234,7 +234,7 @@
                 <!-- Course subways-sauces -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="subways">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/club-sandwich-fries.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/club-sandwich-fries.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">New</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Subways & Dips</span>
                     </div>
@@ -258,7 +258,7 @@
                 <!-- Course cheesecakes -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="subways">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="assets/images/dessert-spread-table.jpeg" alt="Eggless Cheesecakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/dessert-spread-table.jpeg" alt="Eggless Cheesecakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Premium</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Cheesecakes</span>
                     </div>

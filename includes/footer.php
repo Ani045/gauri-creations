@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8 mb-16">
                 <div class="lg:col-span-2">
                     <a href="/" class="block mb-6">
-                        <img src="assets/logo-removebg-preview.png" alt="Gauri Creations" class="h-16 w-auto object-contain brightness-0 invert">
+                        <img src="/assets/logo-removebg-preview.png" alt="Gauri Creations" class="h-16 w-auto object-contain brightness-0 invert">
                     </a>
                     <p class="text-gray-400 mb-8 max-w-md leading-relaxed text-lg">A space to explore your talent, enhance your skills, and turn your passion into mastery through professional culinary & craft courses.</p>
                     <div class="flex gap-4">
