@@ -183,12 +183,12 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <a href="/courses/home-baker" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
                     <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
-                        <img src="/assets/images/cupcakes-brownies-box.jpeg" alt="Start Your Own Business as Home Baker" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking Master Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#fc880d">Bestseller</span>
                     </div>
                     <div class="p-5">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Baking & Icing</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Start Your Own Business as Home Baker</h3>
+                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
                         <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 15th, 16th & 17th March</div>
                     </div>
                 </a>

@@ -58,12 +58,12 @@
                 <!-- Course home-baker -->
                 <div class="course-card bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden" data-category="baking">
                     <div class="relative overflow-hidden h-[240px] bg-[#FFF8F0]">
-                        <img src="/assets/images/cupcakes-brownies-box.jpeg" alt="Start your own business as home baker" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking Master Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <span class="absolute top-4 left-4 bg-[#fc880d] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-md">Bestseller</span>
                         <span class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-3 py-1 rounded-full">Baking & Icing</span>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/home-baker">Start Your Own Business as Home Baker</a></h3>
+                        <h3 class="font-bold text-dark text-lg mb-3 leading-tight group-hover:text-[#fc880d] transition-colors"><a href="/courses/home-baker">Professional Cake Baking Master Class</a></h3>
                         <div class="flex flex-col gap-1.5 mb-4 text-[12px] text-gray-500 font-medium">
                             <div class="flex items-center gap-2"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 15th, 16th & 17th March</div>
                             <div class="flex items-center gap-2"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 11:30 am – 5:30 pm</div>
