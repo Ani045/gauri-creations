@@ -67,13 +67,7 @@
                     <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Professional Cake Baking Master Class</h1>
                     <p class="text-muted text-[14px] leading-relaxed mb-5">Learn 30+ cake varieties from scratch — complete hands-on icing & baking course to start your own home bakery business.</p>
 
-                    <!-- Key Info Pills -->
-                    <div class="flex flex-wrap gap-2 mb-5 pb-5 border-b border-gray-100">
-                        <span class="inline-flex items-center gap-1.5 bg-[#FAF7F2] text-dark text-[12px] font-semibold px-3 py-1.5 rounded-full"><i data-lucide="clock" class="w-3.5 h-3.5 text-[#fc880d]"></i> 3 Days</span>
-                        <span class="inline-flex items-center gap-1.5 bg-[#FAF7F2] text-dark text-[12px] font-semibold px-3 py-1.5 rounded-full"><i data-lucide="users" class="w-3.5 h-3.5 text-[#fc880d]"></i> 6-7 Students</span>
-                        <span class="inline-flex items-center gap-1.5 bg-[#FAF7F2] text-dark text-[12px] font-semibold px-3 py-1.5 rounded-full"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#fc880d]"></i> Gurgaon Sec 38</span>
-                        <span class="inline-flex items-center gap-1.5 bg-[#FAF7F2] text-dark text-[12px] font-semibold px-3 py-1.5 rounded-full"><i data-lucide="chef-hat" class="w-3.5 h-3.5 text-[#fc880d]"></i> 32 Recipes</span>
-                    </div>
+                    <div class="mb-5 pb-5 border-b border-gray-100"></div>
 
                     <!-- What's Included -->
                     <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What's Included</p>
