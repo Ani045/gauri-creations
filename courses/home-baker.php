@@ -148,34 +148,37 @@
     <!-- ===== OTHER COURSES ===== -->
     <section class="py-10 md:py-12 bg-white border-t border-gray-100">
         <div class="max-w-[1200px] mx-auto px-5 md:px-10">
-            <div class="flex items-center justify-between mb-5">
+            <div class="flex items-center justify-between mb-6">
                 <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Other Workshops</h2>
                 <a href="/courses" class="text-[#fc880d] font-semibold text-xs hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></a>
             </div>
-            <div class="grid grid-cols-3 gap-4">
-                <a href="/courses/sugar-craft" class="rounded-xl border border-[#EDE4D8] hover:shadow-md hover:-translate-y-0.5 transition-all group overflow-hidden block">
-                    <div class="overflow-hidden h-[120px] md:h-[160px] bg-[#FFF8F0]">
-                        <img src="/assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="grid sm:grid-cols-3 gap-5">
+                <a href="/courses/sugar-craft" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Cake Decorating</span>
                     </div>
-                    <div class="p-3">
-                        <p class="font-bold text-dark text-xs md:text-sm leading-tight group-hover:text-[#fc880d] transition-colors">Sugar Craft Decorating</p>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Sugar Craft Cake Decorating Course</h3>
+                    <p class="text-gray-400 text-xs mt-1">Fondant, Ganache, Sugar Paste & More</p>
                 </a>
-                <a href="/courses/italian" class="rounded-xl border border-[#EDE4D8] hover:shadow-md hover:-translate-y-0.5 transition-all group overflow-hidden block">
-                    <div class="overflow-hidden h-[120px] md:h-[160px] bg-[#FFF8F0]">
-                        <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <a href="/courses/italian" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Italian Cuisine</span>
                     </div>
-                    <div class="p-3">
-                        <p class="font-bold text-dark text-xs md:text-sm leading-tight group-hover:text-[#fc880d] transition-colors">Italian Food Class</p>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Italian Food Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">20+ Recipes — Pizza, Pasta, Risotto & More</p>
                 </a>
-                <a href="/courses/mughlai" class="rounded-xl border border-[#EDE4D8] hover:shadow-md hover:-translate-y-0.5 transition-all group overflow-hidden block">
-                    <div class="overflow-hidden h-[120px] md:h-[160px] bg-[#FFF8F0]">
-                        <img src="/assets/images/snacks-spread-collage.jpeg" alt="Mughlai Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <a href="/courses/mughlai" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Mughlai Cuisine</span>
                     </div>
-                    <div class="p-3">
-                        <p class="font-bold text-dark text-xs md:text-sm leading-tight group-hover:text-[#fc880d] transition-colors">Mughlai Food Class</p>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Mughlai Food Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">20+ Dishes — Biryani, Korma, Kebabs & More</p>
                 </a>
             </div>
         </div>
