@@ -174,50 +174,39 @@
     </section>
 
     <!-- ===== OTHER COURSES ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="flex justify-between items-end mb-8">
-                <div>
-                    <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-2">
-                        <i data-lucide="heart" class="w-3.5 h-3.5"></i> Explore More
-                    </span>
-                    <h2 class="font-serif text-3xl font-bold text-dark">Other Workshops</h2>
-                </div>
-                <a href="/courses" class="text-[#fc880d] font-semibold text-sm hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-4 h-4"></i></a>
+    <section class="py-10 md:py-12 bg-white border-t border-gray-100">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Other Workshops</h2>
+                <a href="/courses" class="text-[#fc880d] font-semibold text-xs hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></a>
             </div>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <a href="/courses/home-baker" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
+            <div class="grid sm:grid-cols-3 gap-5">
+                <a href="/courses/home-baker" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
                         <img src="/assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking Master Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#fc880d">Bestseller</span>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Baking & Icing</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Baking & Icing</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 15th, 16th & 17th March</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">30+ Cake Varieties from Scratch</p>
                 </a>
-                <a href="/courses/brownies" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
-                        <img src="/assets/images/chocolate-mousse-cups.jpeg" alt="Eggless Brownies, Crownies, Brookies & Blondies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#dc2626">Trending</span>
+                <a href="/courses/brownies" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/brownie-1.jpeg" alt="Eggless Brownies Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Brownies & Bars</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Brownies & Bars</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Eggless Brownies, Crownies, Brookies & Blondies</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 23rd & 24th July</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Eggless Brownies, Crownies, Brookies & Blondies</h3>
+                    <p class="text-gray-400 text-xs mt-1">37 Recipes — Fudgy, Cakey & More</p>
                 </a>
-                <a href="/courses/subways-sauces" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
-                        <img src="/assets/images/club-sandwich-fries.jpeg" alt="Subways, Sauces, Fillings & Kababs Workshop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#16a34a">New</span>
+                <a href="/courses/subways-sauces" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/subway-1.jpeg" alt="Subways, Sauces, Fillings & Kababs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Subways & Dips</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Subways & Dips</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Subways, Sauces, Fillings & Kababs Workshop</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 28th & 29th March</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Subways, Sauces, Fillings & Kababs</h3>
+                    <p class="text-gray-400 text-xs mt-1">15 Subways + 30 Dips & Sauces</p>
                 </a>
             </div>
         </div>

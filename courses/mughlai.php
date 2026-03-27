@@ -176,50 +176,39 @@
     </section>
 
     <!-- ===== OTHER COURSES ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="flex justify-between items-end mb-8">
-                <div>
-                    <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-2">
-                        <i data-lucide="heart" class="w-3.5 h-3.5"></i> Explore More
-                    </span>
-                    <h2 class="font-serif text-3xl font-bold text-dark">Other Workshops</h2>
-                </div>
-                <a href="/courses" class="text-[#fc880d] font-semibold text-sm hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-4 h-4"></i></a>
+    <section class="py-10 md:py-12 bg-white border-t border-gray-100">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Other Workshops</h2>
+                <a href="/courses" class="text-[#fc880d] font-semibold text-xs hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></a>
             </div>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <a href="/courses/home-baker" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
+            <div class="grid sm:grid-cols-3 gap-5">
+                <a href="/courses/home-baker" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
                         <img src="/assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking Master Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#fc880d">Bestseller</span>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Baking & Icing</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Baking & Icing</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 15th, 16th & 17th March</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">30+ Cake Varieties from Scratch</p>
                 </a>
-                <a href="/courses/sugar-craft" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
-                        <img src="/assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft Cake Decorating Course" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#16a34a">New</span>
+                <a href="/courses/sugar-craft" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Rolled Fondant Cakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Cake Decorating</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Cake Decorating</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Sugar Craft Cake Decorating Course</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 8th & 9th April</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Sugar Craft Rolled Fondant Cakes</h3>
+                    <p class="text-gray-400 text-xs mt-1">Fondant, Ganache, Sugar Paste & More</p>
                 </a>
-                <a href="/courses/italian" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
+                <a href="/courses/italian" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
                         <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#9333ea">Popular</span>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Italian Cuisine</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Italian Cuisine</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Italian Food Class</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 4th & 5th January</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Italian Food Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">20+ Recipes — Pizza, Pasta, Risotto & More</p>
                 </a>
             </div>
         </div>
