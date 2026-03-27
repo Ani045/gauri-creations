@@ -60,7 +60,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking Master Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#fc880d] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Bestseller</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Baking & Icing</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Professional Cake Baking Master Class</h3>
@@ -71,7 +70,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Rolled Fondant Cakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">New</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cake Decorating</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Sugar Craft Rolled Fondant Cakes</h3>
@@ -82,7 +80,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Popular</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Italian Cuisine</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Italian Food Class</h3>
@@ -93,7 +90,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Popular</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Mughlai Cuisine</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Mughlai Food Class</h3>
@@ -104,7 +100,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/strawberry-cheesecake.jpeg" alt="Swiss Roll & Pastries Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#dc2626] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Specialty</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Pastries & Baking</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Swiss Roll & Pastries Class</h3>
@@ -115,7 +110,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/brownie-1.jpeg" alt="Eggless Brownies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#dc2626] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Trending</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Brownies & Bars</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Eggless Brownies, Crownies, Brookies & Blondies</h3>
@@ -126,7 +120,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special Workshop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#ef4444] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Kids Favorite</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Kids Special</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Kids Special Workshop (Mini Chefs)</h3>
@@ -137,7 +130,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/club-sandwich-fries.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">New</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Subways & Dips</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Subways, Sauces, Fillings & Kababs</h3>
@@ -148,7 +140,6 @@
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
                         <img src="/assets/images/dessert-spread-table.jpeg" alt="Eggless Cheesecakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Premium</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cheesecakes</p>
                     <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Eggless Gelatin-Free Cheesecakes</h3>
