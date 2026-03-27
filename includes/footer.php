@@ -8,7 +8,7 @@
                     </a>
                     <p class="text-gray-400 mb-8 max-w-md leading-relaxed text-lg">A space to explore your talent, enhance your skills, and turn your passion into mastery through professional culinary & craft courses.</p>
                     <div class="flex gap-4">
-                        <a href="https://www.instagram.com/gauricreations_/" target="_blank" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-mustard transition-all duration-300 hover:-translate-y-1"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                        <a href="https://www.instagram.com/gauricreations_/" target="_blank" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-mustard transition-all duration-300 hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a>
                         <a href="https://wa.me/918527780181" target="_blank" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-mustard transition-all duration-300 hover:-translate-y-1"><i data-lucide="message-circle" class="w-5 h-5"></i></a>
                         <a href="tel:+918527780181" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-mustard transition-all duration-300 hover:-translate-y-1"><i data-lucide="phone" class="w-5 h-5"></i></a>
                     </div>
@@ -51,7 +51,7 @@
                             <a href="mailto:gauricreationsmkt@gmail.com" class="hover:text-mustard transition-colors">gauricreationsmkt@gmail.com</a>
                         </li>
                         <li class="flex items-center gap-4">
-                            <div class="bg-mustard/20 p-2 rounded-lg text-mustard shrink-0"><i data-lucide="instagram" class="w-5 h-5"></i></div>
+                            <div class="bg-mustard/20 p-2 rounded-lg text-mustard shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></div>
                             <a href="https://www.instagram.com/gauricreations_/" target="_blank" class="hover:text-mustard transition-colors">@gauricreations_</a>
                         </li>
                     </ul>
