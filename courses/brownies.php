@@ -4,225 +4,224 @@
 <head>
     <title>Eggless Brownies, Crownies, Brookies & Blondies | Gauri Creations</title>
     <?php include __DIR__ . '/../includes/head.php'; ?>
+    <style>
+        .thumb { cursor: pointer; transition: all 0.2s; }
+        .thumb:hover, .thumb.active { border-color: #fc880d !important; opacity: 1 !important; }
+        .ci { transition: all 0.2s; }
+        .ci:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(252,136,13,0.1); }
+    </style>
 </head>
 
 <?php $activePage = "courses"; ?>
-<body class="font-sans bg-light text-dark antialiased overflow-x-hidden transition-all duration-300">
+<body class="font-sans bg-white text-dark antialiased overflow-x-hidden">
 
     <?php include __DIR__ . '/../includes/nav.php'; ?>
 
-    <!-- ===== BREADCRUMB ===== -->
-    <div class="bg-gray-50 border-b border-gray-100 py-3">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 flex items-center gap-2 text-sm">
-            <a href="/" class="text-gray-400 hover:text-[#fc880d]">Home</a>
-            <span class="text-gray-300">/</span>
-            <a href="/courses" class="text-gray-400 hover:text-[#fc880d]">Courses</a>
-            <span class="text-gray-300">/</span>
-            <span class="text-dark font-medium">Eggless Brownies, Crownies, Brookies & Blondies</span>
-        </div>
-    </div>
+    <!-- ===== PRODUCT PAGE ===== -->
+    <section class="py-6 md:py-12">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <!-- Breadcrumb -->
+            <div class="flex items-center gap-2 text-xs text-gray-400 mb-5">
+                <a href="/" class="hover:text-[#fc880d]">Home</a><span>/</span>
+                <a href="/courses" class="hover:text-[#fc880d]">Courses</a><span>/</span>
+                <span class="text-dark">Brownies Class</span>
+            </div>
 
-    <!-- ===== COURSE HERO ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="grid lg:grid-cols-[1fr_420px] gap-10 lg:gap-12 items-start">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
-                <!-- Left: Image + info -->
-                <div class="flex flex-col gap-5">
-                    <div class="rounded-[2rem] overflow-hidden shadow-xl relative aspect-[16/10] bg-[#FFF8F0] group border border-[#EDE4D8]">
-                        <img src="/assets/images/chocolate-mousse-cups.jpeg" alt="Eggless Brownies, Crownies, Brookies & Blondies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-                        <span class="absolute top-5 left-5 text-white text-xs font-bold uppercase px-4 py-2 rounded-full tracking-wide shadow-lg" style="background: #dc2626">Trending</span>
-                    </div>
-
-                    <!-- Description -->
-                    <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-[#EDE4D8]">
-                        <h3 class="font-serif font-bold text-dark text-xl mb-3">About This Course</h3>
-                        <p class="text-muted text-[15px] leading-relaxed">Looking for the best homemade Brownie recipe? From fudgy brownie to cakey brownie, you are sure to find a favorite here. Learn the complete range of brownies, blondies, crownies, and brookies — all 100% eggless!</p>
-                    </div>
-
-                    <!-- Highlights -->
-                    <ul class="flex flex-col gap-3">
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>100% Pure Vegetarian</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Samples Take Home</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Lunch Included</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>All Materials Provided</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Printed Recipes</span></li>
-                    </ul>
-                </div>
-
-                <!-- Right: Sticky enrollment card -->
-                <div class="lg:sticky lg:top-[90px] flex flex-col gap-4">
-                    <div class="bg-dark rounded-[1.5rem] p-6 text-white relative overflow-hidden">
-                        <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-                        <div class="absolute bottom-0 right-0 w-40 h-40 bg-mustard/10 rounded-full blur-3xl pointer-events-none"></div>
-                        <div class="relative z-10">
-                            <div class="flex items-center gap-2 text-mustard font-bold text-xs tracking-widest uppercase mb-2">
-                                <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
-                                <span>Brownies & Bars</span>
-                            </div>
-                            <h1 class="text-xl md:text-2xl font-serif text-white font-bold leading-snug mb-5">Eggless Brownies, Crownies, Brookies & Blondies</h1>
-                            <div class="flex flex-col gap-3 mb-5">
-                                <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                    <i data-lucide="calendar" class="w-4 h-4 text-mustard shrink-0"></i>
-                                    <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Date</p>
-                                        <p class="text-sm text-white font-bold">23rd & 24th July</p>
-                                        <p class="text-[11px] text-white/50">(Wednesday & Thursday)</p>
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                        <i data-lucide="clock" class="w-4 h-4 text-mustard shrink-0"></i>
-                                        <div>
-                                            <p class="text-[10px] text-white/40 uppercase tracking-wider">Timing</p>
-                                            <p class="text-xs text-white font-bold">12:00 PM to 5:00 PM</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                        <i data-lucide="users" class="w-4 h-4 text-mustard shrink-0"></i>
-                                        <div>
-                                            <p class="text-[10px] text-white/40 uppercase tracking-wider">Batch</p>
-                                            <p class="text-xs text-white font-bold">6-7 Students</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                    <i data-lucide="map-pin" class="w-4 h-4 text-mustard shrink-0"></i>
-                                    <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Venue</p>
-                                        <p class="text-sm text-white font-bold">Gurgaon</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-3">
-                                <a href="https://wa.me/918527780181" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-lg inline-flex items-center justify-center gap-2 text-sm">
-                                    <i data-lucide="message-circle" class="w-5 h-5"></i> Register on WhatsApp
-                                </a>
-                                <a href="tel:+918527780181" class="w-full bg-mustard hover:bg-[#e27a0c] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-[0_4px_20px_rgba(252,136,13,0.3)] inline-flex items-center justify-center gap-2 text-sm">
-                                    <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
-                                </a>
-                            </div>
-                            <p class="text-white/40 text-[11px] text-center mt-3">Seats are limited. Register early to confirm your spot.</p>
+                <!-- LEFT: Image Gallery -->
+                <div class="flex flex-col-reverse sm:flex-row gap-3">
+                    <!-- Thumbnail strip -->
+                    <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/brownie-1.jpeg')">
+                            <img src="/assets/images/brownie-1.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/brownie-2.jpeg')">
+                            <img src="/assets/images/brownie-2.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/brownie-3.jpeg')">
+                            <img src="/assets/images/brownie-3.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/brownie-4.jpeg')">
+                            <img src="/assets/images/brownie-4.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/brownie-5.jpeg')">
+                            <img src="/assets/images/brownie-5.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/brownie-6.jpeg')">
+                            <img src="/assets/images/brownie-6.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/brownie-7.jpeg')">
+                            <img src="/assets/images/brownie-7.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
                     </div>
-                    <div class="bg-white rounded-2xl border border-[#EDE4D8] p-5">
-                        <h4 class="font-bold text-dark text-sm mb-3 flex items-center gap-2"><i data-lucide="gift" class="w-4 h-4 text-mustard"></i> What's Included</h4>
-                        <ul class="flex flex-col gap-2 text-[13px] text-muted">
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Hands-on practical training</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Printed recipe booklet</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Lunch & refreshments</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> All ingredients & tools</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Certificate of completion</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Post-class assistance</li>
-                        </ul>
+                    <!-- Main image -->
+                    <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
+                        <img id="mainImg" src="/assets/images/brownie-1.jpeg" alt="Eggless Brownies, Crownies, Brookies & Blondies Class" class="w-full h-full object-cover object-center">
                     </div>
+                </div>
+
+                <!-- RIGHT: Product Info -->
+                <div class="lg:sticky lg:top-[80px]">
+                    <!-- Badges -->
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="bg-[#dc2626] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Trending</span>
+                        <span class="bg-[#16a34a]/10 text-[#16a34a] text-[10px] font-bold uppercase px-3 py-1 rounded-full">100% Pure Vegetarian</span>
+                    </div>
+
+                    <!-- Title -->
+                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">EGGLESS BROWNIES, CROWNIES, BROOKIES & BLONDIES CLASS</h1>
+                    <p class="text-muted text-[14px] leading-relaxed mb-5">If you're looking for the best homemade Brownie recipe to satisfy your sweet tooth! From fudgy brownie to cakey brownie; you are sure to find a favourite in this class</p>
+
+                    <div class="mb-5 pb-5 border-b border-gray-100"></div>
+
+                    <!-- What's Included -->
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What's Included</p>
+                    <div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 100% Pure vegetarian</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Partially handson class</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> All samples take home</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Lunch & refreshment included</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Confirmation mandatory</span>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="flex flex-col gap-2.5">
+                        <a href="https://wa.me/918527780181" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-lg inline-flex items-center justify-center gap-2 text-sm">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i> Register on WhatsApp
+                        </a>
+                        <a href="tel:+918527780181" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-[0_4px_20px_rgba(252,136,13,0.25)] inline-flex items-center justify-center gap-2 text-sm">
+                            <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
+                        </a>
+                    </div>
+                    <p class="text-gray-300 text-[11px] text-center mt-2">Limited seats per batch. Register early.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== COURSE CURRICULUM ===== -->
-    <section class="py-16 bg-[#FAF7F2]">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12">
-            <div class="text-center mb-10">
-                <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
-                    <i data-lucide="list-checks" class="w-3.5 h-3.5"></i> What You'll Learn
-                </span>
-                <h2 class="font-serif text-3xl md:text-4xl font-bold text-dark">Course Curriculum</h2>
-                <p class="text-muted text-sm mt-2">Everything covered in this workshop</p>
+    <!-- ===== CURRICULUM ===== -->
+    <section class="py-10 md:py-12 bg-[#FAF7F2] border-t border-[#EDE4D8]">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <div class="flex items-center justify-between mb-5">
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Content Covered in the Class</h2>
+                <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">37 Recipes</span>
             </div>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Classic Fudgy Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Cakey Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Chewy Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Stuffed Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Red Velvet Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Nutella Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Cream Cheese Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Lotus Biscoff Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Cookie Brownie (Brookies)</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Crownies (Croissant + Brownies)</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Classic Blondie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">White Chocolate Blondie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Peanut Butter Blondie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Brownie Cake</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Brownie Truffle</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Brownie in a Jar</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">S'mores Brownie</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Mint Chocolate Brownie</span></div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">S'mores brownies</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Walnut brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Strawberry & sesame blondies</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Chocolate cheesey Mississippi mud brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Cookie brownie WITH COOKIE Recipe</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Red velvet brownie with Cream cheese swirls</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Red velvet nutella brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Almond & rose petal brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Tropical blast brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Salted caramel brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Peanut butter fudge brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Cappuccino walnut brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Date & Banana brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Choco chip blondies</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Triple layer brownies</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Crownies/Brookies</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">kitket Brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Crinkler brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Cookie & Cream brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Nutella brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Cheese cake layered Swirled brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Pinacolada brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Nuts loaded fudgy apple brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Snicker brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Finger millet brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Fudgy Carrot Brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Strawberry brownie cake</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Exotic Nuts Glaze Brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Centre fruit & cookie top brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Flour less brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Vagen Gluten free brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Zebra brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Dates & vegan brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Mocha choco brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Coconut truffle brownie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Sizzling brownie</div>
             </div>
 
-            <!-- Registration CTA -->
-            <div class="mt-14 bg-dark rounded-[2rem] p-8 md:p-12 text-center relative overflow-hidden">
-                <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-80 h-40 bg-mustard/15 rounded-full blur-3xl pointer-events-none"></div>
-                <div class="relative z-10">
-                    <span class="inline-flex items-center gap-2 bg-mustard/15 text-mustard font-bold tracking-widest uppercase text-xs px-4 py-2 rounded-full mb-5"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Ready to Join?</span>
-                    <h3 class="font-serif text-2xl md:text-3xl font-bold text-white mb-3">Start Your Creative Journey Today</h3>
-                    <p class="text-white/60 text-[15px] mb-7 max-w-xl mx-auto">For registration & details, call or WhatsApp <strong class="text-white">+91 8527780181</strong> or <strong class="text-white">+91 9999453960</strong>. Batches are small — secure your spot early.</p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                        <a href="https://wa.me/918527780181" target="_blank" class="flex-1 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 rounded-xl transition-all shadow-lg inline-flex items-center justify-center gap-2">
-                            <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Now
-                        </a>
-                        <a href="tel:+918527780181" class="flex-1 bg-mustard hover:bg-[#e27a0c] text-white font-bold py-4 rounded-xl transition-all shadow-[0_4px_20px_rgba(252,136,13,0.35)] inline-flex items-center justify-center gap-2">
-                            <i data-lucide="phone" class="w-5 h-5"></i> Call Now
-                        </a>
-                    </div>
+            <!-- Sauces Section -->
+            <div class="mt-6">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-serif text-lg font-bold text-dark">Sauces Covered</h3>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+                    <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">Ganache</div>
+                    <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">Caramel</div>
+                    <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">Fudge sauce...many more ideas</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ===== OTHER COURSES ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="flex justify-between items-end mb-8">
-                <div>
-                    <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-2">
-                        <i data-lucide="heart" class="w-3.5 h-3.5"></i> Explore More
-                    </span>
-                    <h2 class="font-serif text-3xl font-bold text-dark">Other Workshops</h2>
-                </div>
-                <a href="/courses" class="text-[#fc880d] font-semibold text-sm hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-4 h-4"></i></a>
+    <section class="py-10 md:py-12 bg-white border-t border-gray-100">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Other Workshops</h2>
+                <a href="/courses" class="text-[#fc880d] font-semibold text-xs hover:underline inline-flex items-center gap-1">View All <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i></a>
             </div>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <a href="/courses/swiss-roll-pastries" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
+            <div class="grid sm:grid-cols-3 gap-5">
+                <a href="/courses/home-baker" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking Master Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Baking & Icing</span>
+                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">30+ Cake Varieties from Scratch</p>
+                </a>
+                <a href="/courses/sugar-craft" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
+                        <img src="/assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Rolled Fondant Cakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Cake Decorating</span>
+                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Sugar Craft Rolled Fondant Cakes</h3>
+                    <p class="text-gray-400 text-xs mt-1">Fondant, Ganache, Sugar Paste & More</p>
+                </a>
+                <a href="/courses/swiss-roll-pastries" class="group block">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
                         <img src="/assets/images/strawberry-cheesecake.jpeg" alt="Swiss Roll & Pastries Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#dc2626">Specialty</span>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Pastries</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Pastries & Baking</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Swiss Roll & Pastries Class</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 23rd & 24th May</div>
-                    </div>
-                </a>
-                <a href="/courses/cheesecakes" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
-                        <img src="/assets/images/dessert-spread-table.jpeg" alt="Eggless Gelatin Free Baked & Non-Baked Cheesecakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#9333ea">Premium</span>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Cheesecakes</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Eggless Gelatin Free Baked & Non-Baked Cheesecakes</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 21st & 22nd December</div>
-                    </div>
-                </a>
-                <a href="/courses/kids-special" class="bg-white rounded-2xl border border-[#EDE4D8] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden block">
-                    <div class="relative overflow-hidden h-[180px] bg-[#FFF8F0]">
-                        <img src="/assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special Workshop (Mini Chefs)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide" style="background:#ef4444">Kids Favorite</span>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Kids Special</p>
-                        <h3 class="font-bold text-dark text-base mb-2 leading-tight group-hover:text-[#fc880d] transition-colors">Kids Special Workshop (Mini Chefs)</h3>
-                        <div class="flex items-center gap-2 text-[12px] text-gray-500"><i data-lucide="calendar" class="w-3.5 h-3.5 text-[#fc880d]"></i> 8th, 9th & 10th June</div>
-                    </div>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Swiss Roll & Pastries Class</h3>
+                    <p class="text-gray-400 text-xs mt-1">18 Varieties — Slitting, Soaking, Filling & More</p>
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- Mobile sticky CTA -->
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 px-4 py-2.5 z-50 flex gap-2">
+        <a href="https://wa.me/918527780181" target="_blank" class="flex-1 bg-[#25D366] text-white font-bold py-3 rounded-xl text-center inline-flex items-center justify-center gap-2 text-[13px]">
+            <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
+        </a>
+        <a href="tel:+918527780181" class="flex-1 bg-[#fc880d] text-white font-bold py-3 rounded-xl text-center inline-flex items-center justify-center gap-2 text-[13px]">
+            <i data-lucide="phone" class="w-4 h-4"></i> Call Now
+        </a>
+    </div>
+    <div class="lg:hidden h-16"></div>
+
     <?php include __DIR__ . '/../includes/footer.php'; ?>
+
+    <script>
+    function switchImg(el, src) {
+        document.getElementById('mainImg').src = src;
+        el.closest('.flex').querySelectorAll('.thumb').forEach(t => {
+            t.classList.remove('active', 'border-[#fc880d]');
+            t.classList.add('border-transparent', 'opacity-60');
+        });
+        el.classList.add('active', 'border-[#fc880d]');
+        el.classList.remove('border-transparent', 'opacity-60');
+    }
+    </script>
 </body>
 </html>

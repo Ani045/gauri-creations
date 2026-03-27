@@ -113,7 +113,7 @@
 
                 <a href="/courses/brownies" class="course-card group block" data-category="pastries">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
-                        <img src="/assets/images/chocolate-mousse-cups.jpeg" alt="Eggless Brownies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/brownie-1.jpeg" alt="Eggless Brownies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#dc2626] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Trending</span>
                     </div>
