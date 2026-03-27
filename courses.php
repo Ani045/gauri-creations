@@ -69,12 +69,12 @@
 
                 <a href="/courses/sugar-craft" class="course-card group block" data-category="cake-decorating">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
-                        <img src="/assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Rolled Fondant Cakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">New</span>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cake Decorating</p>
-                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Sugar Craft Cake Decorating Course</h3>
+                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Sugar Craft Rolled Fondant Cakes</h3>
                     <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">Fondant, ganache, sugar paste, flowers, figures and more!</p>
                 </a>
 
