@@ -63,7 +63,7 @@
                     </div>
 
                     <!-- Title -->
-                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Super Soft Healthy Time Cakes</h1>
+                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Super Soft Healthy Tea Time Cakes</h1>
                     <p class="text-muted text-[14px] leading-relaxed mb-5">Not only is it possible to bake amazingly moist and fluffy cakes without eggs, it's also incredibly easy. Learn to make eggless tea cakes with different flavors and the texture</p>
 
                     <div class="mb-5 pb-5 border-b border-gray-100"></div>
