@@ -128,7 +128,7 @@
 
                 <a href="/courses/subways-sauces" class="course-card group block" data-category="subways">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
-                        <img src="/assets/images/club-sandwich-fries.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/subway-1.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Subways & Dips</p>
