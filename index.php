@@ -1020,7 +1020,7 @@
     </section>
 
     <!-- ===== OUR COURSES — Course Cards ===== -->
-    <section id="courses" class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section id="courses" class="py-16 md:py-20 bg-gradient-to-b from-white via-[#FFF9F2] to-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1045,10 +1045,11 @@
             <div id="recipe-slider" class="flex overflow-x-auto gap-5 md:gap-6 snap-x snap-mandatory hide-scroll-bar scroll-smooth pb-6">
 
                 <!-- Course Card 1: Cake Baking & Icing -->
-                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/cupcakes-brownies-box.jpeg" alt="Eggless Cake Baking & Icing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 bg-[#fc880d] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide">Bestseller</span>
+                        <img src="assets/images/cake-wedding-purple.jpeg" alt="Eggless Cake Baking & Icing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-[#fc880d] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">Bestseller</span>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Baking & Icing</p>
@@ -1059,17 +1060,18 @@
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 3 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
-                        <a href="/courses" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                        <a href="/courses/home-baker" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Course Card 2: Sugar Craft -->
-                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/caterpillar-cupcakes.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 bg-green-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide">New</span>
+                        <img src="assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-green-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">New</span>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Cake Decorating</p>
@@ -1080,17 +1082,18 @@
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
-                        <a href="/courses" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                        <a href="/courses/sugar-craft" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Course Card 3: Mughlai -->
-                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/pad-thai-dish.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide">Popular</span>
+                        <img src="assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">Popular</span>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Mughlai Cooking</p>
@@ -1101,16 +1104,17 @@
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
-                        <a href="/courses" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                        <a href="/courses/mughlai" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Course Card 4: Subways -->
-                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/club-sandwich-fries.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="assets/images/subway-1.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Subways & Dips</p>
@@ -1121,17 +1125,18 @@
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
-                        <a href="/courses" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                        <a href="/courses/subways-sauces" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Course Card 5: Kids Special -->
-                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/kids-group-baking.jpeg" alt="Kids Special" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <span class="absolute top-3 left-3 bg-red-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide">Kids</span>
+                        <img src="assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-red-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">Kids</span>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Kids Special</p>
@@ -1142,16 +1147,17 @@
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 3 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹4,500</span>
                         </div>
-                        <a href="/courses" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                        <a href="/courses/kids-special" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
                 </div>
 
                 <!-- Course Card 6: Cheesecakes -->
-                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/strawberry-cheesecake.jpeg" alt="Cheesecakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="assets/images/cheesecake-1.jpeg" alt="Cheesecakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Cheesecakes</p>
@@ -1162,7 +1168,7 @@
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
-                        <a href="/courses" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                        <a href="/courses/cheesecakes" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -1336,7 +1342,7 @@
     </section>
 
     <!-- ===== WORKSHOP GALLERY ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section class="py-16 md:py-20 bg-[#FAFAFA] relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="text-center mb-12">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
@@ -1346,42 +1352,72 @@
                 <p class="text-gray-500 text-[15px] mt-3 max-w-xl mx-auto">Real moments from our cooking classes — kids baking, students creating, and delicious food made with love.</p>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-                <div class="rounded-2xl overflow-hidden aspect-square group">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 auto-rows-[200px] md:auto-rows-[220px]">
+                <!-- Tall: Kids Workshop -->
+                <div class="rounded-2xl overflow-hidden group relative row-span-2">
                     <img src="assets/images/kids-yellow-aprons-group.jpeg" alt="Kids in chef hats and aprons" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Kids Workshop</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
-                    <img src="assets/images/workshop-food-spread.jpeg" alt="Workshop food spread" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Brownies -->
+                <div class="rounded-2xl overflow-hidden group relative">
+                    <img src="assets/images/brownie-1.jpeg" alt="Brownies & Blondies" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Brownies</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
+                <!-- Kids Pizza -->
+                <div class="rounded-2xl overflow-hidden group relative">
                     <img src="assets/images/kids-making-pizza.jpeg" alt="Kids making pizza" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Pizza Making</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
-                    <img src="assets/images/strawberry-cheesecake.jpeg" alt="Strawberry cheesecake" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Cheesecake -->
+                <div class="rounded-2xl overflow-hidden group relative">
+                    <img src="assets/images/cheesecake-2.jpeg" alt="Cheesecake course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cheesecakes</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
-                    <img src="assets/images/kids-chef-hats-outdoor.jpeg" alt="Kids with chef hats outdoors" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Sugar Craft -->
+                <div class="rounded-2xl overflow-hidden group relative">
+                    <img src="assets/images/sugar-craft-2.jpeg" alt="Sugar Craft decorating" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Sugar Craft</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
-                    <img src="assets/images/chocolate-mousse-cups.jpeg" alt="Chocolate mousse cups" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Subway -->
+                <div class="rounded-2xl overflow-hidden group relative">
+                    <img src="assets/images/subway-2.jpeg" alt="Subway sandwich course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Subways & Sauces</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
+                <!-- Kids Fruit -->
+                <div class="rounded-2xl overflow-hidden group relative">
                     <img src="assets/images/kids-fruit-skewers.jpeg" alt="Kids making fruit skewers" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Fun Activities</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group">
-                    <img src="assets/images/food-platter-spread.jpeg" alt="Food platter spread" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Tall: Cake Decorating -->
+                <div class="rounded-2xl overflow-hidden group relative row-span-2 lg:block hidden">
+                    <img src="assets/images/cake-photo-pink.jpeg" alt="Cake decorating course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cake Decorating</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group md:block hidden">
-                    <img src="assets/images/teen-baking-cupcakes.jpeg" alt="Teen baking cupcakes" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Tea Cakes -->
+                <div class="rounded-2xl overflow-hidden group relative md:block hidden">
+                    <img src="assets/images/tea-cakes-1.jpeg" alt="Tea Cakes course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Tea Cakes</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group md:block hidden">
-                    <img src="assets/images/kids-pizza-girls.jpeg" alt="Girls making pizza" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Kids Outdoor -->
+                <div class="rounded-2xl overflow-hidden group relative md:block hidden">
+                    <img src="assets/images/kids-chef-hats-outdoor.jpeg" alt="Kids outdoor workshop" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Outdoor Class</span>
                 </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group lg:block hidden">
-                    <img src="assets/images/fun-face-sandwich-art.jpeg" alt="Fun face sandwich art" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="rounded-2xl overflow-hidden aspect-square group lg:block hidden">
-                    <img src="assets/images/kids-chef-hat-display.jpeg" alt="Chef hat food display" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <!-- Cake Mickey -->
+                <div class="rounded-2xl overflow-hidden group relative lg:block hidden">
+                    <img src="assets/images/cake-mickey.jpeg" alt="Mickey theme cake" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Theme Cakes</span>
                 </div>
             </div>
 
