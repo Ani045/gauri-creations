@@ -1113,12 +1113,12 @@
                 <!-- Course Card 4: Subways -->
                 <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/subway-1.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="assets/images/91.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
                     </div>
                     <div class="p-4">
                         <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Subways & Dips</p>
-                        <h3 class="font-bold text-dark text-[15px] mb-2 leading-tight">Subways, Sauces & Kababs</h3>
+                        <h3 class="font-bold text-dark text-[15px] mb-2 leading-tight">Subways, Dips, Burger & Kababs</h3>
                         <p class="text-gray-400 text-[12px] leading-relaxed mb-3 line-clamp-3">15 varieties of subways + 30 dips & sauces! From Paneer Tikka to Harissa — learn it all hands-on.</p>
                         <div class="flex items-center gap-3 mb-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 28-29 Mar</span>
@@ -1385,9 +1385,9 @@
                 </div>
                 <!-- Subway -->
                 <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/subway-2.jpeg" alt="Subway sandwich course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="assets/images/92.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Subways & Sauces</span>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Subways & Dips</span>
                 </div>
                 <!-- Kids Fruit -->
                 <div class="rounded-2xl overflow-hidden group relative">

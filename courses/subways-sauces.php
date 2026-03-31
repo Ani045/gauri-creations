@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Subways, Sauces, Fillings & Kababs Workshop | Gauri Creations</title>
+    <title>Subways, Dips, Burger & Kababs | Gauri Creations</title>
     <?php include __DIR__ . '/../includes/head.php'; ?>
     <style>
         .thumb { cursor: pointer; transition: all 0.2s; }
@@ -24,7 +24,7 @@
             <div class="flex items-center gap-2 text-xs text-gray-400 mb-5">
                 <a href="/" class="hover:text-[#fc880d]">Home</a><span>/</span>
                 <a href="/courses" class="hover:text-[#fc880d]">Courses</a><span>/</span>
-                <span class="text-dark">Subways & Sauces</span>
+                <span class="text-dark">Subways, Dips, Burger & Kababs</span>
             </div>
 
             <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
@@ -33,25 +33,28 @@
                 <div class="flex flex-col-reverse sm:flex-row gap-3">
                     <!-- Thumbnail strip -->
                     <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
-                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/subway-1.jpeg')">
-                            <img src="/assets/images/subway-1.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/91.jpeg')">
+                            <img src="/assets/images/91.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/subway-2.jpeg')">
-                            <img src="/assets/images/subway-2.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/92.jpeg')">
+                            <img src="/assets/images/92.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/subway-3.jpeg')">
-                            <img src="/assets/images/subway-3.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/93.jpeg')">
+                            <img src="/assets/images/93.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/subway-4.jpeg')">
-                            <img src="/assets/images/subway-4.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/94.jpeg')">
+                            <img src="/assets/images/94.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/subway-5.jpeg')">
-                            <img src="/assets/images/subway-5.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/95.jpeg')">
+                            <img src="/assets/images/95.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/96.jpeg')">
+                            <img src="/assets/images/96.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
                     </div>
                     <!-- Main image -->
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img id="mainImg" src="/assets/images/subway-1.jpeg" alt="Subways, Sauces, Fillings & Kababs Workshop" class="w-full h-full object-cover object-center">
+                        <img id="mainImg" src="/assets/images/91.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover object-center">
                     </div>
                 </div>
 
@@ -64,8 +67,8 @@
                     </div>
 
                     <!-- Title -->
-                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Subways, Sauces, Fillings & Kababs Workshop</h1>
-                    <p class="text-muted text-[14px] leading-relaxed mb-5">Varieties of Subways and 30+ Dip n Sauces! Master homemade fillings and amazing flavour combinations.</p>
+                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Subways, Dips, Burger & Kababs….</h1>
+                    <p class="text-muted text-[14px] leading-relaxed mb-5">Varieties of Subways, 30+ Dip n Sauces, Burgers & Kababs! Master homemade fillings and amazing flavour combinations.</p>
 
                     <!-- Duration & Timings -->
                     <div class="grid grid-cols-2 gap-3 mb-5">
@@ -80,7 +83,7 @@
                             <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
                             <div>
                                 <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
-                                <p class="text-sm text-dark font-bold">11:30 AM – 5:30 PM</p>
+                                <p class="text-sm text-dark font-bold">11:30 AM – 6:00 PM</p>
                             </div>
                         </div>
                     </div>

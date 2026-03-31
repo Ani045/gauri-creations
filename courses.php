@@ -128,12 +128,12 @@
 
                 <a href="/courses/subways-sauces" class="course-card group block" data-category="subways">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
-                        <img src="/assets/images/subway-1.jpeg" alt="Subways & Sauces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/91.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Subways & Dips</p>
-                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Subways, Sauces, Fillings & Kababs</h3>
-                    <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">30+ dips & sauces, restaurant-style subways and kababs. 100% vegetarian.</p>
+                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Subways, Dips, Burger & Kababs</h3>
+                    <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">15 subways + 30+ dips & sauces, burgers and kababs. 100% vegetarian.</p>
                 </a>
 
                 <a href="/courses/cheesecakes" class="course-card group block" data-category="cheesecakes">
