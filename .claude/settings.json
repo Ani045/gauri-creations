@@ -15,11 +15,34 @@
       "Bash(sed -i '' 's|info@gauricreation\\\\.com|gauricreationsmkt@gmail.com|g' \"$f\")",
       "Bash(done)",
       "Bash(sed -i '' 's/py-20 relative overflow-hidden/py-14 relative overflow-hidden/g' about.php contact.php)",
-      "Bash(sed -i '' 's/py-16 md:py-24 relative overflow-hidden/py-12 md:py-16 relative overflow-hidden/' courses.php)"
+      "Bash(sed -i '' 's/py-16 md:py-24 relative overflow-hidden/py-12 md:py-16 relative overflow-hidden/' courses.php)",
+      "Read(//Users/aniketsharma/Desktop/Gauri-creations /courses/**)",
+      "Bash(mv 8.jpeg brownie-1.jpeg)",
+      "Bash(mv 9.jpeg brownie-2.jpeg)",
+      "Bash(mv 10.jpeg brownie-3.jpeg)",
+      "Bash(mv 11.jpeg brownie-4.jpeg)",
+      "Bash(mv 12.jpeg brownie-5.jpeg)",
+      "Bash(mv 21.jpeg subway-1.jpeg)",
+      "Bash(mv 22.jpeg subway-2.jpeg)",
+      "Bash(mv 23.jpeg subway-3.jpeg)",
+      "Bash(mv 24.jpeg subway-4.jpeg)",
+      "Bash(mv 25.jpeg subway-5.jpeg)",
+      "Bash(mv 41.jpeg tea-cakes-1.jpeg)",
+      "Bash(mv 42.jpeg tea-cakes-2.jpeg)",
+      "Bash(mv 43.jpeg tea-cakes-3.jpeg)",
+      "Bash(mv 44.jpeg tea-cakes-4.jpeg)",
+      "Bash(mv 45.jpeg tea-cakes-5.jpeg)",
+      "Read(//Users/aniketsharma/Desktop/**)",
+      "Bash(wc -l \"/Users/aniketsharma/Desktop/Gauri-creations \"/courses/*.php)",
+      "Bash(grep -h \"img src\" \"/Users/aniketsharma/Desktop/Gauri-creations \"/courses/*.php)",
+      "Bash(grep -h \"src=\"\"/assets/images/\" \"/Users/aniketsharma/Desktop/Gauri-creations \"/courses/*.php)",
+      "Bash(ls \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/7\"*.jpeg)"
     ],
     "additionalDirectories": [
       "/Users/aniketsharma/Desktop/Gauri-creations ",
-      "/Users/aniketsharma/Desktop/Gauri-creations /includes"
+      "/Users/aniketsharma/Desktop/Gauri-creations /includes",
+      "/Users/aniketsharma/Desktop/Gauri-creations /courses",
+      "/Users/aniketsharma/Desktop/Gauri-creations /assets"
     ]
   }
 }
