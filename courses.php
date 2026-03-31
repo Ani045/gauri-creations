@@ -166,6 +166,16 @@
                     <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">34 breads over 2 days — Croissant, Focaccia, Baguette, Pizza, Cinnamon Rolls and more.</p>
                 </a>
 
+                <a href="/courses/cookies-biscuits" class="course-card group block" data-category="cookies">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
+                        <img src="/assets/images/111.jpeg" alt="Bakery, Subway Style Exotic Healthy Cookies & Biscuits" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                    </div>
+                    <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cookies & Biscuits</p>
+                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Bakery, Subway Style Exotic Healthy Cookies & Biscuits</h3>
+                    <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">33 varieties — Choco Chip, Red Velvet, Naan Khatai, Pinwheel, Bourbon & more.</p>
+                </a>
+
             </div>
         </div>
     </section>
