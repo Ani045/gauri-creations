@@ -156,6 +156,16 @@
                     <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">Eggless tea cakes with different flavors — moist, fluffy and incredibly easy.</p>
                 </a>
 
+                <a href="/courses/bread-baking" class="course-card group block" data-category="bread">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
+                        <img src="/assets/images/101.jpeg" alt="Exotic Healthy Bread Baking Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                    </div>
+                    <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Bread Baking</p>
+                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Exotic Healthy Bread Baking Class</h3>
+                    <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">34 breads over 2 days — Croissant, Focaccia, Baguette, Pizza, Cinnamon Rolls and more.</p>
+                </a>
+
             </div>
         </div>
     </section>
