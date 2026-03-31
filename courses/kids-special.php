@@ -65,9 +65,8 @@
                                 <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
                                     <i data-lucide="calendar" class="w-4 h-4 text-mustard shrink-0"></i>
                                     <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Date</p>
-                                        <p class="text-sm text-white font-bold">8th, 9th & 10th June</p>
-                                        <p class="text-[11px] text-white/50">(Sunday, Monday & Tuesday)</p>
+                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Duration</p>
+                                        <p class="text-sm text-white font-bold">2 Days</p>
                                     </div>
                                 </div>
                                 <div class="grid grid-cols-2 gap-3">
@@ -75,7 +74,7 @@
                                         <i data-lucide="clock" class="w-4 h-4 text-mustard shrink-0"></i>
                                         <div>
                                             <p class="text-[10px] text-white/40 uppercase tracking-wider">Timing</p>
-                                            <p class="text-xs text-white font-bold">12:00 PM to 3:00 PM</p>
+                                            <p class="text-xs text-white font-bold">11:30 AM to 5:30 PM</p>
                                         </div>
                                     </div>
                                     <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">

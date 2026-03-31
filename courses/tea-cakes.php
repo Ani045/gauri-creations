@@ -66,6 +66,24 @@
                     <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Super Soft Healthy Tea Time Cakes</h1>
                     <p class="text-muted text-[14px] leading-relaxed mb-5">Not only is it possible to bake amazingly moist and fluffy cakes without eggs, it's also incredibly easy. Learn to make eggless tea cakes with different flavors and the texture</p>
 
+                    <!-- Duration & Timings -->
+                    <div class="grid grid-cols-2 gap-3 mb-5">
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="calendar-days" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Duration</p>
+                                <p class="text-sm text-dark font-bold">2 Days</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
+                                <p class="text-sm text-dark font-bold">11:30 AM – 5:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="mb-5 pb-5 border-b border-gray-100"></div>
 
                     <!-- What's Included -->

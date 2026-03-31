@@ -1091,7 +1091,7 @@
                 <!-- Course Card 3: Mughlai -->
                 <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
                     <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
-                        <img src="assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="assets/images/81.jpeg" alt="Veg Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
                         <span class="absolute top-3 left-3 bg-purple-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">Popular</span>
                     </div>

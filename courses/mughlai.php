@@ -2,175 +2,142 @@
 <html lang="en">
 
 <head>
-    <title>Mughlai Food Class | Gauri Creations</title>
+    <title>Veg Mughlai Food Class | Gauri Creations</title>
     <?php include __DIR__ . '/../includes/head.php'; ?>
+    <style>
+        .thumb { cursor: pointer; transition: all 0.2s; }
+        .thumb:hover, .thumb.active { border-color: #fc880d !important; opacity: 1 !important; }
+        .ci { transition: all 0.2s; }
+        .ci:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(252,136,13,0.1); }
+    </style>
 </head>
 
 <?php $activePage = "courses"; ?>
-<body class="font-sans bg-light text-dark antialiased overflow-x-hidden transition-all duration-300">
+<body class="font-sans bg-white text-dark antialiased overflow-x-hidden">
 
     <?php include __DIR__ . '/../includes/nav.php'; ?>
 
-    <!-- ===== BREADCRUMB ===== -->
-    <div class="bg-gray-50 border-b border-gray-100 py-3">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 flex items-center gap-2 text-sm">
-            <a href="/" class="text-gray-400 hover:text-[#fc880d]">Home</a>
-            <span class="text-gray-300">/</span>
-            <a href="/courses" class="text-gray-400 hover:text-[#fc880d]">Courses</a>
-            <span class="text-gray-300">/</span>
-            <span class="text-dark font-medium">Mughlai Food Class</span>
-        </div>
-    </div>
+    <!-- ===== PRODUCT PAGE ===== -->
+    <section class="py-6 md:py-12">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <!-- Breadcrumb -->
+            <div class="flex items-center gap-2 text-xs text-gray-400 mb-5">
+                <a href="/" class="hover:text-[#fc880d]">Home</a><span>/</span>
+                <a href="/courses" class="hover:text-[#fc880d]">Courses</a><span>/</span>
+                <span class="text-dark">Veg Mughlai Food Class</span>
+            </div>
 
-    <!-- ===== COURSE HERO ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="grid lg:grid-cols-[1fr_420px] gap-10 lg:gap-12 items-start">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
-                <!-- Left: Image + info -->
-                <div class="flex flex-col gap-5">
-                    <div class="rounded-[2rem] overflow-hidden shadow-xl relative aspect-[16/10] bg-[#FFF8F0] group border border-[#EDE4D8]">
-                        <img src="/assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-                        <span class="absolute top-5 left-5 text-white text-xs font-bold uppercase px-4 py-2 rounded-full tracking-wide shadow-lg" style="background: #9333ea">Popular</span>
-                    </div>
-
-                    <!-- Description -->
-                    <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-[#EDE4D8]">
-                        <h3 class="font-serif font-bold text-dark text-xl mb-3">About This Course</h3>
-                        <p class="text-muted text-[15px] leading-relaxed">Mughlai food is known for its richness and exotic use of spices. Learn the most popular, traditional and beloved Mughlai recipes with complete hands-on practice. This class covers over 20 aromatic dishes!</p>
-                    </div>
-
-                    <!-- Highlights -->
-                    <ul class="flex flex-col gap-3">
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Printed Recipe Provided</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Lunch Provided</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Future Assistance</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>100% Pure Vegetarian</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Hands-On Practical</span></li>
-                    </ul>
-                </div>
-
-                <!-- Right: Sticky enrollment card -->
-                <div class="lg:sticky lg:top-[90px] flex flex-col gap-4">
-                    <div class="bg-dark rounded-[1.5rem] p-6 text-white relative overflow-hidden">
-                        <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-                        <div class="absolute bottom-0 right-0 w-40 h-40 bg-mustard/10 rounded-full blur-3xl pointer-events-none"></div>
-                        <div class="relative z-10">
-                            <div class="flex items-center gap-2 text-mustard font-bold text-xs tracking-widest uppercase mb-2">
-                                <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
-                                <span>Mughlai Cuisine</span>
-                            </div>
-                            <h1 class="text-xl md:text-2xl font-serif text-white font-bold leading-snug mb-5">Mughlai Food Class</h1>
-                            <div class="flex flex-col gap-3 mb-5">
-                                <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                    <i data-lucide="calendar" class="w-4 h-4 text-mustard shrink-0"></i>
-                                    <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Date</p>
-                                        <p class="text-sm text-white font-bold">22nd & 23rd March</p>
-                                        <p class="text-[11px] text-white/50">(Saturday & Sunday)</p>
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                        <i data-lucide="clock" class="w-4 h-4 text-mustard shrink-0"></i>
-                                        <div>
-                                            <p class="text-[10px] text-white/40 uppercase tracking-wider">Timing</p>
-                                            <p class="text-xs text-white font-bold">12:00 PM to 5:30 PM</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                        <i data-lucide="users" class="w-4 h-4 text-mustard shrink-0"></i>
-                                        <div>
-                                            <p class="text-[10px] text-white/40 uppercase tracking-wider">Batch</p>
-                                            <p class="text-xs text-white font-bold">6-7 Students</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                    <i data-lucide="map-pin" class="w-4 h-4 text-mustard shrink-0"></i>
-                                    <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Venue</p>
-                                        <p class="text-sm text-white font-bold">Gurgaon Sec 38</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-3">
-                                <a href="https://wa.me/918527780181" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-lg inline-flex items-center justify-center gap-2 text-sm">
-                                    <i data-lucide="message-circle" class="w-5 h-5"></i> Register on WhatsApp
-                                </a>
-                                <a href="tel:+918527780181" class="w-full bg-mustard hover:bg-[#e27a0c] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-[0_4px_20px_rgba(252,136,13,0.3)] inline-flex items-center justify-center gap-2 text-sm">
-                                    <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
-                                </a>
-                            </div>
-                            <p class="text-white/40 text-[11px] text-center mt-3">Seats are limited. Register early to confirm your spot.</p>
+                <!-- LEFT: Image Gallery -->
+                <div class="flex flex-col-reverse sm:flex-row gap-3">
+                    <!-- Thumbnail strip -->
+                    <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/81.jpeg')">
+                            <img src="/assets/images/81.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/82.jpeg')">
+                            <img src="/assets/images/82.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/83.jpeg')">
+                            <img src="/assets/images/83.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/84.jpeg')">
+                            <img src="/assets/images/84.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/85.jpeg')">
+                            <img src="/assets/images/85.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
                     </div>
-                    <div class="bg-white rounded-2xl border border-[#EDE4D8] p-5">
-                        <h4 class="font-bold text-dark text-sm mb-3 flex items-center gap-2"><i data-lucide="gift" class="w-4 h-4 text-mustard"></i> What's Included</h4>
-                        <ul class="flex flex-col gap-2 text-[13px] text-muted">
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Hands-on practical training</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Printed recipe booklet</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Lunch & refreshments</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> All ingredients & tools</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Certificate of completion</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Post-class assistance</li>
-                        </ul>
+                    <!-- Main image -->
+                    <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
+                        <img id="mainImg" src="/assets/images/81.jpeg" alt="Veg Mughlai Food Class" class="w-full h-full object-cover object-center">
                     </div>
+                </div>
+
+                <!-- RIGHT: Product Info -->
+                <div class="lg:sticky lg:top-[80px]">
+                    <!-- Badges -->
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Popular</span>
+                        <span class="bg-[#16a34a]/10 text-[#16a34a] text-[10px] font-bold uppercase px-3 py-1 rounded-full">100% Pure Vegetarian</span>
+                    </div>
+
+                    <!-- Title -->
+                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Veg Mughlai Food Class</h1>
+                    <p class="text-muted text-[14px] leading-relaxed mb-5">Mughlai food is known for its richness. It is famous for the exotic use of spices, dried fruit and nuts. Learn the traditional most popular mughlai recipes.</p>
+
+                    <!-- Duration & Timings -->
+                    <div class="grid grid-cols-2 gap-3 mb-5">
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="calendar-days" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Duration</p>
+                                <p class="text-sm text-dark font-bold">2 Days</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
+                                <p class="text-sm text-dark font-bold">11:30 AM – 5:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5 pb-5 border-b border-gray-100"></div>
+
+                    <!-- What's Included -->
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What's Included</p>
+                    <div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Printed Recipe Provided</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Refreshment & Lunch</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Future Assistance Welcome</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Confirmation Mandatory</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 100% Pure Vegetarian</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Hands-On Practical</span>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="flex flex-col gap-2.5">
+                        <a href="https://wa.me/918527780181" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-lg inline-flex items-center justify-center gap-2 text-sm">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i> Register on WhatsApp
+                        </a>
+                        <a href="tel:+918527780181" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-[0_4px_20px_rgba(252,136,13,0.25)] inline-flex items-center justify-center gap-2 text-sm">
+                            <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
+                        </a>
+                    </div>
+                    <p class="text-gray-300 text-[11px] text-center mt-2">Limited seats per batch. Register early.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== COURSE CURRICULUM ===== -->
-    <section class="py-16 bg-[#FAF7F2]">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12">
-            <div class="text-center mb-10">
-                <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
-                    <i data-lucide="list-checks" class="w-3.5 h-3.5"></i> What You'll Learn
-                </span>
-                <h2 class="font-serif text-3xl md:text-4xl font-bold text-dark">Course Curriculum</h2>
-                <p class="text-muted text-sm mt-2">Everything covered in this workshop</p>
+    <!-- ===== CURRICULUM ===== -->
+    <section class="py-10 md:py-12 bg-[#FAF7F2] border-t border-[#EDE4D8]">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <div class="flex items-center justify-between mb-5">
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">What You'll Learn</h2>
+                <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">17 Recipes</span>
             </div>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Dal Maharani</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Paneer Lababdar</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Dum Biryani</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Gulab Jamun</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Malai Kofta</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Navratan Korma</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Shahi Paneer</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Kadhai Paneer</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Dum Aloo</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Butter Paneer</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Mughlai Paratha</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Roomali Roti</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Lucknowi Pulao</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Mughlai Curry</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Paneer Tikka Masala</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Zafrani Kheer</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Phirni</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Korma Sauce</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Mughlai Raita</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Kashmiri Naan</span></div>
-            </div>
-
-            <!-- Registration CTA -->
-            <div class="mt-14 bg-dark rounded-[2rem] p-8 md:p-12 text-center relative overflow-hidden">
-                <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-80 h-40 bg-mustard/15 rounded-full blur-3xl pointer-events-none"></div>
-                <div class="relative z-10">
-                    <span class="inline-flex items-center gap-2 bg-mustard/15 text-mustard font-bold tracking-widest uppercase text-xs px-4 py-2 rounded-full mb-5"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Ready to Join?</span>
-                    <h3 class="font-serif text-2xl md:text-3xl font-bold text-white mb-3">Start Your Creative Journey Today</h3>
-                    <p class="text-white/60 text-[15px] mb-7 max-w-xl mx-auto">For registration & details, call or WhatsApp <strong class="text-white">+91 8527780181</strong> or <strong class="text-white">+91 9999453960</strong>. Batches are small — secure your spot early.</p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                        <a href="https://wa.me/918527780181" target="_blank" class="flex-1 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 rounded-xl transition-all shadow-lg inline-flex items-center justify-center gap-2">
-                            <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Now
-                        </a>
-                        <a href="tel:+918527780181" class="flex-1 bg-mustard hover:bg-[#e27a0c] text-white font-bold py-4 rounded-xl transition-all shadow-[0_4px_20px_rgba(252,136,13,0.35)] inline-flex items-center justify-center gap-2">
-                            <i data-lucide="phone" class="w-5 h-5"></i> Call Now
-                        </a>
-                    </div>
-                </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Dal Maharani</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Paneer Lababdar</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Muglai Gobhi</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Kadhai Paneer</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Methi Malai Matar</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Malai Kofta</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Dum Hyderabadi Biryani</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Stuffed Paneer Pasanda in Creamy Tomato Gravy</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Amritsari Naan</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Aloo Paneer Bharva Naan</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Paan Shot</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Beetroot Raita</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Mushroom Butter Masala</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Mix Vegetable Handi Curry</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">Paneer Butter Masala In Creamy Red Gravy</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">Paneer Do Pyaza</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">Navratan Korma</div>
             </div>
         </div>
     </section>
@@ -214,6 +181,29 @@
         </div>
     </section>
 
+    <!-- Mobile sticky CTA -->
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 px-4 py-2.5 z-50 flex gap-2">
+        <a href="https://wa.me/918527780181" target="_blank" class="flex-1 bg-[#25D366] text-white font-bold py-3 rounded-xl text-center inline-flex items-center justify-center gap-2 text-[13px]">
+            <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
+        </a>
+        <a href="tel:+918527780181" class="flex-1 bg-[#fc880d] text-white font-bold py-3 rounded-xl text-center inline-flex items-center justify-center gap-2 text-[13px]">
+            <i data-lucide="phone" class="w-4 h-4"></i> Call Now
+        </a>
+    </div>
+    <div class="lg:hidden h-16"></div>
+
     <?php include __DIR__ . '/../includes/footer.php'; ?>
+
+    <script>
+    function switchImg(el, src) {
+        document.getElementById('mainImg').src = src;
+        el.closest('.flex').querySelectorAll('.thumb').forEach(t => {
+            t.classList.remove('active', 'border-[#fc880d]');
+            t.classList.add('border-transparent', 'opacity-60');
+        });
+        el.classList.add('active', 'border-[#fc880d]');
+        el.classList.remove('border-transparent', 'opacity-60');
+    }
+    </script>
 </body>
 </html>

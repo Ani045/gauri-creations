@@ -46,6 +46,24 @@
                     <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Italian Food Class</h1>
                     <p class="text-muted text-[14px] leading-relaxed mb-5">Learn 20+ Italian recipes at home — Pizzas, Pastas, Risottos, Ravioli, Tiramisu and much more. One of the most loved cuisines, now at your fingertips.</p>
 
+                    <!-- Duration & Timings -->
+                    <div class="grid grid-cols-2 gap-3 mb-5">
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="calendar-days" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Duration</p>
+                                <p class="text-sm text-dark font-bold">2 Days</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
+                                <p class="text-sm text-dark font-bold">11:30 AM – 5:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="mb-5 pb-5 border-b border-gray-100"></div>
 
                     <!-- What's Included -->
@@ -134,7 +152,7 @@
                 </a>
                 <a href="/courses/mughlai" class="group block">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
-                        <img src="/assets/images/snacks-spread-collage.jpeg" alt="Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/81.jpeg" alt="Veg Mughlai Food Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
                         <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Mughlai Cuisine</span>
                     </div>
