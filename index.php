@@ -1032,10 +1032,10 @@
                     <p class="text-gray-400 text-sm mt-1">Learn from the best — hands-on workshops & professional courses</p>
                 </div>
                 <div class="flex gap-3">
-                    <button id="slider-btn-left" class="w-10 h-10 rounded-full border border-gray-200 text-gray-500 flex items-center justify-center hover:bg-[#fc880d] hover:border-[#fc880d] hover:text-white transition-colors">
+                    <button id="recipe-slider-left" class="w-10 h-10 rounded-full border border-gray-200 text-gray-500 flex items-center justify-center hover:bg-[#fc880d] hover:border-[#fc880d] hover:text-white transition-colors">
                         <i data-lucide="chevron-left" class="w-5 h-5"></i>
                     </button>
-                    <button id="slider-btn-right" class="w-10 h-10 rounded-full border border-gray-200 text-gray-500 flex items-center justify-center hover:bg-[#fc880d] hover:border-[#fc880d] hover:text-white transition-colors">
+                    <button id="recipe-slider-right" class="w-10 h-10 rounded-full border border-gray-200 text-gray-500 flex items-center justify-center hover:bg-[#fc880d] hover:border-[#fc880d] hover:text-white transition-colors">
                         <i data-lucide="chevron-right" class="w-5 h-5"></i>
                     </button>
                 </div>
