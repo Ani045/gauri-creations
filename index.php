@@ -1352,73 +1352,114 @@
                 <p class="text-gray-500 text-[15px] mt-3 max-w-xl mx-auto">Real moments from our cooking classes — kids baking, students creating, and delicious food made with love.</p>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 auto-rows-[200px] md:auto-rows-[220px]">
-                <!-- Tall: Kids Workshop -->
-                <div class="rounded-2xl overflow-hidden group relative row-span-2">
-                    <img src="assets/images/kids-yellow-aprons-group.jpeg" alt="Kids in chef hats and aprons" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Kids Workshop</span>
+            <!-- Bento Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4" style="grid-auto-rows: 180px;">
+
+                <!-- 1. Subway — Wide -->
+                <div class="rounded-2xl overflow-hidden group relative col-span-2 row-span-2">
+                    <img src="assets/images/91.jpeg" alt="Subways & Sauces course" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-4 left-4 text-white text-sm font-bold bg-black/40 backdrop-blur-sm px-4 py-1.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Subways & Sauces</span>
                 </div>
-                <!-- Brownies -->
+
+                <!-- 2. Cake Baking -->
                 <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/brownie-1.jpeg" alt="Brownies & Blondies" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="assets/images/cake-wedding-purple.jpeg" alt="Cake Baking course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cake Baking</span>
+                </div>
+
+                <!-- 3. Brownies -->
+                <div class="rounded-2xl overflow-hidden group relative">
+                    <img src="assets/images/brownie-1.jpeg" alt="Brownies course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Brownies</span>
                 </div>
-                <!-- Kids Pizza -->
-                <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/kids-making-pizza.jpeg" alt="Kids making pizza" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+
+                <!-- 4. Subway 2 — Tall -->
+                <div class="rounded-2xl overflow-hidden group relative row-span-2 hidden lg:block">
+                    <img src="assets/images/93.jpeg" alt="Subway course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Pizza Making</span>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Burger & Kababs</span>
                 </div>
-                <!-- Cheesecake -->
-                <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/cheesecake-2.jpeg" alt="Cheesecake course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+
+                <!-- 5. Kids Special — Tall -->
+                <div class="rounded-2xl overflow-hidden group relative row-span-2 hidden lg:block">
+                    <img src="assets/images/121.jpeg" alt="Kids Special course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cheesecakes</span>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Kids Special</span>
                 </div>
-                <!-- Sugar Craft -->
+
+                <!-- 6. Sugar Craft -->
                 <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/sugar-craft-2.jpeg" alt="Sugar Craft decorating" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="assets/images/sugar-craft-1.jpeg" alt="Sugar Craft course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Sugar Craft</span>
                 </div>
-                <!-- Subway -->
+
+                <!-- 7. Cheesecake -->
                 <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/92.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="assets/images/cheesecake-1.jpeg" alt="Cheesecake course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Subways & Dips</span>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cheesecakes</span>
                 </div>
-                <!-- Kids Fruit -->
+
+                <!-- 8. Subway 3 — Wide -->
+                <div class="rounded-2xl overflow-hidden group relative col-span-2 hidden md:block">
+                    <img src="assets/images/94.jpeg" alt="Subway spread" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Dips & Sauces</span>
+                </div>
+
+                <!-- 9. Swiss Roll Pastries -->
                 <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/kids-fruit-skewers.jpeg" alt="Kids making fruit skewers" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="assets/images/71.jpeg" alt="Swiss Roll & Pastries" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Fun Activities</span>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Swiss Roll</span>
                 </div>
-                <!-- Tall: Cake Decorating -->
-                <div class="rounded-2xl overflow-hidden group relative row-span-2 lg:block hidden">
-                    <img src="assets/images/cake-photo-pink.jpeg" alt="Cake decorating course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cake Decorating</span>
-                </div>
-                <!-- Tea Cakes -->
-                <div class="rounded-2xl overflow-hidden group relative md:block hidden">
+
+                <!-- 10. Tea Cakes -->
+                <div class="rounded-2xl overflow-hidden group relative">
                     <img src="assets/images/tea-cakes-1.jpeg" alt="Tea Cakes course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Tea Cakes</span>
                 </div>
-                <!-- Kids Outdoor -->
-                <div class="rounded-2xl overflow-hidden group relative md:block hidden">
-                    <img src="assets/images/kids-chef-hats-outdoor.jpeg" alt="Kids outdoor workshop" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+
+                <!-- 11. Chinese -->
+                <div class="rounded-2xl overflow-hidden group relative hidden md:block">
+                    <img src="assets/images/131.jpeg" alt="Chinese Cooking course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Outdoor Class</span>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Chinese</span>
                 </div>
-                <!-- Cake Mickey -->
-                <div class="rounded-2xl overflow-hidden group relative lg:block hidden">
-                    <img src="assets/images/cake-mickey.jpeg" alt="Mickey theme cake" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+
+                <!-- 12. Subway 4 -->
+                <div class="rounded-2xl overflow-hidden group relative hidden md:block">
+                    <img src="assets/images/95.jpeg" alt="Subway platter" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Subway Platter</span>
+                </div>
+
+                <!-- 13. Cake Doll — Wide -->
+                <div class="rounded-2xl overflow-hidden group relative col-span-2 hidden lg:block">
+                    <img src="assets/images/cake-doll-blue.jpeg" alt="Doll Cake decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Theme Cakes</span>
                 </div>
+
+                <!-- 14. Bread Baking -->
+                <div class="rounded-2xl overflow-hidden group relative hidden lg:block">
+                    <img src="assets/images/101.jpeg" alt="Bread Baking course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Bread Baking</span>
+                </div>
+
+                <!-- 15. Cookies -->
+                <div class="rounded-2xl overflow-hidden group relative hidden lg:block">
+                    <img src="assets/images/111.jpeg" alt="Cookies & Biscuits course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Cookies</span>
+                </div>
+
             </div>
 
             <div class="text-center mt-8">
