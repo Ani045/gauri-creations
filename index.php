@@ -1166,56 +1166,149 @@
 
     <!-- Why Choose Us Section -->
     <section id="why-choose-us" class="py-12 md:py-16 bg-[#FAF7F2] relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="text-center mb-10">
-                <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
-                    <i data-lucide="award" class="w-3.5 h-3.5"></i> Why Choose Us
-                </span>
-                <h2 class="font-serif text-3xl md:text-4xl text-dark font-bold tracking-tight">What Makes Us Different</h2>
+        <!-- Subtle background pattern to match brand -->
+        <div
+            class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none">
+        </div>
+
+        <div class="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10">
+            <div class="mb-10 md:mb-12 flex flex-col items-start w-full text-left">
+                <span class="text-mustard font-bold tracking-widest uppercase text-sm mb-2 block">Our Quality</span>
+                <h2 class="font-serif text-4xl md:text-5xl lg:text-5xl text-dark font-bold tracking-wide">Why is it so
+                    delicious?</h2>
             </div>
 
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
-                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
-                        <i data-lucide="chef-hat" class="w-6 h-6 text-[#fc880d]"></i>
+            <div class="grid lg:grid-cols-3 gap-y-12 lg:gap-8 items-center relative">
+
+                <!-- Left Column Features -->
+                <div class="flex flex-col gap-8 lg:gap-14 order-2 lg:order-1 relative z-20">
+
+                    <!-- Feature 1 (Top Left) -->
+                    <div class="relative text-left group">
+                        <div class="flex items-center gap-3 mb-2">
+                            <i data-lucide="chef-hat" class="w-6 h-6 text-mustard"></i>
+                            <h4 class="text-xl font-serif text-dark font-bold">Unique Recipes</h4>
+                        </div>
+                        <div class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative">
+                            <div
+                                class="hidden lg:block absolute left-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[25deg] origin-left z-0">
+                                <div
+                                    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px]">We use only the freshest and
+                            highest quality ingredients to create unique artisanal recipes.</p>
                     </div>
-                    <h4 class="font-bold text-dark text-lg mb-2">200+ Unique Recipes</h4>
-                    <p class="text-muted text-[14px] leading-relaxed">From cakes to Chinese — every recipe is crafted with premium ingredients and taught from scratch.</p>
+
+                    <!-- Feature 2 (Mid Left) -->
+                    <div class="relative text-left group lg:translate-x-[-20px]">
+                        <div class="flex items-center gap-3 mb-2">
+                            <i data-lucide="handshake" class="w-6 h-6 text-mustard"></i>
+                            <h4 class="text-xl font-serif text-dark font-bold">Flexible Terms</h4>
+                        </div>
+                        <div class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative">
+                            <div
+                                class="hidden lg:block absolute left-full top-0 w-[80px] border-b-[3px] border-dashed border-mustard/50 rotate-[5deg] origin-left z-0">
+                                <div
+                                    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px]">We offer both one-time orders
+                            and long-term cooperation for deliveries.</p>
+                    </div>
+
+                    <!-- Feature 3 (Bot Left) -->
+                    <div class="relative text-left group">
+                        <div class="flex items-center gap-3 mb-2">
+                            <i data-lucide="layers" class="w-6 h-6 text-mustard"></i>
+                            <h4 class="text-xl font-serif text-dark font-bold">Diversity</h4>
+                        </div>
+                        <div class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative">
+                            <div
+                                class="hidden lg:block absolute left-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[-25deg] origin-left z-0">
+                                <div
+                                    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px]">Our assortment includes many
+                            flavors of desserts. With us, everyone finds something to their taste.</p>
+                    </div>
                 </div>
-                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
-                        <i data-lucide="users" class="w-6 h-6 text-[#fc880d]"></i>
+
+                <!-- Center Image -->
+                <div class="relative flex justify-center items-center py-4 lg:py-8 order-1 lg:order-2 z-30">
+                    <div class="w-[280px] h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden shadow-[0_12px_40px_rgba(252,136,13,0.15)] border-4 border-[#fc880d]/20">
+                        <img src="assets/images/cake-wedding-purple.jpeg" alt="Professional Cake Baking"
+                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
                     </div>
-                    <h4 class="font-bold text-dark text-lg mb-2">Small Batches Only</h4>
-                    <p class="text-muted text-[14px] leading-relaxed">Just 6-7 students per batch ensures personalized attention and hands-on learning for everyone.</p>
                 </div>
-                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
-                        <i data-lucide="leaf" class="w-6 h-6 text-[#fc880d]"></i>
+
+                <!-- Right Column Features -->
+                <div class="flex flex-col gap-8 lg:gap-14 order-3 relative z-20">
+
+                    <!-- Feature 4 (Top Right) -->
+                    <div class="relative text-left lg:text-right group lg:ml-auto">
+                        <div class="flex items-center lg:justify-end gap-3 mb-2">
+                            <i data-lucide="leaf" class="w-6 h-6 text-mustard lg:hidden"></i>
+                            <h4 class="text-xl font-serif text-dark font-bold">Freshness</h4>
+                            <i data-lucide="leaf" class="w-6 h-6 text-mustard hidden lg:block"></i>
+                        </div>
+                        <div
+                            class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative lg:ml-auto">
+                            <div
+                                class="hidden lg:block absolute right-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[-25deg] origin-right z-0">
+                                <div
+                                    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-4 w-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px] lg:ml-auto">All our recipes are
+                            made fresh, so you get them straight from the oven — flavorful and perfect.</p>
                     </div>
-                    <h4 class="font-bold text-dark text-lg mb-2">100% Eggless</h4>
-                    <p class="text-muted text-[14px] leading-relaxed">All baking and dessert courses are pure vegetarian. Great food doesn't need eggs to be exceptional.</p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
-                        <i data-lucide="hand-metal" class="w-6 h-6 text-[#fc880d]"></i>
+
+                    <!-- Feature 5 (Mid Right) -->
+                    <div class="relative text-left lg:text-right group lg:translate-x-[20px] lg:ml-auto">
+                        <div class="flex items-center lg:justify-end gap-3 mb-2">
+                            <i data-lucide="truck" class="w-6 h-6 text-mustard lg:hidden"></i>
+                            <h4 class="text-xl font-serif text-dark font-bold">Delivery</h4>
+                            <i data-lucide="truck" class="w-6 h-6 text-mustard hidden lg:block"></i>
+                        </div>
+                        <div
+                            class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative lg:ml-auto">
+                            <div
+                                class="hidden lg:block absolute right-full top-0 w-[90px] border-b-[3px] border-dashed border-mustard/50 rotate-[-5deg] origin-right z-0">
+                                <div
+                                    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-4 w-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px] lg:ml-auto">We deliver our treats
+                            throughout the city directly to your event at a time convenient for you.</p>
                     </div>
-                    <h4 class="font-bold text-dark text-lg mb-2">100% Hands-On</h4>
-                    <p class="text-muted text-[14px] leading-relaxed">No demos — every student cooks from scratch to finish. You take home what you make.</p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
-                        <i data-lucide="graduation-cap" class="w-6 h-6 text-[#fc880d]"></i>
+
+                    <!-- Feature 6 (Bot Right) -->
+                    <div class="relative text-left lg:text-right group lg:ml-auto">
+                        <div class="flex items-center lg:justify-end gap-3 mb-2">
+                            <i data-lucide="users" class="w-6 h-6 text-mustard lg:hidden"></i>
+                            <h4 class="text-xl font-serif text-dark font-bold">Individual Approach</h4>
+                            <i data-lucide="users" class="w-6 h-6 text-mustard hidden lg:block"></i>
+                        </div>
+                        <div
+                            class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative lg:ml-auto">
+                            <div
+                                class="hidden lg:block absolute right-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[25deg] origin-right z-0">
+                                <div
+                                    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-4 w-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px] lg:ml-auto">We care about every student
+                            and provide personalized attention with small batches of 6-7 students.</p>
                     </div>
-                    <h4 class="font-bold text-dark text-lg mb-2">Certified Courses</h4>
-                    <p class="text-muted text-[14px] leading-relaxed">Get a professional certificate on completion. Printed recipe booklets and post-class support included.</p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
-                        <i data-lucide="heart" class="w-6 h-6 text-[#fc880d]"></i>
-                    </div>
-                    <h4 class="font-bold text-dark text-lg mb-2">10,000+ Happy Students</h4>
-                    <p class="text-muted text-[14px] leading-relaxed">A thriving community of home bakers, chefs, and food lovers trained by Sarika Jindal.</p>
+
                 </div>
             </div>
         </div>
