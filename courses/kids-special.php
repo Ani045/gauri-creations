@@ -2,172 +2,199 @@
 <html lang="en">
 
 <head>
-    <title>Kids Special Workshop (Mini Chefs) | Gauri Creations</title>
+    <title>Kids Special Healthy Cooking & Baking Session | Gauri Creations</title>
     <?php include __DIR__ . '/../includes/head.php'; ?>
+    <style>
+        .thumb { cursor: pointer; transition: all 0.2s; }
+        .thumb:hover, .thumb.active { border-color: #fc880d !important; opacity: 1 !important; }
+        .ci { transition: all 0.2s; }
+        .ci:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(252,136,13,0.1); }
+    </style>
 </head>
 
 <?php $activePage = "courses"; ?>
-<body class="font-sans bg-light text-dark antialiased overflow-x-hidden transition-all duration-300">
+<body class="font-sans bg-white text-dark antialiased overflow-x-hidden">
 
     <?php include __DIR__ . '/../includes/nav.php'; ?>
 
-    <!-- ===== BREADCRUMB ===== -->
-    <div class="bg-gray-50 border-b border-gray-100 py-3">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 flex items-center gap-2 text-sm">
-            <a href="/" class="text-gray-400 hover:text-[#fc880d]">Home</a>
-            <span class="text-gray-300">/</span>
-            <a href="/courses" class="text-gray-400 hover:text-[#fc880d]">Courses</a>
-            <span class="text-gray-300">/</span>
-            <span class="text-dark font-medium">Kids Special Workshop (Mini Chefs)</span>
-        </div>
-    </div>
+    <!-- ===== PRODUCT PAGE ===== -->
+    <section class="py-6 md:py-12">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <!-- Breadcrumb -->
+            <div class="flex items-center gap-2 text-xs text-gray-400 mb-5">
+                <a href="/" class="hover:text-[#fc880d]">Home</a><span>/</span>
+                <a href="/courses" class="hover:text-[#fc880d]">Courses</a><span>/</span>
+                <span class="text-dark">Kids Special</span>
+            </div>
 
-    <!-- ===== COURSE HERO ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="grid lg:grid-cols-[1fr_420px] gap-10 lg:gap-12 items-start">
+            <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
-                <!-- Left: Image + info -->
-                <div class="flex flex-col gap-5">
-                    <div class="rounded-[2rem] overflow-hidden shadow-xl relative aspect-[16/10] bg-[#FFF8F0] group border border-[#EDE4D8]">
-                        <img src="/assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special Workshop (Mini Chefs)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-                        <span class="absolute top-5 left-5 text-white text-xs font-bold uppercase px-4 py-2 rounded-full tracking-wide shadow-lg" style="background: #ef4444">Kids Favorite</span>
-                    </div>
-
-                    <!-- Description -->
-                    <div class="bg-[#FAF7F2] rounded-2xl p-6 border border-[#EDE4D8]">
-                        <h3 class="font-serif font-bold text-dark text-xl mb-3">About This Course</h3>
-                        <p class="text-muted text-[15px] leading-relaxed">Calling all Mini Chefs! Make Delicious and Healthy food while having fun. This workshop is specially designed for children aged 6 to 18 years. 18-20 practicals included over 3 fun-filled days!</p>
-                    </div>
-
-                    <!-- Highlights -->
-                    <ul class="flex flex-col gap-3">
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Age Limit 6 to 18 Years</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>18-20 Practicals</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Certificate Provided</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>Fun & Interactive</span></li>
-                        <li class="flex items-start gap-3"><div class="w-6 h-6 rounded-full bg-[#fc880d]/10 flex items-center justify-center shrink-0 mt-0.5"><i data-lucide="check" class="w-3.5 h-3.5 text-[#fc880d]"></i></div><span>All Materials Included</span></li>
-                    </ul>
-                </div>
-
-                <!-- Right: Sticky enrollment card -->
-                <div class="lg:sticky lg:top-[90px] flex flex-col gap-4">
-                    <div class="bg-dark rounded-[1.5rem] p-6 text-white relative overflow-hidden">
-                        <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-                        <div class="absolute bottom-0 right-0 w-40 h-40 bg-mustard/10 rounded-full blur-3xl pointer-events-none"></div>
-                        <div class="relative z-10">
-                            <div class="flex items-center gap-2 text-mustard font-bold text-xs tracking-widest uppercase mb-2">
-                                <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
-                                <span>Kids Special</span>
-                            </div>
-                            <h1 class="text-xl md:text-2xl font-serif text-white font-bold leading-snug mb-5">Kids Special Workshop (Mini Chefs)</h1>
-                            <div class="flex flex-col gap-3 mb-5">
-                                <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                    <i data-lucide="calendar" class="w-4 h-4 text-mustard shrink-0"></i>
-                                    <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Duration</p>
-                                        <p class="text-sm text-white font-bold">2 Days</p>
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                        <i data-lucide="clock" class="w-4 h-4 text-mustard shrink-0"></i>
-                                        <div>
-                                            <p class="text-[10px] text-white/40 uppercase tracking-wider">Timing</p>
-                                            <p class="text-xs text-white font-bold">11:30 AM to 5:30 PM</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                        <i data-lucide="users" class="w-4 h-4 text-mustard shrink-0"></i>
-                                        <div>
-                                            <p class="text-[10px] text-white/40 uppercase tracking-wider">Batch</p>
-                                            <p class="text-xs text-white font-bold">8-10 Kids</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
-                                    <i data-lucide="map-pin" class="w-4 h-4 text-mustard shrink-0"></i>
-                                    <div>
-                                        <p class="text-[10px] text-white/40 uppercase tracking-wider">Venue</p>
-                                        <p class="text-sm text-white font-bold">Gurgaon</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-3">
-                                <a href="https://wa.me/918527780181" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-lg inline-flex items-center justify-center gap-2 text-sm">
-                                    <i data-lucide="message-circle" class="w-5 h-5"></i> Register on WhatsApp
-                                </a>
-                                <a href="tel:+918527780181" class="w-full bg-mustard hover:bg-[#e27a0c] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-[0_4px_20px_rgba(252,136,13,0.3)] inline-flex items-center justify-center gap-2 text-sm">
-                                    <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
-                                </a>
-                            </div>
-                            <p class="text-white/40 text-[11px] text-center mt-3">Seats are limited. Register early to confirm your spot.</p>
+                <!-- LEFT: Image Gallery -->
+                <div class="flex flex-col-reverse sm:flex-row gap-3">
+                    <!-- Thumbnail strip -->
+                    <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/121.jpeg')">
+                            <img src="/assets/images/121.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/122.jpeg')">
+                            <img src="/assets/images/122.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/123.jpeg')">
+                            <img src="/assets/images/123.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/124.jpeg')">
+                            <img src="/assets/images/124.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
                     </div>
-                    <div class="bg-white rounded-2xl border border-[#EDE4D8] p-5">
-                        <h4 class="font-bold text-dark text-sm mb-3 flex items-center gap-2"><i data-lucide="gift" class="w-4 h-4 text-mustard"></i> What's Included</h4>
-                        <ul class="flex flex-col gap-2 text-[13px] text-muted">
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Hands-on practical training</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Printed recipe booklet</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Lunch & refreshments</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> All ingredients & tools</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Certificate of completion</li>
-                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-[#16a34a] shrink-0"></i> Post-class assistance</li>
-                        </ul>
+                    <!-- Main image -->
+                    <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
+                        <img id="mainImg" src="/assets/images/121.jpeg" alt="Kids Special Healthy Cooking & Baking Session" class="w-full h-full object-cover object-center">
                     </div>
+                </div>
+
+                <!-- RIGHT: Product Info -->
+                <div class="lg:sticky lg:top-[80px]">
+                    <!-- Badges -->
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="bg-[#ef4444] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full">Kids Favorite</span>
+                        <span class="bg-[#16a34a]/10 text-[#16a34a] text-[10px] font-bold uppercase px-3 py-1 rounded-full">Healthy Cooking</span>
+                    </div>
+
+                    <!-- Title -->
+                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Kids Special — Healthy Cooking & Baking Session</h1>
+                    <p class="text-muted text-[14px] leading-relaxed mb-5">Calling All Mini Chefs - Kids in the Kitchen! Let your kids turn their vacation into a fun-filled, creative and learning experience! Children learn, enjoy, and build healthy eating habits — all while cooking their favorite foods! In a fun and safe way.</p>
+
+                    <!-- Duration & Timings -->
+                    <div class="grid grid-cols-2 gap-3 mb-5">
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="calendar-days" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Duration</p>
+                                <p class="text-sm text-dark font-bold">2 Days</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
+                                <p class="text-sm text-dark font-bold">11:00 AM – 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5 pb-5 border-b border-gray-100"></div>
+
+                    <!-- What Kids Will Learn -->
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What Kids Will Learn</p>
+                    <div class="grid grid-cols-1 gap-y-2 mb-4 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> How to make Pizza, Garlic Bread & Healthy Pasta</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Delicious Chaat Items</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Refreshing Mocktails, Shakes & Smoothies</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Cute & Yummy Cupcakes</span>
+                    </div>
+
+                    <!-- Special Learning Focus -->
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">Special Learning Focus</p>
+                    <div class="grid grid-cols-1 gap-y-2 mb-4 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="lightbulb" class="w-3.5 h-3.5 text-[#fc880d] shrink-0"></i> Why homemade food is healthier than outside food</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="lightbulb" class="w-3.5 h-3.5 text-[#fc880d] shrink-0"></i> Understanding ingredients in a simple & scientific way</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="lightbulb" class="w-3.5 h-3.5 text-[#fc880d] shrink-0"></i> Smart eating habits for growing kids</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="lightbulb" class="w-3.5 h-3.5 text-[#fc880d] shrink-0"></i> Easy recipes they can recreate at home</span>
+                    </div>
+
+                    <!-- Fun + Learning Activities -->
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">Fun + Learning Activities</p>
+                    <div class="grid grid-cols-1 gap-y-2 mb-4 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="target" class="w-3.5 h-3.5 text-[#9333ea] shrink-0"></i> Interactive food-based games</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="target" class="w-3.5 h-3.5 text-[#9333ea] shrink-0"></i> Hands-on cooking experience</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="target" class="w-3.5 h-3.5 text-[#9333ea] shrink-0"></i> Creativity & presentation skills</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="target" class="w-3.5 h-3.5 text-[#9333ea] shrink-0"></i> Confidence building in the kitchen</span>
+                    </div>
+
+                    <!-- What's Included -->
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What's Included</p>
+                    <div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 100% Practical</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Easy to Learn Recipes</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Kids Take Home Creations</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Participation Certificate</span>
+                    </div>
+
+                    <p class="text-[13px] text-muted italic mb-5">A perfect blend of learning, fun & life skills! Now when Mom is not at home they can make Delicious and Healthy food :)</p>
+
+                    <!-- CTA -->
+                    <div class="flex flex-col gap-2.5">
+                        <a href="https://wa.me/918527780181" target="_blank" class="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-lg inline-flex items-center justify-center gap-2 text-sm">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i> Register on WhatsApp
+                        </a>
+                        <a href="tel:+918527780181" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-bold py-3.5 rounded-xl text-center transition-all shadow-[0_4px_20px_rgba(252,136,13,0.25)] inline-flex items-center justify-center gap-2 text-sm">
+                            <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
+                        </a>
+                    </div>
+                    <p class="text-gray-300 text-[11px] text-center mt-2">Limited seats available. Register early.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== COURSE CURRICULUM ===== -->
-    <section class="py-16 bg-[#FAF7F2]">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12">
-            <div class="text-center mb-10">
-                <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
-                    <i data-lucide="list-checks" class="w-3.5 h-3.5"></i> What You'll Learn
-                </span>
-                <h2 class="font-serif text-3xl md:text-4xl font-bold text-dark">Course Curriculum</h2>
-                <p class="text-muted text-sm mt-2">Everything covered in this workshop</p>
-            </div>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Shakes & Smoothies</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Sandwiches</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Cupcakes</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Muffins</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Pizza from Scratch</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Pasta</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Garlic Bread</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Cookies</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Chocolate Truffles</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Brownies</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Pancakes</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">French Fries</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Spring Rolls</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Fruit Salad</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Mocktails</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Burgers</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Wraps & Rolls</span></div>
-                <div class="flex items-center gap-3 bg-[#FFF8F0] px-4 py-3 rounded-xl border border-[#fc880d]/10"><i data-lucide="chef-hat" class="w-4 h-4 text-[#fc880d] shrink-0"></i><span class="text-dark text-sm font-medium">Pudding</span></div>
+    <!-- ===== CURRICULUM ===== -->
+    <section class="py-10 md:py-12 bg-[#FAF7F2] border-t border-[#EDE4D8]">
+        <div class="max-w-[1200px] mx-auto px-5 md:px-10">
+            <div class="flex items-center justify-between mb-5">
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Topics Covered</h2>
+                <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">21 Recipes</span>
             </div>
 
-            <!-- Registration CTA -->
-            <div class="mt-14 bg-dark rounded-[2rem] p-8 md:p-12 text-center relative overflow-hidden">
-                <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-80 h-40 bg-mustard/15 rounded-full blur-3xl pointer-events-none"></div>
-                <div class="relative z-10">
-                    <span class="inline-flex items-center gap-2 bg-mustard/15 text-mustard font-bold tracking-widest uppercase text-xs px-4 py-2 rounded-full mb-5"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Ready to Join?</span>
-                    <h3 class="font-serif text-2xl md:text-3xl font-bold text-white mb-3">Start Your Creative Journey Today</h3>
-                    <p class="text-white/60 text-[15px] mb-7 max-w-xl mx-auto">For registration & details, call or WhatsApp <strong class="text-white">+91 8527780181</strong> or <strong class="text-white">+91 9999453960</strong>. Batches are small — secure your spot early.</p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                        <a href="https://wa.me/918527780181" target="_blank" class="flex-1 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 rounded-xl transition-all shadow-lg inline-flex items-center justify-center gap-2">
-                            <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Now
-                        </a>
-                        <a href="tel:+918527780181" class="flex-1 bg-mustard hover:bg-[#e27a0c] text-white font-bold py-4 rounded-xl transition-all shadow-[0_4px_20px_rgba(252,136,13,0.35)] inline-flex items-center justify-center gap-2">
-                            <i data-lucide="phone" class="w-5 h-5"></i> Call Now
-                        </a>
-                    </div>
-                </div>
+            <!-- Delicious Shakes -->
+            <p class="text-xs font-bold uppercase tracking-wider text-dark mb-3 mt-6">Delicious Shakes</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mb-6">
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">1. Oreo Shake</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">2. Chocolate Shake</div>
+            </div>
+
+            <!-- Smoothies -->
+            <p class="text-xs font-bold uppercase tracking-wider text-dark mb-3">Smoothies</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mb-6">
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">3. Pavallion Punch</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">4. Mango Smoothie</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">5. Blue Lagoon</div>
+            </div>
+
+            <!-- Sandwiches -->
+            <p class="text-xs font-bold uppercase tracking-wider text-dark mb-3">Sandwiches</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mb-6">
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">6. Rainbow Sandwich</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">7. Potato Cheese Toast</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">8. Grilled Sandwiches</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">9. Paneer Poppers</div>
+                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">10. Mexican Corn Cheese Sandwich</div>
+            </div>
+
+            <!-- Baking & Creaming on Cupcakes -->
+            <p class="text-xs font-bold uppercase tracking-wider text-dark mb-3">Baking & Creaming on Cupcakes</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mb-3">
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">11. Red Velvet Cupcakes</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">12. Chocolate Chocochip Cupcake</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">13. Chocolava Cupcake</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">14. Cake Pops</div>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-[#EDE4D8] mb-6">
+                <p class="text-muted text-[13px] leading-relaxed"><strong class="text-dark">Cupcakes from Scratch:</strong> Classic Vanilla Cupcake — Learn batter making, baking, whipping cream making, ganache making, and frosting!</p>
+            </div>
+
+            <!-- Pizza, Garlic Bread, Pasta -->
+            <p class="text-xs font-bold uppercase tracking-wider text-dark mb-3">Pizza, Garlic Bread & Pasta</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mb-3">
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">15. Margherita Pizza</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">16. Fresh Dough Veggie Deluxe Pizza</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">17. Fresh Dough Cheese Burst Slice Garlic Bread (Domino's Style)</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">18. Marrie Pie</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">19. Italian Pasta in Arrabbiata Sauce</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">20. Farfalle Pasta in Alfredo Sauce</div>
+                <div class="ci bg-[#fc880d]/5 px-3 py-2.5 rounded-lg border border-[#fc880d]/20 text-[12px] font-bold text-[#fc880d]">21. Vegetable Chopping & Lots More...</div>
+            </div>
+            <div class="bg-white rounded-xl p-4 border border-[#EDE4D8] mb-6">
+                <p class="text-muted text-[13px] leading-relaxed"><strong class="text-dark">Margherita Pizza:</strong> Learn dough making, assembling, and baking from scratch!</p>
             </div>
         </div>
     </section>
@@ -200,7 +227,7 @@
                 </a>
                 <a href="/courses/subways-sauces" class="group block">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
-                        <img src="/assets/images/91.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/subway-1.jpeg" alt="Subways, Dips, Burger & Kababs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
                         <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Subways & Dips</span>
                     </div>
@@ -211,6 +238,29 @@
         </div>
     </section>
 
+    <!-- Mobile sticky CTA -->
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-gray-200 px-4 py-2.5 z-50 flex gap-2">
+        <a href="https://wa.me/918527780181" target="_blank" class="flex-1 bg-[#25D366] text-white font-bold py-3 rounded-xl text-center inline-flex items-center justify-center gap-2 text-[13px]">
+            <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
+        </a>
+        <a href="tel:+918527780181" class="flex-1 bg-[#fc880d] text-white font-bold py-3 rounded-xl text-center inline-flex items-center justify-center gap-2 text-[13px]">
+            <i data-lucide="phone" class="w-4 h-4"></i> Call Now
+        </a>
+    </div>
+    <div class="lg:hidden h-16"></div>
+
     <?php include __DIR__ . '/../includes/footer.php'; ?>
+
+    <script>
+    function switchImg(el, src) {
+        document.getElementById('mainImg').src = src;
+        el.closest('.flex').querySelectorAll('.thumb').forEach(t => {
+            t.classList.remove('active', 'border-[#fc880d]');
+            t.classList.add('border-transparent', 'opacity-60');
+        });
+        el.classList.add('active', 'border-[#fc880d]');
+        el.classList.remove('border-transparent', 'opacity-60');
+    }
+    </script>
 </body>
 </html>
