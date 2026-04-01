@@ -176,6 +176,16 @@
                     <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">33 varieties — Choco Chip, Red Velvet, Naan Khatai, Pinwheel, Bourbon & more.</p>
                 </a>
 
+                <a href="/courses/chinese" class="course-card group block" data-category="cooking">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
+                        <img src="/assets/images/131.jpeg" alt="Chinese Cooking Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                    </div>
+                    <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Chinese Cooking</p>
+                    <h3 class="font-bold text-dark text-[17px] leading-snug group-hover:text-[#fc880d] transition-colors mb-1.5">Chinese Cooking Class</h3>
+                    <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-2">20+ recipes — Momos, Manchurian, Hakka Noodles, Spring Rolls, Schezwan Fried Rice & more.</p>
+                </a>
+
             </div>
         </div>
     </section>
