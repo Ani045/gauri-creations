@@ -734,56 +734,44 @@
         <!-- ===== HERO BANNER SLIDER ===== -->
         <section id="home" class="hero-slider">
             <div class="hero-slides" id="heroSlides">
-                <!-- Slide 1 -->
+                <!-- Slide 1: Cake Baking -->
                 <div class="hero-slide">
-                    <img src="assets/images/dessert-spread-table.jpeg" alt="Artisan Desserts Workshop">
+                    <img src="assets/images/cake-wedding-purple.jpeg" alt="Cake Baking Master Class">
                     <div class="hero-slide-overlay slide-animate">
-                        <span class="hero-slide-tag"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> New
-                            Workshop</span>
-                        <h2 class="hero-slide-title">Master Artisan Desserts with Expert Guidance</h2>
-                        <p class="hero-slide-desc">Join our hands-on workshop and learn to craft show-stopping pastries,
-                            cakes, and treats from scratch.</p>
-                        <a href="/courses" class="hero-slide-btn">Explore Courses <i data-lucide="arrow-right"
-                                class="w-4 h-4"></i></a>
+                        <span class="hero-slide-tag"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Bestseller</span>
+                        <h2 class="hero-slide-title">Professional Cake Baking & Icing Master Class</h2>
+                        <p class="hero-slide-desc">Learn 30+ cake varieties from scratch — Wedding Cake, Pinata, Geode, Red Velvet and more. Start your home bakery!</p>
+                        <a href="/courses/home-baker" class="hero-slide-btn">Explore Course <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                     </div>
                 </div>
-                <!-- Slide 2 -->
+                <!-- Slide 2: Subway & Sauces -->
                 <div class="hero-slide">
-                    <img src="assets/images/sarika-teaching-class.jpeg" alt="Cooking Class">
+                    <img src="assets/images/91.jpeg" alt="Subways & Sauces Workshop">
                     <div class="hero-slide-overlay slide-animate">
-                        <span class="hero-slide-tag"><i data-lucide="percent" class="w-3.5 h-3.5"></i> Limited
-                            Offer</span>
-                        <h2 class="hero-slide-title">Cake Decorating Masterclass — 30% Off</h2>
-                        <p class="hero-slide-desc">Learn professional frosting, fondant art, and modern cake design in
-                            our
-                            flagship course.</p>
-                        <a href="/courses" class="hero-slide-btn">Enroll Now <i data-lucide="arrow-right"
-                                class="w-4 h-4"></i></a>
+                        <span class="hero-slide-tag"><i data-lucide="flame" class="w-3.5 h-3.5"></i> Popular</span>
+                        <h2 class="hero-slide-title">Subways, Sauces, Burgers & Kababs</h2>
+                        <p class="hero-slide-desc">15 varieties of subways + 30 dips & sauces! From Paneer Tikka to Harissa — learn it all hands-on.</p>
+                        <a href="/courses/subways-sauces" class="hero-slide-btn">View Details <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                     </div>
                 </div>
-                <!-- Slide 3 -->
+                <!-- Slide 3: Kids Special -->
                 <div class="hero-slide">
-                    <img src="assets/images/kids-chef-hats-outdoor.jpeg" alt="Baking Masterclass">
+                    <img src="assets/images/121.jpeg" alt="Kids Special Workshop">
                     <div class="hero-slide-overlay slide-animate">
-                        <span class="hero-slide-tag"><i data-lucide="leaf" class="w-3.5 h-3.5"></i> Trending</span>
-                        <h2 class="hero-slide-title">Healthy Gourmet — Cook Delicious, Eat Nutritious</h2>
-                        <p class="hero-slide-desc">Discover wholesome recipes that are as beautiful as they are
-                            nourishing.
-                            Perfect for all levels.</p>
-                        <a href="/courses" class="hero-slide-btn">Start Learning <i data-lucide="arrow-right"
-                                class="w-4 h-4"></i></a>
+                        <span class="hero-slide-tag"><i data-lucide="heart" class="w-3.5 h-3.5"></i> Kids Favorite</span>
+                        <h2 class="hero-slide-title">Mini Chefs — Kids Healthy Cooking & Baking</h2>
+                        <p class="hero-slide-desc">Pizza, Cupcakes, Mocktails, Pasta & more! A fun-filled learning experience for ages 6-18.</p>
+                        <a href="/courses/kids-special" class="hero-slide-btn">Enroll Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                     </div>
                 </div>
-                <!-- Slide 4 -->
+                <!-- Slide 4: Swiss Roll & Pastries -->
                 <div class="hero-slide">
-                    <img src="assets/images/food-platter-spread.jpeg" alt="Healthy Food">
+                    <img src="assets/images/71.jpeg" alt="Swiss Roll & Pastries">
                     <div class="hero-slide-overlay slide-animate">
-                        <span class="hero-slide-tag"><i data-lucide="gift" class="w-3.5 h-3.5"></i> Best Seller</span>
-                        <h2 class="hero-slide-title">Curated Gift Hampers for Every Occasion</h2>
-                        <p class="hero-slide-desc">Handpicked gourmet treats, artisan snacks, and beautifully crafted
-                            trousseau — delivered fresh.</p>
-                        <a href="/courses" class="hero-slide-btn">Shop Hampers <i data-lucide="arrow-right"
-                                class="w-4 h-4"></i></a>
+                        <span class="hero-slide-tag"><i data-lucide="award" class="w-3.5 h-3.5"></i> Specialty</span>
+                        <h2 class="hero-slide-title">Swiss Roll & Pastries — 29 Varieties</h2>
+                        <p class="hero-slide-desc">Learn professional slitting, soaking, filling, garnishing and making delightful pastries from scratch.</p>
+                        <a href="/courses/swiss-roll-pastries" class="hero-slide-btn">Start Learning <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                     </div>
                 </div>
             </div>
@@ -823,7 +811,7 @@
     </div><!-- END hero-full-wrapper -->
 
     <!-- ===== ABOUT SECTION — Compact Ecommerce Style ===== -->
-    <section id="about" class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section id="about" class="py-12 md:py-16 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="grid md:grid-cols-[380px_1fr] lg:grid-cols-[420px_1fr] gap-10 lg:gap-16 items-center">
 
@@ -940,7 +928,7 @@
     </section>
 
     <!-- ===== SHOP BY CATEGORY — Slider ===== -->
-    <section class="py-16 md:py-20 bg-[#FAFAFA] relative overflow-hidden">
+    <section class="py-10 md:py-14 bg-[#FAF7F2] relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex justify-between items-end mb-8">
@@ -959,7 +947,7 @@
                 <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
-                        <img src="assets/images/chocolate-mousse-cups.jpeg" alt="Desserts"
+                        <img src="assets/images/cheesecake-1.jpeg" alt="Desserts"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <span
@@ -969,7 +957,7 @@
                 <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
-                        <img src="assets/images/cupcakes-brownies-box.jpeg" alt="Baking"
+                        <img src="assets/images/cake-wedding-purple.jpeg" alt="Baking"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <span
@@ -979,7 +967,7 @@
                 <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
-                        <img src="assets/images/caterpillar-cupcakes.jpeg" alt="Cakes"
+                        <img src="assets/images/sugar-craft-1.jpeg" alt="Cakes"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <span
@@ -989,38 +977,35 @@
                 <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
-                        <img src="assets/images/pad-thai-dish.jpeg" alt="Main Course"
+                        <img src="assets/images/131.jpeg" alt="Chinese & More"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <span class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Main
-                        Course</span>
+                    <span class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Chinese & More</span>
                 </a>
                 <!-- Category 5 -->
                 <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
-                        <img src="assets/images/fresh-salad-plate.jpeg" alt="Healthy Diet"
+                        <img src="assets/images/101.jpeg" alt="Bread & Healthy"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <span class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Healthy
-                        Diet</span>
+                    <span class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Bread & Healthy</span>
                 </a>
                 <!-- Category 6 -->
                 <a href="/courses" class="flex flex-col items-center gap-3 min-w-[130px] group snap-start shrink-0">
                     <div
                         class="w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-full overflow-hidden border-3 border-transparent group-hover:border-[#fc880d] transition-all duration-300 shadow-md group-hover:shadow-lg">
-                        <img src="assets/images/fun-face-sandwich-art.jpeg" alt="Gift Hampers"
+                        <img src="assets/images/91.jpeg" alt="Subways & Snacks"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <span class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Gift
-                        Hampers</span>
+                    <span class="text-sm font-semibold text-dark group-hover:text-[#fc880d] transition-colors">Subways & Snacks</span>
                 </a>
             </div>
         </div>
     </section>
 
     <!-- ===== OUR COURSES — Course Cards ===== -->
-    <section id="courses" class="py-16 md:py-20 bg-gradient-to-b from-white via-[#FFF9F2] to-white relative overflow-hidden">
+    <section id="courses" class="py-12 md:py-16 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1180,169 +1165,64 @@
     </section>
 
     <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <!-- Subtle background pattern to match brand -->
-        <div
-            class="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none">
-        </div>
-
-        <div class="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="mb-12 md:mb-16 flex flex-col items-start w-full text-left">
-                <span class="text-mustard font-bold tracking-widest uppercase text-sm mb-2 block">Our Quality</span>
-                <h2 class="font-serif text-4xl md:text-5xl lg:text-5xl text-dark font-bold tracking-wide">Why is it so
-                    delicious?</h2>
+    <section id="why-choose-us" class="py-12 md:py-16 bg-[#FAF7F2] relative overflow-hidden">
+        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
+            <div class="text-center mb-10">
+                <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
+                    <i data-lucide="award" class="w-3.5 h-3.5"></i> Why Choose Us
+                </span>
+                <h2 class="font-serif text-3xl md:text-4xl text-dark font-bold tracking-tight">What Makes Us Different</h2>
             </div>
 
-            <div class="grid lg:grid-cols-3 gap-y-16 lg:gap-8 items-center relative">
-
-                <!-- Left Column Features -->
-                <div class="flex flex-col gap-8 lg:gap-16 order-2 lg:order-1 relative z-20">
-
-                    <!-- Feature 1 (Top Left) -->
-                    <div class="relative text-left group">
-                        <div class="flex items-center gap-3 mb-2">
-                            <i data-lucide="chef-hat" class="w-6 h-6 text-mustard"></i>
-                            <h4 class="text-xl font-serif text-dark font-bold">Unique Recipes</h4>
-                        </div>
-                        <!-- Horizontal Dashed Base -->
-                        <div class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative">
-                            <!-- Connecting Line to Dessert -->
-                            <div
-                                class="hidden lg:block absolute left-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[25deg] origin-left z-0">
-                                <div
-                                    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px]">We use only the freshest and
-                            highest quality ingredients to create unique artisanal recipes.</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
+                        <i data-lucide="chef-hat" class="w-6 h-6 text-[#fc880d]"></i>
                     </div>
-
-                    <!-- Feature 2 (Mid Left) -->
-                    <div class="relative text-left group lg:translate-x-[-20px]">
-                        <div class="flex items-center gap-3 mb-2">
-                            <i data-lucide="handshake" class="w-6 h-6 text-mustard"></i>
-                            <h4 class="text-xl font-serif text-dark font-bold">Flexible Terms</h4>
-                        </div>
-                        <!-- Horizontal Dashed Base -->
-                        <div class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative">
-                            <!-- Connecting Line to Dessert -->
-                            <div
-                                class="hidden lg:block absolute left-full top-0 w-[80px] border-b-[3px] border-dashed border-mustard/50 rotate-[5deg] origin-left z-0">
-                                <div
-                                    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px]">We offer both one-time orders
-                            and long-term cooperation for deliveries.</p>
-                    </div>
-
-                    <!-- Feature 3 (Bot Left) -->
-                    <div class="relative text-left group">
-                        <div class="flex items-center gap-3 mb-2">
-                            <i data-lucide="layers" class="w-6 h-6 text-mustard"></i>
-                            <h4 class="text-xl font-serif text-dark font-bold">Diversity</h4>
-                        </div>
-                        <!-- Horizontal Dashed Base -->
-                        <div class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative">
-                            <!-- Connecting Line to Dessert -->
-                            <div
-                                class="hidden lg:block absolute left-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[-25deg] origin-left z-0">
-                                <div
-                                    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-4 h-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px]">Our assortment includes many
-                            flavors of desserts. With us, everyone finds something to their taste.</p>
-                    </div>
+                    <h4 class="font-bold text-dark text-lg mb-2">200+ Unique Recipes</h4>
+                    <p class="text-muted text-[14px] leading-relaxed">From cakes to Chinese — every recipe is crafted with premium ingredients and taught from scratch.</p>
                 </div>
-
-                <!-- Center Image -->
-                <div class="relative flex justify-center items-center py-6 lg:py-10 order-1 lg:order-2 z-30">
-                    <div class="w-[280px] h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden shadow-[0_12px_40px_rgba(252,136,13,0.15)] border-4 border-[#fc880d]/20">
-                        <img src="assets/images/workshop-food-spread.jpeg" alt="Workshop Food Spread"
-                            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
+                        <i data-lucide="users" class="w-6 h-6 text-[#fc880d]"></i>
                     </div>
+                    <h4 class="font-bold text-dark text-lg mb-2">Small Batches Only</h4>
+                    <p class="text-muted text-[14px] leading-relaxed">Just 6-7 students per batch ensures personalized attention and hands-on learning for everyone.</p>
                 </div>
-
-                <!-- Right Column Features -->
-                <div class="flex flex-col gap-8 lg:gap-16 order-3 relative z-20">
-
-                    <!-- Feature 4 (Top Right) -->
-                    <div class="relative text-left lg:text-right group lg:ml-auto">
-                        <div class="flex items-center lg:justify-end gap-3 mb-2">
-                            <i data-lucide="leaf" class="w-6 h-6 text-mustard lg:hidden"></i>
-                            <h4 class="text-xl font-serif text-dark font-bold">Freshness</h4>
-                            <i data-lucide="leaf" class="w-6 h-6 text-mustard hidden lg:block"></i>
-                        </div>
-                        <!-- Horizontal Dashed Base -->
-                        <div
-                            class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative lg:ml-auto">
-                            <!-- Connecting Line to Dessert -->
-                            <div
-                                class="hidden lg:block absolute right-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[-25deg] origin-right z-0">
-                                <div
-                                    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-4 w-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px] lg:ml-auto">All our recipes are
-                            made fresh, so you get them straight from the oven — flavorful and perfect.</p>
+                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
+                        <i data-lucide="leaf" class="w-6 h-6 text-[#fc880d]"></i>
                     </div>
-
-                    <!-- Feature 5 (Mid Right) -->
-                    <div class="relative text-left lg:text-right group lg:translate-x-[20px] lg:ml-auto">
-                        <div class="flex items-center lg:justify-end gap-3 mb-2">
-                            <i data-lucide="truck" class="w-6 h-6 text-mustard lg:hidden"></i>
-                            <h4 class="text-xl font-serif text-dark font-bold">Delivery</h4>
-                            <i data-lucide="truck" class="w-6 h-6 text-mustard hidden lg:block"></i>
-                        </div>
-                        <!-- Horizontal Dashed Base -->
-                        <div
-                            class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative lg:ml-auto">
-                            <!-- Connecting Line to Dessert -->
-                            <div
-                                class="hidden lg:block absolute right-full top-0 w-[90px] border-b-[3px] border-dashed border-mustard/50 rotate-[-5deg] origin-right z-0">
-                                <div
-                                    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-4 w-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px] lg:ml-auto">We deliver our treats
-                            throughout the city directly to your event at a time convenient for you.</p>
+                    <h4 class="font-bold text-dark text-lg mb-2">100% Eggless</h4>
+                    <p class="text-muted text-[14px] leading-relaxed">All baking and dessert courses are pure vegetarian. Great food doesn't need eggs to be exceptional.</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
+                        <i data-lucide="hand-metal" class="w-6 h-6 text-[#fc880d]"></i>
                     </div>
-
-                    <!-- Feature 6 (Bot Right) -->
-                    <div class="relative text-left lg:text-right group lg:ml-auto">
-                        <div class="flex items-center lg:justify-end gap-3 mb-2">
-                            <i data-lucide="users" class="w-6 h-6 text-mustard lg:hidden"></i>
-                            <h4 class="text-xl font-serif text-dark font-bold">Individual Approach</h4>
-                            <i data-lucide="users" class="w-6 h-6 text-mustard hidden lg:block"></i>
-                        </div>
-                        <!-- Horizontal Dashed Base -->
-                        <div
-                            class="border-b-[3px] border-dashed border-mustard/50 w-full max-w-[300px] mb-3 relative lg:ml-auto">
-                            <!-- Connecting Line to Dessert -->
-                            <div
-                                class="hidden lg:block absolute right-full top-0 w-[140px] border-b-[3px] border-dashed border-mustard/50 rotate-[25deg] origin-right z-0">
-                                <div
-                                    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-4 w-4 bg-white border-[4px] border-mustard rounded-full shadow-[0_0_10px_rgba(252,136,13,0.3)]">
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-muted leading-relaxed text-[14px] max-w-[280px] lg:ml-auto">We care about every student
-                            and provide personalized attention with small batches of 6-7 students.</p>
+                    <h4 class="font-bold text-dark text-lg mb-2">100% Hands-On</h4>
+                    <p class="text-muted text-[14px] leading-relaxed">No demos — every student cooks from scratch to finish. You take home what you make.</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
+                        <i data-lucide="graduation-cap" class="w-6 h-6 text-[#fc880d]"></i>
                     </div>
-
+                    <h4 class="font-bold text-dark text-lg mb-2">Certified Courses</h4>
+                    <p class="text-muted text-[14px] leading-relaxed">Get a professional certificate on completion. Printed recipe booklets and post-class support included.</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 border border-[#EDE4D8] hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-xl bg-[#fc880d]/10 flex items-center justify-center mb-4">
+                        <i data-lucide="heart" class="w-6 h-6 text-[#fc880d]"></i>
+                    </div>
+                    <h4 class="font-bold text-dark text-lg mb-2">10,000+ Happy Students</h4>
+                    <p class="text-muted text-[14px] leading-relaxed">A thriving community of home bakers, chefs, and food lovers trained by Sarika Jindal.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ===== WORKSHOP GALLERY ===== -->
-    <section class="py-16 md:py-20 bg-[#FAFAFA] relative overflow-hidden">
+    <section class="py-12 md:py-16 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <div class="text-center mb-12">
                 <span class="inline-flex items-center justify-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
@@ -1471,7 +1351,7 @@
     </section>
 
     <!-- Inline CTA 2 -->
-    <section class="bg-mustard py-10 relative overflow-hidden">
+    <section class="bg-mustard py-8 relative overflow-hidden">
         <div
             class="max-w-[1400px] mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6 relative z-10">
             <h3 class="font-serif text-2xl md:text-3xl font-bold text-white text-center md:text-left">Planning a special
@@ -1489,7 +1369,7 @@
     <!-- ===== TESTIMONIAL VIDEO SLIDER ===== -->
   
 
-    <section id="faq-info" class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section id="faq-info" class="py-12 md:py-16 bg-[#FAF7F2] relative overflow-hidden">
         <!-- Subtle background blobs -->
         <div class="absolute top-0 right-0 w-80 h-80 bg-mustard/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
         <div class="absolute bottom-0 left-0 w-64 h-64 bg-mustard/5 rounded-full blur-3xl pointer-events-none translate-y-1/3 -translate-x-1/3"></div>
@@ -1655,7 +1535,7 @@
     </section>
 
     <!-- ===== VIDEO TESTIMONIALS (Gumlet) ===== -->
-    <section id="video-testimonials" class="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section id="video-testimonials" class="py-12 md:py-16 bg-white relative overflow-hidden">
         <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
             <!-- Header -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -1716,7 +1596,7 @@
     </section>
 
     <!-- Contact & Enroll Section -->
-    <section id="contact-testimonials" class="py-16 md:py-20 bg-[#FAF7F2] relative overflow-hidden">
+    <section id="contact-testimonials" class="py-12 md:py-16 bg-white relative overflow-hidden">
         <!-- Decorative blobs -->
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-mustard/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
         <div class="absolute bottom-0 left-0 w-80 h-80 bg-mustard/5 rounded-full blur-3xl pointer-events-none translate-y-1/2 -translate-x-1/3"></div>
