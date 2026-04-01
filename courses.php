@@ -118,7 +118,7 @@
 
                 <a href="/courses/kids-special" class="course-card group block" data-category="kids">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-4 relative">
-                        <img src="/assets/images/kids-yellow-aprons-group.jpeg" alt="Kids Special Workshop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/121.jpeg" alt="Kids Special Workshop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
                     </div>
                     <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Kids Special</p>
