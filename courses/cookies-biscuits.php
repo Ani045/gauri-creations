@@ -48,9 +48,9 @@
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/115.jpeg')">
                             <img src="/assets/images/115.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/116.jpeg')">
+                        <!-- <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/116.jpeg')">
                             <img src="/assets/images/116.jpeg" alt="" class="w-full h-full object-cover">
-                        </div>
+                        </div> -->
                     </div>
                     <!-- Main image -->
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
