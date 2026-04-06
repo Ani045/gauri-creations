@@ -118,7 +118,7 @@
                         </span>
                         <h2 class="font-serif text-2xl md:text-3xl font-bold text-dark">Our Workshops & Courses</h2>
                     </div>
-                    <p id="course-count" class="text-[13px] text-muted font-medium bg-[#FAF7F2] px-4 py-2 rounded-full border border-[#EDE4D8]">Showing all 19 courses</p>
+                    <p id="course-count" class="text-[13px] text-muted font-medium bg-[#FAF7F2] px-4 py-2 rounded-full border border-[#EDE4D8]">Showing all 22 courses</p>
                 </div>
 
                 <!-- Filter Tabs -->
@@ -133,6 +133,8 @@
                     <button onclick="filterCourses('thai')" data-filter="thai" class="filter-pill text-[12px] font-bold px-4 py-2 rounded-full border border-gray-200 bg-white text-gray-600 cursor-pointer">Thai</button>
                     <button onclick="filterCourses('lebanese')" data-filter="lebanese" class="filter-pill text-[12px] font-bold px-4 py-2 rounded-full border border-gray-200 bg-white text-gray-600 cursor-pointer">Lebanese</button>
                     <button onclick="filterCourses('chaat')" data-filter="chaat" class="filter-pill text-[12px] font-bold px-4 py-2 rounded-full border border-gray-200 bg-white text-gray-600 cursor-pointer">Street Food</button>
+                    <button onclick="filterCourses('packing')" data-filter="packing" class="filter-pill text-[12px] font-bold px-4 py-2 rounded-full border border-gray-200 bg-white text-gray-600 cursor-pointer">Packing</button>
+                    <button onclick="filterCourses('daily')" data-filter="daily" class="filter-pill text-[12px] font-bold px-4 py-2 rounded-full border border-gray-200 bg-white text-gray-600 cursor-pointer">Daily Cooking</button>
                 </div>
             </div>
 
@@ -462,6 +464,65 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">30+ recipes — Samosa, Gol Gappa, Pav Bhaji, Chole Bhature, Dabeli, Raj Kachori & much more.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/trousseau-packing" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="packing">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/181.jpeg" alt="Trousseau Packing Class" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Crafts & Packing</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Trousseau Packing & Gift Wrapping</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Professional course: Designer trays, ring platters, bridal trousseau, baskets & bows.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 20 Classes</span>
+                            <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹35,000</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/everyday-cooking" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="daily">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/191.jpeg" alt="Basic Everyday Cookery" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Essential</span>
+                        <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold px-2.5 py-1 rounded-full">68+ Items</span>
+                        <div class="card-cta absolute bottom-3 left-3 right-3">
+                            <span class="w-full bg-white/95 backdrop-blur-sm text-dark font-bold py-2 rounded-xl text-[12px] flex items-center justify-center gap-1.5 shadow-lg">View Details <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>
+                        </div>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Daily Cooking</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Basic Everyday Kitchen Expert</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">68 practical recipes: Breads, rice, dals, curries, sabzis, snacks, and basics.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 5 Days</span>
+                            <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹8,500</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/millet-cookies" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="cookies">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/201.jpeg" alt="Millet Cookies Masterclass" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">100% Eggless</span>
+                        <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold px-2.5 py-1 rounded-full">4-in-1 Class</span>
+                        <div class="card-cta absolute bottom-3 left-3 right-3">
+                            <span class="w-full bg-white/95 backdrop-blur-sm text-dark font-bold py-2 rounded-xl text-[12px] flex items-center justify-center gap-1.5 shadow-lg">View Details <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></span>
+                        </div>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cookies & Biscuits</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">4-in-1 Gourmet Millet Cookies Masterclass</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Millet Cookies + Classic Cookies + Centre-Filled Gooey Cookies + Cookie Tins. No Maida, No Atta!</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
                     </div>

@@ -1264,6 +1264,69 @@
                     </div>
                 </div>
 
+                <!-- Course Card 12: Trousseau Packing -->
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                    <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
+                        <img src="assets/images/181.jpeg" alt="Trousseau Packing Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">New</span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Crafts & Packing</p>
+                        <h3 class="font-bold text-dark text-[15px] mb-2 leading-tight">Trousseau Packing & Gift Wrapping</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed mb-3 line-clamp-3">Professional course: Designer trays, ring platters, bridal trousseau, baskets & bows.</p>
+                        <div class="flex items-center gap-3 mb-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 20 Classes</span>
+                            <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹35,000</span>
+                        </div>
+                        <a href="/courses/trousseau-packing" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                            View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Course Card 13: Everyday Cookery -->
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                    <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
+                        <img src="assets/images/191.jpeg" alt="Everyday Cookery Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">Essential</span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Daily Cooking</p>
+                        <h3 class="font-bold text-dark text-[15px] mb-2 leading-tight">Basic Everyday Kitchen Expert</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed mb-3 line-clamp-3">68 practical recipes: Breads, rice, dals, curries, sabzis, snacks, and basics.</p>
+                        <div class="flex items-center gap-3 mb-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 5 Days</span>
+                            <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹8,500</span>
+                        </div>
+                        <a href="/courses/everyday-cooking" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                            View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Course Card 14: Millet Cookies -->
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                    <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
+                        <img src="assets/images/201.jpeg" alt="Millet Cookies Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">100% Eggless</span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Cookies & Biscuits</p>
+                        <h3 class="font-bold text-dark text-[15px] mb-2 leading-tight">4-in-1 Gourmet Millet Cookies</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed mb-3 line-clamp-3">Millet Cookies + Classic Cookies + Centre-Filled Gooey Cookies + Cookie Tins. No Maida, No Atta!</p>
+                        <div class="flex items-center gap-3 mb-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                        <a href="/courses/millet-cookies" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                            View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="shrink-0 w-4 md:w-8"></div>
             </div>
         </div>
