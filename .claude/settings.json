@@ -36,7 +36,10 @@
       "Bash(wc -l \"/Users/aniketsharma/Desktop/Gauri-creations \"/courses/*.php)",
       "Bash(grep -h \"img src\" \"/Users/aniketsharma/Desktop/Gauri-creations \"/courses/*.php)",
       "Bash(grep -h \"src=\"\"/assets/images/\" \"/Users/aniketsharma/Desktop/Gauri-creations \"/courses/*.php)",
-      "Bash(ls \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/7\"*.jpeg)"
+      "Bash(ls \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/7\"*.jpeg)",
+      "Bash(ls \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/12\"*.jpeg)",
+      "Bash(ls \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/13\"*.jpeg)",
+      "Bash(ls \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/subway\"*.jpeg \"/Users/aniketsharma/Desktop/Gauri-creations /assets/images/9\"*.jpeg)"
     ],
     "additionalDirectories": [
       "/Users/aniketsharma/Desktop/Gauri-creations ",

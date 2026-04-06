@@ -1159,6 +1159,27 @@
                     </div>
                 </div>
 
+                <!-- Course Card 7: Mexican Cuisine -->
+                <div class="min-w-[280px] w-[280px] md:min-w-[300px] md:w-[300px] bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 snap-start shrink-0 group overflow-hidden">
+                    <div class="relative overflow-hidden h-[200px] bg-[#FFF8F0]">
+                        <img src="assets/images/141.jpeg" alt="Mexican Cuisine Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md">New</span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[11px] text-[#fc880d] font-semibold uppercase tracking-wide mb-1">Mexican Cuisine</p>
+                        <h3 class="font-bold text-dark text-[15px] mb-2 leading-tight">Authentic & Exotic Mexican Cuisines</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed mb-3 line-clamp-3">20 practicals, 35 recipes — Tacos, Enchiladas, Burritos, Nachos, Sauces & much more. Bold flavors!</p>
+                        <div class="flex items-center gap-3 mb-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                        <a href="/courses/mexican" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
+                            View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="shrink-0 w-4 md:w-8"></div>
             </div>
         </div>
