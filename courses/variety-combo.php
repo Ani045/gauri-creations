@@ -285,7 +285,7 @@
             <div class="grid sm:grid-cols-3 gap-5">
                 <a href="/courses/mexican" class="group block">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
-                        <img src="/assets/images/141.jpeg" alt="Mexican Cuisine Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/143.jpeg" alt="Mexican Cuisine Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
                         <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Mexican Cuisine</span>
                     </div>

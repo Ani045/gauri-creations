@@ -50,16 +50,16 @@
                     <!-- Thumbnail strip -->
                     <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
                         <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100"
-                            onclick="switchImg(this, '/assets/images/141.jpeg')">
-                            <img src="/assets/images/143.jpeg" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/143.jpeg')">
+                            <img src="/assets/images/143.jpeg" alt="Mexican Cuisine" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
                             onclick="switchImg(this, '/assets/images/142.jpeg')">
                             <img src="/assets/images/142.jpeg" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/143.jpeg')">
-                            <img src="/assets/images/141.jpeg" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/141.jpeg')">
+                            <img src="/assets/images/141.jpeg" alt="Mexican Cuisine" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
                             onclick="switchImg(this, '/assets/images/144.jpeg')">
@@ -76,7 +76,7 @@
                     </div>
                     <!-- Main image -->
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img id="mainImg" src="/assets/images/141.jpeg" alt="Mexican Cuisine Class"
+                        <img id="mainImg" src="/assets/images/143.jpeg" alt="Mexican Cuisine Class"
                             class="w-full h-full object-cover object-center">
                     </div>
                 </div>
