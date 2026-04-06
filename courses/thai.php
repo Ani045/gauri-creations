@@ -5,6 +5,8 @@
     <title>Thai Cuisine Class | Gauri Creations</title>
     <?php include __DIR__ . '/../includes/head.php'; ?>
     <style>
+        .thumb { cursor: pointer; transition: all 0.2s; }
+        .thumb:hover, .thumb.active { border-color: #fc880d !important; opacity: 1 !important; }
         .ci { transition: all 0.2s; }
         .ci:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(252,136,13,0.1); }
     </style>
@@ -27,10 +29,32 @@
 
             <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
-                <!-- LEFT: Image -->
-                <div>
-                    <div class="rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img src="/assets/images/thai-cuisine-hero.png" alt="Thai Cuisine Class" class="w-full h-full object-cover object-center">
+                <!-- LEFT: Image Gallery -->
+                <div class="flex flex-col-reverse sm:flex-row gap-3">
+                    <!-- Thumbnail strip -->
+                    <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/thai-cuisine-hero.png')">
+                            <img src="/assets/images/thai-cuisine-hero.png" alt="Thai Cuisine Spread" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/thai-satay.png')">
+                            <img src="/assets/images/thai-satay.png" alt="Paneer Satay" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/thai-tom-yum.png')">
+                            <img src="/assets/images/thai-tom-yum.png" alt="Tom Yum Soup" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/thai-green-curry.png')">
+                            <img src="/assets/images/thai-green-curry.png" alt="Thai Green Curry" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/thai-pad-noodles.png')">
+                            <img src="/assets/images/thai-pad-noodles.png" alt="Pad Thai Noodles" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/thai-pineapple-rice.png')">
+                            <img src="/assets/images/thai-pineapple-rice.png" alt="Pineapple Fried Rice" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <!-- Main image -->
+                    <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
+                        <img id="mainImg" src="/assets/images/thai-cuisine-hero.png" alt="Thai Cuisine Class" class="w-full h-full object-cover object-center">
                     </div>
                 </div>
 
@@ -206,5 +230,17 @@
     <div class="lg:hidden h-16"></div>
 
     <?php include __DIR__ . '/../includes/footer.php'; ?>
+
+    <script>
+    function switchImg(el, src) {
+        document.getElementById('mainImg').src = src;
+        el.closest('.flex').querySelectorAll('.thumb').forEach(t => {
+            t.classList.remove('active', 'border-[#fc880d]');
+            t.classList.add('border-transparent', 'opacity-60');
+        });
+        el.classList.add('active', 'border-[#fc880d]');
+        el.classList.remove('border-transparent', 'opacity-60');
+    }
+    </script>
 </body>
 </html>
