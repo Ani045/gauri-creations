@@ -43,7 +43,7 @@
                     </span>
                     <h2 class="font-serif text-3xl md:text-4xl font-bold text-dark">Our Workshops & Courses</h2>
                 </div>
-                <p id="course-count" class="text-sm text-muted font-medium">Showing all 18 courses</p>
+                <p id="course-count" class="text-sm text-muted font-medium">Showing all 19 courses</p>
             </div>
 
             <!-- No results message -->
@@ -351,6 +351,23 @@
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="monitor-play" class="w-3 h-3 text-[#fc880d]"></i> Online (Facebook)</span>
                             <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹3,000</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/delhi-chaat" class="course-card group block bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300" data-category="chaat">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/161.jpeg" alt="Authentic Delhi Chaat Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1">Street Food</p>
+                        <h3 class="font-bold text-dark text-[16px] leading-snug group-hover:text-[#fc880d] transition-colors mb-2">Authentic Delhi Chaat</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">30+ recipes — Samosa, Gol Gappa, Pav Bhaji, Chole Bhature, Dabeli, Raj Kachori & much more.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
                     </div>
                 </a>
