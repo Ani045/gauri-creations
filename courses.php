@@ -43,7 +43,7 @@
                     </span>
                     <h2 class="font-serif text-3xl md:text-4xl font-bold text-dark">Our Workshops & Courses</h2>
                 </div>
-                <p id="course-count" class="text-sm text-muted font-medium">Showing all 14 courses</p>
+                <p id="course-count" class="text-sm text-muted font-medium">Showing all 15 courses</p>
             </div>
 
             <!-- No results message -->
@@ -281,6 +281,23 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">20 practicals, 35 recipes — Tacos, Enchiladas, Burritos, Nachos, Sauces & much more.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/thai" class="course-card group block bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300" data-category="thai">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/thai-cuisine-hero.png" alt="Thai Cuisine Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1">Thai Cuisine</p>
+                        <h3 class="font-bold text-dark text-[16px] leading-snug group-hover:text-[#fc880d] transition-colors mb-2">Thai Cuisine Class</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">21+ recipes — Thai Curries, Pad Noodles, Satay, Tom Yum Soup, Fried Rice & more.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 4:30 PM</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
                     </div>
