@@ -511,9 +511,9 @@
 
                 <!-- ========= COURSE 1: Sugar Craft Cake Decorating ========= -->
                 <div class="upcoming-card animate-fade-up" style="animation-delay:0.1s" id="course-sugar-craft">
-                    <div class="flex flex-col md:flex-row">
+                    <div class="flex flex-col md:flex-row h-full">
                         <!-- Image -->
-                        <div class="relative md:w-[280px] h-[220px] md:h-auto overflow-hidden flex-shrink-0">
+                        <div class="relative w-full md:w-[280px] h-[220px] md:min-h-[320px] overflow-hidden flex-shrink-0">
                             <img src="assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/30 to-transparent pointer-events-none"></div>
                             <span class="absolute top-4 left-4 bg-green-500 text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-lg flex items-center gap-1.5 glow-badge">
@@ -578,8 +578,8 @@
 
                 <!-- ========= COURSE 2: Mexican Cuisine ========= -->
                 <div class="upcoming-card animate-fade-up" style="animation-delay:0.2s" id="course-mexican">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="relative md:w-[280px] h-[220px] md:h-auto overflow-hidden flex-shrink-0">
+                    <div class="flex flex-col md:flex-row h-full">
+                        <div class="relative w-full md:w-[280px] h-[220px] md:min-h-[320px] overflow-hidden flex-shrink-0">
                             <img src="assets/images/143.jpeg" alt="Authentic Mexican Cuisines" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/30 to-transparent pointer-events-none"></div>
                             <span class="absolute top-4 left-4 bg-red-500 text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-lg flex items-center gap-1.5">
@@ -641,8 +641,8 @@
 
                 <!-- ========= COURSE 3: Lebanese Cuisine Part 1 ========= -->
                 <div class="upcoming-card animate-fade-up" style="animation-delay:0.3s" id="course-lebanese">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="relative md:w-[280px] h-[220px] md:h-auto overflow-hidden flex-shrink-0">
+                    <div class="flex flex-col md:flex-row h-full">
+                        <div class="relative w-full md:w-[280px] h-[220px] md:min-h-[320px] overflow-hidden flex-shrink-0">
                             <img src="assets/images/lebanese-cuisine-hero.png" alt="Lebanese Cuisine Part-1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/30 to-transparent pointer-events-none"></div>
                             <span class="absolute top-4 left-4 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-lg flex items-center gap-1.5">
@@ -704,8 +704,8 @@
 
                 <!-- ========= COURSE 4: Delhi Chaat ========= -->
                 <div class="upcoming-card animate-fade-up" style="animation-delay:0.4s" id="course-delhi-chaat">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="relative md:w-[280px] h-[220px] md:h-auto overflow-hidden flex-shrink-0">
+                    <div class="flex flex-col md:flex-row h-full">
+                        <div class="relative w-full md:w-[280px] h-[220px] md:min-h-[320px] overflow-hidden flex-shrink-0">
                             <img src="assets/images/161.jpeg" alt="Authentic Delhi Chaat" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/30 to-transparent pointer-events-none"></div>
                             <span class="absolute top-4 left-4 bg-amber-500 text-white text-[10px] font-bold uppercase px-3 py-1.5 rounded-full tracking-wide shadow-lg flex items-center gap-1.5 glow-badge">

@@ -1367,29 +1367,14 @@
                         <span class="absolute top-3 left-3 bg-green-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
                             <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span> Seats Open
                         </span>
-                        <!-- Countdown overlay -->
-                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-04-18T11:00:00+05:30">
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
-                            </div>
-                        </div>
                     </div>
                     <div class="p-4">
                         <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Cake Decorating</p>
                         <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Sugar Craft Cake Decorating</h3>
                         <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
-                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 18-19 Apr</span>
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="users" class="w-3 h-3 text-[#fc880d]"></i> 6-7 Seats</span>
                         </div>
                         <a href="/courses/sugar-craft" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
                             Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
@@ -1405,28 +1390,14 @@
                         <span class="absolute top-3 left-3 bg-red-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
                             <i data-lucide="flame" class="w-3 h-3"></i> Popular
                         </span>
-                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-04-25T11:30:00+05:30">
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
-                            </div>
-                        </div>
                     </div>
                     <div class="p-4">
                         <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Mexican Cuisine</p>
                         <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Authentic & Exotic Mexican Cuisines</h3>
                         <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
-                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 25 Apr</span>
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 1 Day</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="utensils" class="w-3 h-3 text-[#fc880d]"></i> 35 Recipes</span>
                         </div>
                         <a href="/courses/mexican" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
                             Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
@@ -1442,28 +1413,14 @@
                         <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
                             <i data-lucide="globe" class="w-3 h-3"></i> Online
                         </span>
-                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-05-02T11:00:00+05:30">
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
-                            </div>
-                        </div>
                     </div>
                     <div class="p-4">
                         <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Lebanese Cuisine</p>
                         <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Online Lebanese Cuisine Part-1</h3>
                         <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
-                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 2 May</span>
                             <span class="flex items-center gap-1"><i data-lucide="monitor-play" class="w-3 h-3 text-[#fc880d]"></i> Online</span>
                             <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹3,000</span>
+                            <span class="flex items-center gap-1"><i data-lucide="book-open" class="w-3 h-3 text-[#fc880d]"></i> 19+ Recipes</span>
                         </div>
                         <a href="/courses/lebanese-1" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
                             Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
@@ -1479,28 +1436,14 @@
                         <span class="absolute top-3 left-3 bg-amber-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
                             <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span> Filling Fast
                         </span>
-                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-05-10T11:30:00+05:30">
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
-                            </div>
-                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
-                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
-                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
-                            </div>
-                        </div>
                     </div>
                     <div class="p-4">
                         <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Street Food</p>
                         <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Authentic Delhi Chaat</h3>
                         <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
-                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 10-11 May</span>
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="utensils" class="w-3 h-3 text-[#fc880d]"></i> 30+ Recipes</span>
                         </div>
                         <a href="/courses/delhi-chaat" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
                             Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
