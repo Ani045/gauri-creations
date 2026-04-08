@@ -679,6 +679,7 @@
                     <a href="/" class="text-[15px] font-semibold text-dark hover:text-[#fc880d] transition-colors">Home</a>
                     <a href="/about" class="text-[15px] font-semibold text-dark hover:text-[#fc880d] transition-colors">About</a>
                     <a href="/courses" class="text-[15px] font-semibold text-dark hover:text-[#fc880d] transition-colors">Courses</a>
+                    <a href="/upcoming-classes" class="text-[15px] font-semibold text-dark hover:text-[#fc880d] transition-colors">Upcoming Classes</a>
                     <a href="/contact" class="text-[15px] font-semibold text-dark hover:text-[#fc880d] transition-colors">Contact</a>
                 </nav>
 
@@ -721,6 +722,7 @@
                     <a href="/" class="ec-mobile-link" style="background: #FFF3E0; color: #fc880d;"><i data-lucide="home" class="w-5 h-5"></i> Home</a>
                     <a href="/about" class="ec-mobile-link"><i data-lucide="info" class="w-5 h-5"></i> About</a>
                     <a href="/courses" class="ec-mobile-link"><i data-lucide="book-open" class="w-5 h-5"></i> Courses</a>
+                    <a href="/upcoming-classes" class="ec-mobile-link"><i data-lucide="calendar-clock" class="w-5 h-5"></i> Upcoming Classes</a>
                     <a href="/contact" class="ec-mobile-link"><i data-lucide="phone" class="w-5 h-5"></i> Contact</a>
                 </div>
                 <div class="ec-mobile-cta" style="display:flex;flex-direction:column;gap:8px;">
@@ -1323,6 +1325,185 @@
                         </div>
                         <a href="/courses/millet-cookies" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-colors inline-flex items-center justify-center gap-2">
                             View Course Details <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="shrink-0 w-4 md:w-8"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== UPCOMING CLASSES SECTION ===== -->
+    <section id="upcoming-classes" class="py-12 md:py-16 relative overflow-hidden" style="background: linear-gradient(135deg, #1a1a2e 0%, #222222 50%, #16213e 100%);">
+        <!-- Subtle background effects -->
+        <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-[#fc880d]/8 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-[#fc880d]/6 rounded-full blur-3xl pointer-events-none translate-y-1/3 -translate-x-1/3"></div>
+
+        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
+            <!-- Header -->
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
+                <div>
+                    <span class="inline-flex items-center gap-2 bg-[#fc880d]/15 text-[#fc880d] font-bold tracking-widest uppercase text-xs px-4 py-2 rounded-full mb-3 backdrop-blur-sm border border-[#fc880d]/20">
+                        <i data-lucide="calendar-clock" class="w-3.5 h-3.5"></i> Coming Soon
+                    </span>
+                    <h2 class="font-serif text-3xl md:text-4xl text-white font-bold tracking-tight">Upcoming <span class="text-[#fc880d]">Classes</span></h2>
+                    <p class="text-white/50 text-sm mt-1">Reserve your seat — limited spots available in every batch</p>
+                </div>
+                <a href="/upcoming-classes" class="inline-flex items-center gap-2 bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold px-6 py-3 rounded-full text-sm shadow-[0_4px_20px_rgba(252,136,13,0.3)] hover:shadow-[0_6px_28px_rgba(252,136,13,0.4)] transition-all hover:-translate-y-0.5">
+                    View All Upcoming <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <!-- Upcoming Class Cards — Horizontal Scroll -->
+            <div class="flex overflow-x-auto gap-5 md:gap-6 snap-x snap-mandatory hide-scroll-bar scroll-smooth pb-6" id="upcoming-slider">
+
+                <!-- Upcoming Card 1: Sugar Craft -->
+                <div class="min-w-[320px] w-[320px] md:min-w-[360px] md:w-[360px] snap-start shrink-0 bg-white/[0.06] backdrop-blur-md rounded-2xl border border-white/10 hover:border-[#fc880d]/40 transition-all duration-400 group overflow-hidden hover:bg-white/[0.09] hover:-translate-y-1">
+                    <div class="relative overflow-hidden h-[180px]">
+                        <img src="assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Cake Decorating" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-green-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span> Seats Open
+                        </span>
+                        <!-- Countdown overlay -->
+                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-04-18T11:00:00+05:30">
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Cake Decorating</p>
+                        <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Sugar Craft Cake Decorating</h3>
+                        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 18-19 Apr</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                        <a href="/courses/sugar-craft" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
+                            Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Upcoming Card 2: Mexican -->
+                <div class="min-w-[320px] w-[320px] md:min-w-[360px] md:w-[360px] snap-start shrink-0 bg-white/[0.06] backdrop-blur-md rounded-2xl border border-white/10 hover:border-[#fc880d]/40 transition-all duration-400 group overflow-hidden hover:bg-white/[0.09] hover:-translate-y-1">
+                    <div class="relative overflow-hidden h-[180px]">
+                        <img src="assets/images/143.jpeg" alt="Authentic Mexican Cuisines" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-red-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
+                            <i data-lucide="flame" class="w-3 h-3"></i> Popular
+                        </span>
+                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-04-25T11:30:00+05:30">
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Mexican Cuisine</p>
+                        <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Authentic & Exotic Mexican Cuisines</h3>
+                        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 25 Apr</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 1 Day</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                        <a href="/courses/mexican" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
+                            Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Upcoming Card 3: Lebanese -->
+                <div class="min-w-[320px] w-[320px] md:min-w-[360px] md:w-[360px] snap-start shrink-0 bg-white/[0.06] backdrop-blur-md rounded-2xl border border-white/10 hover:border-[#fc880d]/40 transition-all duration-400 group overflow-hidden hover:bg-white/[0.09] hover:-translate-y-1">
+                    <div class="relative overflow-hidden h-[180px]">
+                        <img src="assets/images/lebanese-cuisine-hero.png" alt="Lebanese Cuisine Part-1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
+                            <i data-lucide="globe" class="w-3 h-3"></i> Online
+                        </span>
+                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-05-02T11:00:00+05:30">
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Lebanese Cuisine</p>
+                        <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Online Lebanese Cuisine Part-1</h3>
+                        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 2 May</span>
+                            <span class="flex items-center gap-1"><i data-lucide="monitor-play" class="w-3 h-3 text-[#fc880d]"></i> Online</span>
+                            <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-[#fc880d]"></i> ₹3,000</span>
+                        </div>
+                        <a href="/courses/lebanese-1" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
+                            Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Upcoming Card 4: Delhi Chaat -->
+                <div class="min-w-[320px] w-[320px] md:min-w-[360px] md:w-[360px] snap-start shrink-0 bg-white/[0.06] backdrop-blur-md rounded-2xl border border-white/10 hover:border-[#fc880d]/40 transition-all duration-400 group overflow-hidden hover:bg-white/[0.09] hover:-translate-y-1">
+                    <div class="relative overflow-hidden h-[180px]">
+                        <img src="assets/images/161.jpeg" alt="Authentic Delhi Chaat" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+                        <span class="absolute top-3 left-3 bg-amber-500 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full tracking-wide shadow-md flex items-center gap-1.5">
+                            <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span> Filling Fast
+                        </span>
+                        <div class="absolute bottom-3 left-3 right-3 flex gap-2 uc-countdown" data-date="2026-05-10T11:30:00+05:30">
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-days text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Days</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-hours text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Hrs</span>
+                            </div>
+                            <div class="flex-1 bg-black/50 backdrop-blur-sm rounded-lg py-1.5 text-center border border-white/10">
+                                <span class="uc-mins text-white font-bold text-sm block leading-none">--</span>
+                                <span class="text-white/50 text-[8px] uppercase tracking-widest">Min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-[10px] text-[#fc880d] font-semibold uppercase tracking-wider mb-1">Street Food</p>
+                        <h3 class="font-bold text-white text-[15px] mb-2 leading-tight">Authentic Delhi Chaat</h3>
+                        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mb-3 text-[11px] text-white/50">
+                            <span class="flex items-center gap-1"><i data-lucide="calendar" class="w-3 h-3 text-[#fc880d]"></i> 10-11 May</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                        <a href="/courses/delhi-chaat" class="w-full bg-[#fc880d] hover:bg-[#e27a0c] text-white font-semibold py-2.5 rounded-xl text-sm transition-all inline-flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(252,136,13,0.25)]">
+                            Book Your Seat <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
                 </div>
@@ -2090,6 +2271,36 @@
             content.classList.toggle('hidden');
             if (icon) icon.style.transform = content.classList.contains('hidden') ? '' : 'rotate(180deg)';
         }
+
+        // ===== UPCOMING CLASSES COUNTDOWN =====
+        function updateUpcomingCountdowns() {
+            document.querySelectorAll('.uc-countdown').forEach(timer => {
+                const target = new Date(timer.dataset.date).getTime();
+                const now = Date.now();
+                const diff = target - now;
+
+                const daysEl = timer.querySelector('.uc-days');
+                const hoursEl = timer.querySelector('.uc-hours');
+                const minsEl = timer.querySelector('.uc-mins');
+
+                if (diff <= 0) {
+                    if (daysEl) daysEl.textContent = '0';
+                    if (hoursEl) hoursEl.textContent = '0';
+                    if (minsEl) minsEl.textContent = '0';
+                    return;
+                }
+
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+                if (daysEl) daysEl.textContent = days;
+                if (hoursEl) hoursEl.textContent = hours;
+                if (minsEl) minsEl.textContent = mins;
+            });
+        }
+        updateUpcomingCountdowns();
+        setInterval(updateUpcomingCountdowns, 60000);
     </script>
 
     <!-- Footer -->
