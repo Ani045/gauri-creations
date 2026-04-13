@@ -36,6 +36,18 @@
                             onclick="switchImg(this, '/assets/images/tea-time-cakes.png')">
                             <img src="/assets/images/tea-time-cakes.png" alt="Tea Time Cakes" class="w-full h-full object-cover">
                         </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/tea-time-cakes-2.png')">
+                            <img src="/assets/images/tea-time-cakes-2.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/tea-time-cakes-3.png')">
+                            <img src="/assets/images/tea-time-cakes-3.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/tea-time-cakes-4.png')">
+                            <img src="/assets/images/tea-time-cakes-4.png" alt="" class="w-full h-full object-cover">
+                        </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
                         <img id="mainImg" src="/assets/images/tea-time-cakes.png" alt="Tea Time Dry Healthy Cakes"

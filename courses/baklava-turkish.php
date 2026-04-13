@@ -36,6 +36,18 @@
                             onclick="switchImg(this, '/assets/images/baklava-turkish.png')">
                             <img src="/assets/images/baklava-turkish.png" alt="Turkish Baklava" class="w-full h-full object-cover">
                         </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/baklava-turkish-2.png')">
+                            <img src="/assets/images/baklava-turkish-2.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/baklava-turkish-3.png')">
+                            <img src="/assets/images/baklava-turkish-3.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/baklava-turkish-4.png')">
+                            <img src="/assets/images/baklava-turkish-4.png" alt="" class="w-full h-full object-cover">
+                        </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
                         <img id="mainImg" src="/assets/images/baklava-turkish.png" alt="Baklava & Turkish Desserts"

@@ -37,6 +37,18 @@
                             onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy.png')">
                             <img src="/assets/images/chocolate-lollipop-candy.png" alt="Chocolate Lollipop" class="w-full h-full object-cover">
                         </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-2.png')">
+                            <img src="/assets/images/chocolate-lollipop-candy-2.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-3.png')">
+                            <img src="/assets/images/chocolate-lollipop-candy-3.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-4.png')">
+                            <img src="/assets/images/chocolate-lollipop-candy-4.png" alt="" class="w-full h-full object-cover">
+                        </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
                         <img id="mainImg" src="/assets/images/chocolate-lollipop-candy.png" alt="Chocolate Lollipop & Candy Treats"
