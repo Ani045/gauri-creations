@@ -147,77 +147,13 @@
             <!-- Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="courses-grid">
 
-                <a href="/courses/chocolate-lollipop" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
-                    <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/choco_lollipop_2_1776079166490.png" alt="Chocolate Lollipop & Candy" class="card-img w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#eab308] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
-                    </div>
-                    <div class="p-4 pb-5">
-                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Chocolate Making</p>
-                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Chocolate Lollipop & Candy Treats</h3>
-                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">43 Chocolate Varieties — Fruit & Nut, Marzipan, Center Filled Truffle, and many more.</p>
-                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
-                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5:00 PM</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
-                        </div>
-                    </div>
-                </a>
 
-                <a href="/courses/veg-snacks" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="chaat">
-                    <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/veg_snacks_1_1776079312785.png" alt="Veg Snacks & Starters" class="card-img w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Vegetarian</span>
-                    </div>
-                    <div class="p-4 pb-5">
-                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Snacks & Starters</p>
-                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Veg Snacks, Starters & Dips</h3>
-                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Learn to master 13 delicious snacks & 5 special dips — Paneer Poppers, Schezwan Fingers & more.</p>
-                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
-                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11 AM – 5:30 PM</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
-                        </div>
-                    </div>
-                </a>
 
-                <a href="/courses/chocolate-truffle-cake" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
-                    <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/truffle_cake_1_1776079412900.png" alt="Chocolate Truffle Cake" class="card-img w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Masterclass</span>
-                    </div>
-                    <div class="p-4 pb-5">
-                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cake Baking</p>
-                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Chocolate Truffle Cake Class</h3>
-                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">5 Yummy variants with silkiest truffle frosting, sharp edges, and professional garnishing.</p>
-                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
-                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 1 Day</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
-                        </div>
-                    </div>
-                </a>
 
-                <a href="/courses/baklava-turkish" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
-                    <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/baklava_1_1776079377771.png" alt="Baklava & Turkish Desserts" class="card-img w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-                        <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Online</span>
-                    </div>
-                    <div class="p-4 pb-5">
-                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Middle Eastern</p>
-                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Baklava & Turkish Desserts Workshop</h3>
-                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">15 Varieties of traditional desserts, eggless phyllo sheet making, storage and more.</p>
-                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
-                            <span class="flex items-center gap-1"><i data-lucide="monitor-play" class="w-3 h-3 text-[#fc880d]"></i> Online</span>
-                            <span class="flex items-center gap-1"><i data-lucide="award" class="w-3 h-3 text-[#fc880d]"></i> Sugar-Free & Vegan</span>
-                        </div>
-                    </div>
-                </a>
 
                 <a href="/courses/tea-time-cakes" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
                     <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Tea Time Cakes" class="card-img w-full h-full object-cover">
+                        <img src="/assets/images/tea-time-cakes.png" alt="Tea Time Cakes" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Healthy</span>
                     </div>
@@ -403,21 +339,6 @@
                     </div>
                 </a>
 
-                <a href="/courses/tea-cakes" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
-                    <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Super Soft Healthy Time Cakes" class="card-img w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-                    </div>
-                    <div class="p-4 pb-5">
-                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Tea Cakes</p>
-                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Super Soft Healthy Tea Cakes</h3>
-                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Eggless tea cakes with different flavors — moist, fluffy and incredibly easy.</p>
-                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
-                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
-                        </div>
-                    </div>
-                </a>
 
                 <a href="/courses/bread-baking" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="bread">
                     <div class="relative overflow-hidden aspect-[4/3]">
@@ -606,6 +527,90 @@
                         <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cookies & Biscuits</p>
                         <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">4-in-1 Gourmet Millet Cookies Masterclass</h3>
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Millet Cookies + Classic Cookies + Centre-Filled Gooey Cookies + Cookie Tins. No Maida, No Atta!</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/chocolate-lollipop" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+    <img src="/assets/images/choco_lollipop_2_1776079166490.png" alt="Chocolate Lollipop & Candy" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-[#eab308] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Chocolate Making</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Chocolate Lollipop & Candy Treats</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">43 Chocolate Varieties — Fruit & Nut, Marzipan, Center Filled Truffle, and many more.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5:00 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/veg-snacks" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="chaat">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+    <img src="/assets/images/veg_snacks_1_1776079312785.png" alt="Veg Snacks & Starters" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Vegetarian</span>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Snacks & Starters</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Veg Snacks, Starters & Dips</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Learn to master 13 delicious snacks & 5 special dips — Paneer Poppers, Schezwan Fingers & more.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11 AM – 5:30 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/chocolate-truffle-cake" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+    <img src="/assets/images/truffle_cake_1_1776079412900.png" alt="Chocolate Truffle Cake" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Masterclass</span>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Cake Baking</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Chocolate Truffle Cake Class</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">5 Yummy variants with silkiest truffle frosting, sharp edges, and professional garnishing.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 1 Day</span>
+                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/baklava-turkish" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+    <img src="/assets/images/baklava_1_1776079377771.png" alt="Baklava & Turkish Desserts" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Online</span>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Middle Eastern</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Baklava & Turkish Desserts Workshop</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">15 Varieties of traditional desserts, eggless phyllo sheet making, storage and more.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="monitor-play" class="w-3 h-3 text-[#fc880d]"></i> Online</span>
+                            <span class="flex items-center gap-1"><i data-lucide="award" class="w-3 h-3 text-[#fc880d]"></i> Sugar-Free & Vegan</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/courses/tea-cakes" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Super Soft Healthy Time Cakes" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Tea Cakes</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Super Soft Healthy Tea Cakes</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Eggless tea cakes with different flavors — moist, fluffy and incredibly easy.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                             <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
