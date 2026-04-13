@@ -54,4 +54,14 @@
         .ec-mobile-link:hover { background: #FFF3E0; }
         .ec-mobile-link i { color: #fc880d; }
         .ec-mobile-cta { padding: 16px 20px; border-top: 1px solid #eee; }
+        .ec-cat-bar { background: #222; overflow: hidden; }
+        .ec-cat-inner { max-width: 1400px; margin: 0 auto; display: flex; align-items: center; gap: 0; padding: 0 24px; overflow-x: auto; scrollbar-width: none; }
+        .ec-cat-inner::-webkit-scrollbar { display: none; }
+        .ec-cat-link { color: #ddd; font-size: 13px; font-weight: 500; padding: 12px 20px; white-space: nowrap; transition: color 0.2s, background 0.2s; position: relative; text-decoration: none; letter-spacing: 0.02em; }
+        .ec-cat-link:hover, .ec-cat-link.active { color: #fc880d; background: rgba(252, 136, 13, 0.08); }
+        .ec-cat-link::after { content: ''; position: absolute; bottom: 0; left: 20px; right: 20px; height: 2px; background: #fc880d; transform: scaleX(0); transition: transform 0.3s; }
+        .ec-cat-link:hover::after, .ec-cat-link.active::after { transform: scaleX(1); }
+        .ec-cat-all { display: flex; align-items: center; gap: 8px; color: #fff; font-weight: 600; font-size: 13px; padding: 12px 20px; background: #fc880d; cursor: pointer; white-space: nowrap; transition: background 0.2s; text-decoration: none; }
+        .ec-cat-all:hover { background: #e27a0c; }
+        @media (max-width: 768px) { .ec-cat-bar { display: none; } }
     </style>

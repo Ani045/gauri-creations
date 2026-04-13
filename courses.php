@@ -149,7 +149,7 @@
 
                 <a href="/courses/chocolate-lollipop" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/chocolate-lollipop-candy.png" alt="Chocolate Lollipop & Candy" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/choco_lollipop_2_1776079166490.png" alt="Chocolate Lollipop & Candy" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#eab308] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
                     </div>
@@ -166,7 +166,7 @@
 
                 <a href="/courses/veg-snacks" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="chaat">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/veg-snacks-dips.png" alt="Veg Snacks & Starters" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/veg_snacks_1_1776079312785.png" alt="Veg Snacks & Starters" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Vegetarian</span>
                     </div>
@@ -183,7 +183,7 @@
 
                 <a href="/courses/chocolate-truffle-cake" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/chocolate-truffle-cake.png" alt="Chocolate Truffle Cake" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/truffle_cake_1_1776079412900.png" alt="Chocolate Truffle Cake" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Masterclass</span>
                     </div>
@@ -200,7 +200,7 @@
 
                 <a href="/courses/baklava-turkish" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/baklava-turkish.png" alt="Baklava & Turkish Desserts" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/baklava_1_1776079377771.png" alt="Baklava & Turkish Desserts" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#9333ea] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Online</span>
                     </div>
@@ -217,7 +217,7 @@
 
                 <a href="/courses/tea-time-cakes" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/tea-time-cakes.png" alt="Tea Time Cakes" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Tea Time Cakes" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#16a34a] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Healthy</span>
                     </div>
@@ -405,7 +405,7 @@
 
                 <a href="/courses/tea-cakes" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/tea-cakes-1.jpeg" alt="Super Soft Healthy Time Cakes" class="card-img w-full h-full object-cover">
+                        <img src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Super Soft Healthy Time Cakes" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                     </div>
                     <div class="p-4 pb-5">

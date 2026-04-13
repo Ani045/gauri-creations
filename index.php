@@ -1685,7 +1685,7 @@
 
                 <!-- 10. Tea Cakes -->
                 <div class="rounded-2xl overflow-hidden group relative">
-                    <img src="assets/images/tea-cakes-1.jpeg" alt="Tea Cakes course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <img src="assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Tea Cakes course" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span class="absolute bottom-3 left-3 text-white text-xs font-bold bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">Tea Cakes</span>
                 </div>
