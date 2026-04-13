@@ -42,12 +42,12 @@
                             <img src="/assets/images/choco_lollipop_3_1776079190026.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-3.png')">
-                            <img src="/assets/images/chocolate-lollipop-candy-3.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/choco_lollipop_5_1776084449878.png')">
+                            <img src="/assets/images/choco_lollipop_5_1776084449878.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-4.png')">
-                            <img src="/assets/images/chocolate-lollipop-candy-4.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/choco_lollipop_6_1776084383395.png')">
+                            <img src="/assets/images/choco_lollipop_6_1776084383395.png" alt="" class="w-full h-full object-cover">
                         </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">

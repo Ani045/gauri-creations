@@ -41,12 +41,12 @@
                             <img src="/assets/images/truffle_cake_2_1776079360859.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/chocolate-truffle-cake-3.png')">
-                            <img src="/assets/images/chocolate-truffle-cake-3.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/truffle_cake_3_1776084487722.png')">
+                            <img src="/assets/images/truffle_cake_3_1776084487722.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/chocolate-truffle-cake-4.png')">
-                            <img src="/assets/images/chocolate-truffle-cake-4.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/truffle_cake_4_1776084504301.png')">
+                            <img src="/assets/images/truffle_cake_4_1776084504301.png" alt="" class="w-full h-full object-cover">
                         </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
