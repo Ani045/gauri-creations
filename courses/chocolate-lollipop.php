@@ -34,12 +34,12 @@
                 <div class="flex flex-col-reverse sm:flex-row gap-3">
                     <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
                         <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100"
-                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy.png')">
-                            <img src="/assets/images/chocolate-lollipop-candy.png" alt="Chocolate Lollipop" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/choco_lollipop_2_1776079166490.png')">
+                            <img src="/assets/images/choco_lollipop_2_1776079166490.png" alt="Chocolate Lollipop" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-2.png')">
-                            <img src="/assets/images/chocolate-lollipop-candy-2.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/choco_lollipop_3_1776079190026.png')">
+                            <img src="/assets/images/choco_lollipop_3_1776079190026.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
                             onclick="switchImg(this, '/assets/images/chocolate-lollipop-candy-3.png')">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img id="mainImg" src="/assets/images/chocolate-lollipop-candy.png" alt="Chocolate Lollipop & Candy Treats"
+                        <img id="mainImg" src="/assets/images/choco_lollipop_2_1776079166490.png" alt="Chocolate Lollipop & Candy Treats"
                             class="w-full h-full object-cover object-center">
                     </div>
                 </div>

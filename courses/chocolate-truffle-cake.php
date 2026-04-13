@@ -33,12 +33,12 @@
                 <div class="flex flex-col-reverse sm:flex-row gap-3">
                     <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
                         <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100"
-                            onclick="switchImg(this, '/assets/images/chocolate-truffle-cake.png')">
-                            <img src="/assets/images/chocolate-truffle-cake.png" alt="Chocolate Truffle Cake" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/truffle_cake_1_1776079412900.png')">
+                            <img src="/assets/images/truffle_cake_1_1776079412900.png" alt="Chocolate Truffle Cake" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/chocolate-truffle-cake-2.png')">
-                            <img src="/assets/images/chocolate-truffle-cake-2.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/truffle_cake_2_1776079360859.png')">
+                            <img src="/assets/images/truffle_cake_2_1776079360859.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
                             onclick="switchImg(this, '/assets/images/chocolate-truffle-cake-3.png')">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img id="mainImg" src="/assets/images/chocolate-truffle-cake.png" alt="Chocolate Truffle Cake"
+                        <img id="mainImg" src="/assets/images/truffle_cake_1_1776079412900.png" alt="Chocolate Truffle Cake"
                             class="w-full h-full object-cover object-center">
                     </div>
                 </div>

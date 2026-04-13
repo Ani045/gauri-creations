@@ -33,12 +33,12 @@
                 <div class="flex flex-col-reverse sm:flex-row gap-3">
                     <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
                         <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100"
-                            onclick="switchImg(this, '/assets/images/veg-snacks-dips.png')">
-                            <img src="/assets/images/veg-snacks-dips.png" alt="Veg Snacks" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/veg_snacks_1_1776079312785.png')">
+                            <img src="/assets/images/veg_snacks_1_1776079312785.png" alt="Veg Snacks" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
-                            onclick="switchImg(this, '/assets/images/veg-snacks-dips-2.png')">
-                            <img src="/assets/images/veg-snacks-dips-2.png" alt="" class="w-full h-full object-cover">
+                            onclick="switchImg(this, '/assets/images/veg_snacks_2_1776079329633.png')">
+                            <img src="/assets/images/veg_snacks_2_1776079329633.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
                             onclick="switchImg(this, '/assets/images/veg-snacks-dips-3.png')">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img id="mainImg" src="/assets/images/veg-snacks-dips.png" alt="Veg Snacks"
+                        <img id="mainImg" src="/assets/images/veg_snacks_1_1776079312785.png" alt="Veg Snacks"
                             class="w-full h-full object-cover object-center">
                     </div>
                 </div>

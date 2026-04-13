@@ -33,11 +33,11 @@
                 <div class="flex flex-col-reverse sm:flex-row gap-3">
                     <!-- Thumbnail strip -->
                     <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
-                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/tea-cakes-1.jpeg')">
-                            <img src="/assets/images/tea-cakes-1.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100" onclick="switchImg(this, '/assets/images/healthy_tea_cakes_1_1776079433142.png')">
+                            <img src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="" class="w-full h-full object-cover">
                         </div>
-                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/tea-cakes-2.jpeg')">
-                            <img src="/assets/images/tea-cakes-2.jpeg" alt="" class="w-full h-full object-cover">
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/healthy_tea_cakes_2_1776079489359.png')">
+                            <img src="/assets/images/healthy_tea_cakes_2_1776079489359.png" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60" onclick="switchImg(this, '/assets/images/tea-cakes-3.jpeg')">
                             <img src="/assets/images/tea-cakes-3.jpeg" alt="" class="w-full h-full object-cover">
@@ -51,7 +51,7 @@
                     </div>
                     <!-- Main image -->
                     <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img id="mainImg" src="/assets/images/tea-cakes-1.jpeg" alt="Super Soft Healthy Time Cakes" class="w-full h-full object-cover object-center">
+                        <img id="mainImg" src="/assets/images/healthy_tea_cakes_1_1776079433142.png" alt="Super Soft Healthy Time Cakes" class="w-full h-full object-cover object-center">
                     </div>
                 </div>
 
