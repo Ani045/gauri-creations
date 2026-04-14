@@ -186,56 +186,51 @@ With multiple layers of lip smacking taste and exotic contours of light, flaky &
                     <p>✅ ✨ And many more bakery favourites!</p>
                 </div>
 
-                <div class="break-inside-avoid mb-6">
-                    <p>*Learn in professional way as bakeries do...</p>
-                    <p>*Learn in healthier way without using unhealthy fat n with wheat flour too...</p>
-                    <p>#Learn varieties of delicacies using the puff pastry sheets...</p>
-                    <p>#It can be Frozen for 2 months n just thaw it, unroll cut fill n bake whenever you want...</p>
-                </div>
+
 
                 <div class="break-inside-avoid mb-6">
                     <p class="font-bold pb-1">#Varieties of khari -</p>
-                    <p>*Classic khari</p>
-                    <p>*Jeera khari</p>
-                    <p>*Twisted khari</p>
-                    <p>*Wheat khari</p>
-                    <p>*Punjabi khari</p>
-                    <p>*Stuff khari</p>
-                    <p>*Blueberry khari</p>
+                    <p>✅ Classic khari</p>
+                    <p>✅ Jeera khari</p>
+                    <p>✅ Twisted khari</p>
+                    <p>✅ Wheat khari</p>
+                    <p>✅ Punjabi khari</p>
+                    <p>✅ Stuff khari</p>
+                    <p>✅ Blueberry khari</p>
                 </div>
 
                 <div class="break-inside-avoid mb-6">
                     <p class="font-bold pb-1">#Varieties of puffs -</p>
-                    <p>*Potato Patties</p>
-                    <p>*Veg Chinese puff</p>
-                    <p>*Cheesy Italian puff</p>
-                    <p>*Paneer ring puff</p>
-                    <p>*Mushroom Parcel puff...</p>
+                    <p>✅ Potato Patties</p>
+                    <p>✅ Veg Chinese puff</p>
+                    <p>✅ Cheesy Italian puff</p>
+                    <p>✅ Paneer ring puff</p>
+                    <p>✅ Mushroom Parcel puff...</p>
                 </div>
 
                 <div class="break-inside-avoid mb-6">
                     <p class="font-bold pb-1">#Sticks n Straws -</p>
-                    <p>*Cheesy straws</p>
-                    <p>*Cinnamon sticks</p>
-                    <p>*Peri-Peri sticks</p>
-                    <p>*Italian herb sticks</p>
-                    <p>*Chilli garlic sticks</p>
+                    <p>✅ Cheesy straws</p>
+                    <p>✅ Cinnamon sticks</p>
+                    <p>✅ Peri-Peri sticks</p>
+                    <p>✅ Italian herb sticks</p>
+                    <p>✅ Chilli garlic sticks</p>
                 </div>
 
                 <div class="break-inside-avoid mb-6">
                     <p class="font-bold pb-1">#Cream Roll -</p>
-                    <p>*Vanilla</p>
-                    <p>*Chocolate</p>
-                    <p>*Strawberry</p>
-                    <p>*Pineapple...</p>
+                    <p>✅ Vanilla</p>
+                    <p>✅ Chocolate</p>
+                    <p>✅ Strawberry</p>
+                    <p>✅ Pineapple...</p>
                 </div>
                 
                 <div class="break-inside-avoid mb-6">
-                    <p>*Sweet n Crunchy French Palmiers</p>
-                    <p>*Glazed puff pastry apple roses</p>
-                    <p>*Pepperoni pizza puffs</p>
-                    <p>*Chocolate Croissant</p>
-                    <p>*Strawberry mille feuille</p>
+                    <p>✅ Sweet n Crunchy French Palmiers</p>
+                    <p>✅ Glazed puff pastry apple roses</p>
+                    <p>✅ Pepperoni pizza puffs</p>
+                    <p>✅ Chocolate Croissant</p>
+                    <p>✅ Strawberry mille feuille</p>
                 </div>
             </div>
         </div>
