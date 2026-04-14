@@ -536,7 +536,7 @@
 
                 <a href="/courses/chocolate-lollipop" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
                     <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/choco_lollipop_2_1776079166490.png" alt="Chocolate Lollipop & Candy" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/301.jpeg" alt="Chocolate Lollipop & Candy" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-[#eab308] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
                     </div>
