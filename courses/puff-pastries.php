@@ -93,10 +93,9 @@
                     <!-- Title -->
                     <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Exotic Puff
                         Pastry & Cream Horn Masterclass</h1>
-                    <p class="text-muted text-[14px] leading-relaxed mb-5">🥐✨ Master the Art of Flaky, Buttery &
-                        Irresistible Puff Pastries! Layers of crisp perfection, melt-in-mouth texture, and bakery-style
-                        elegance — learn to create stunning sweet & savoury delights professionally. From golden khari
-                        to chocolate croissants, this class is a dream for every baking foodie!</p>
+                    <p class="text-muted text-[14px] leading-relaxed mb-5 whitespace-pre-line">With multiple layers of lip smacking taste and exotic contours of light, flaky & tender sweet & savoury Eggless puff pastries and cream horns for every foodies fantasy....
+....It's All About
+#Learn to make perfect Laminated Dough with right techniques n in different ways...</p>
 
                     <!-- Duration & Timings -->
                     <div class="grid grid-cols-2 gap-3 mb-5">
@@ -131,25 +130,13 @@
                     <!-- What's Included -->
                     <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What Makes This Class
                         Special?</p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 mb-6 text-[13px]">
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Learn Perfect Laminated Dough</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Professional bakery techniques</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Healthier fat & flour options</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Freeze & store dough for 2
-                            months</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 1 Dough, multiple premium
-                            creations</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Printed Notes Provided</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Lunch & Refreshments</span>
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check"
-                                class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Samples + Box Provided</span>
+                    <div class="grid grid-cols-1 gap-y-2 mb-6 text-[13px]">
+                        <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>100% pure vegetarian</span>
+                        <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>Set of printed notes will be provided</span>
+                        <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>Refreshment & lunch included</span>
+                        <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>All samples provided</span>
+                        <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>Box will be provided</span>
+                        <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>Partially hands on class</span>
                     </div>
 
                     <!-- CTA -->
@@ -178,15 +165,46 @@
                 <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">Premium
                     Creations</span>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2.5 text-[14px] text-dark">
-                <p>✅ 🥐 Khari Varieties</p>
-                <p>✅ 🥟 Veg & Cheese Puffs</p>
-                <p>✅ 🧀 Flavoured Sticks & Straws</p>
-                <p>✅ 🍦 Cream Rolls (Vanilla, Chocolate, Strawberry & Pineapple)</p>
-                <p>✅ 🍫 Chocolate Croissants</p>
-                <p>✅ 🍓 Strawberry Mille Feuille</p>
-                <p>✅ 🍎 Apple Roses</p>
-                <p>✅ ✨ And many more bakery favourites!</p>
+            <div class="space-y-1.5 text-[14px] text-dark">
+                <p>*Learn in professional way as bakeries do...</p>
+                <p>*Learn in healthier way without using unhealthy fat n with wheat flour too...</p>
+                <p>#Learn varieties of delicacies using the puff pastry sheets...</p>
+                <p>#It can be Frozen for 2 months n just thaw it, unroll cut fill n bake whenever you want...</p>
+
+                <p class="font-bold pt-3 pb-1">#Varieties of khari -</p>
+                <p>*Classic khari</p>
+                <p>*Jeera khari</p>
+                <p>*Twisted khari</p>
+                <p>*Wheat khari</p>
+                <p>*Punjabi khari</p>
+                <p>*Stuff khari</p>
+                <p>*Blueberry khari</p>
+
+                <p class="font-bold pt-3 pb-1">#Varieties of puffs -</p>
+                <p>*Potato Patties</p>
+                <p>*Veg Chinese puff</p>
+                <p>*Cheesy Italian puff</p>
+                <p>*Paneer ring puff</p>
+                <p>*Mushroom Parcel puff...</p>
+
+                <p class="font-bold pt-3 pb-1">#Sticks n Straws -</p>
+                <p>*Cheesy straws</p>
+                <p>*Cinnamon sticks</p>
+                <p>*Peri-Peri sticks</p>
+                <p>*Italian herb sticks</p>
+                <p>*Chilli garlic sticks</p>
+
+                <p class="font-bold pt-3 pb-1">#Cream Roll -</p>
+                <p>*Vanilla</p>
+                <p>*Chocolate</p>
+                <p>*Strawberry</p>
+                <p>*Pineapple...</p>
+                
+                <p class="pt-3">*Sweet n Crunchy French Palmiers</p>
+                <p>*Glazed puff pastry apple roses</p>
+                <p>*Pepperoni pizza puffs</p>
+                <p>*Chocolate Croissant</p>
+                <p>*Strawberry mille feuille</p>
             </div>
         </div>
     </section>
