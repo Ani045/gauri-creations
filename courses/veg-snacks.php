@@ -72,10 +72,10 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
-                            <i data-lucide="map-pin" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <i data-lucide="calendar-days" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
                             <div>
-                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Venue</p>
-                                <p class="text-sm text-dark font-bold">Gurgaon</p>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Duration</p>
+                                <p class="text-sm text-dark font-bold">2 Days</p>
                             </div>
                         </div>
                     </div>
