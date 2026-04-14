@@ -131,7 +131,7 @@
                 <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Course Content</h2>
                 <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">21 Recipes</span>
             </div>
-            <div class="space-y-2.5 text-[14px] text-dark">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2.5 text-[14px] text-dark">
                 <p>✅ Home Made Lasagna & Pasta</p>
                 <p>✅ Dough for Lasagna</p>
                 <p>✅ Farfalle Pasta in Basil Pesto Sauce</p>
