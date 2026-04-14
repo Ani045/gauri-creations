@@ -93,7 +93,11 @@
                     <!-- Title -->
                     <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Exotic Puff
                         Pastry & Cream Horn Masterclass</h1>
-                    <p class="text-muted text-[14px] leading-relaxed mb-5 whitespace-pre-line">With multiple layers of lip smacking taste and exotic contours of light, flaky & tender sweet & savoury Eggless puff pastries and cream horns for every foodies fantasy....
+                    <p class="text-muted text-[14px] leading-relaxed mb-5 whitespace-pre-line">🥐✨ Master the Art of Flaky, Buttery & Irresistible Puff Pastries!
+Layers of crisp perfection, melt-in-mouth texture, and bakery-style elegance — join our 2 Days Exotic Puff Pastry & Cream Horn Masterclass and learn to create stunning sweet & savoury delights professionally.
+From golden khari to stuffed patties, cheesy straws, chocolate croissants, cream rolls & French palmiers — this class is a dream for every foodie and baking lover 💫
+
+With multiple layers of lip smacking taste and exotic contours of light, flaky & tender sweet & savoury Eggless puff pastries and cream horns for every foodies fantasy....
 ....It's All About
 #Learn to make perfect Laminated Dough with right techniques n in different ways...</p>
 
@@ -130,7 +134,12 @@
                     <!-- What's Included -->
                     <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What Makes This Class
                         Special?</p>
-                    <div class="grid grid-cols-1 gap-y-2 mb-6 text-[13px]">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 mb-6 text-[13px]">
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Learn Perfect Laminated Dough</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Professional bakery techniques</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Healthier fat & flour options</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Freeze & store dough for 2 months</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 1 Dough, multiple premium creations</span>
                         <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>100% pure vegetarian</span>
                         <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>Set of printed notes will be provided</span>
                         <span class="flex gap-2 text-muted"><span class="shrink-0 text-[#16a34a]">#</span>Refreshment & lunch included</span>
@@ -165,6 +174,19 @@
                 <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">Premium
                     Creations</span>
             </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2.5 text-[14px] text-dark mb-8">
+                <p>✅ 🥐 Khari Varieties</p>
+                <p>✅ 🥟 Veg & Cheese Puffs</p>
+                <p>✅ 🧀 Flavoured Sticks & Straws</p>
+                <p>✅ 🍦 Cream Rolls (Vanilla, Chocolate, Strawberry & Pineapple)</p>
+                <p>✅ 🍫 Chocolate Croissants</p>
+                <p>✅ 🍓 Strawberry Mille Feuille</p>
+                <p>✅ 🍎 Apple Roses</p>
+                <p>✅ ✨ And many more bakery favourites!</p>
+            </div>
+
+            <div class="max-w-[1200px] border-t border-[#EDE4D8] mb-8 pt-8"></div>
+
             <div class="space-y-1.5 text-[14px] text-dark">
                 <p>*Learn in professional way as bakeries do...</p>
                 <p>*Learn in healthier way without using unhealthy fat n with wheat flour too...</p>
