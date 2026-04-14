@@ -7,6 +7,9 @@
     <style>
         .ci { transition: all 0.2s; }
         .ci:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(252,136,13,0.1); }
+        .thumb { cursor: pointer; transition: all 0.2s; }
+        .thumb:hover { opacity: 0.9 !important; }
+        .thumb.active { border-color: #fc880d !important; opacity: 1 !important; }
     </style>
 </head>
 
@@ -22,15 +25,38 @@
             <div class="flex items-center gap-2 text-xs text-gray-400 mb-5">
                 <a href="/" class="hover:text-[#fc880d]">Home</a><span>/</span>
                 <a href="/courses" class="hover:text-[#fc880d]">Courses</a><span>/</span>
-                <span class="text-dark">Italian Food Class</span>
+                <span class="text-dark">Italian Class</span>
             </div>
 
             <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
-                <!-- LEFT: Image -->
-                <div>
-                    <div class="rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
-                        <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Food Class" class="w-full h-full object-cover object-center">
+                <!-- LEFT: Image Gallery -->
+                <div class="flex flex-col-reverse sm:flex-row gap-3">
+                    <div class="flex sm:flex-col gap-2 sm:w-[72px] shrink-0">
+                        <div class="thumb active rounded-lg overflow-hidden aspect-square border-2 border-[#fc880d] opacity-100"
+                            onclick="switchImg(this, '/assets/images/321.jpeg')">
+                            <img src="/assets/images/321.jpeg" alt="Italian Class" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/322.jpeg')">
+                            <img src="/assets/images/322.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/323.jpeg')">
+                            <img src="/assets/images/323.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/324.jpeg')">
+                            <img src="/assets/images/324.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="thumb rounded-lg overflow-hidden aspect-square border-2 border-transparent opacity-60"
+                            onclick="switchImg(this, '/assets/images/325.jpeg')">
+                            <img src="/assets/images/325.jpeg" alt="" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="flex-1 rounded-2xl overflow-hidden bg-[#FAF7F2] aspect-[3/4] sm:aspect-[4/5]">
+                        <img id="mainImg" src="/assets/images/321.jpeg" alt="Italian Class"
+                            class="w-full h-full object-cover object-center">
                     </div>
                 </div>
 
@@ -43,11 +69,18 @@
                     </div>
 
                     <!-- Title -->
-                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Italian Food Class</h1>
-                    <p class="text-muted text-[14px] leading-relaxed mb-5">Learn 20+ Italian recipes at home — Pizzas, Pastas, Risottos, Ravioli, Tiramisu and much more. One of the most loved cuisines, now at your fingertips.</p>
+                    <h1 class="font-serif text-[26px] md:text-[32px] font-bold text-dark leading-tight mb-2">Italian Class</h1>
+                    <p class="text-muted text-[14px] leading-relaxed mb-5">Italian food is one of the most popular and widely adopted cuisines the world over. Our cooking lessons include some of the most important recipes in Italian cuisine and the perfect way to learn & enjoy Italian food at home.</p>
 
                     <!-- Duration & Timings -->
                     <div class="grid grid-cols-2 gap-3 mb-5">
+                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
+                            <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
+                            <div>
+                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
+                                <p class="text-sm text-dark font-bold">12:00 – 4:00 PM</p>
+                            </div>
+                        </div>
                         <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
                             <i data-lucide="calendar-days" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
                             <div>
@@ -55,13 +88,12 @@
                                 <p class="text-sm text-dark font-bold">2 Days</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-2.5 bg-[#FAF7F2] rounded-xl px-3.5 py-2.5 border border-[#EDE4D8]">
-                            <i data-lucide="clock" class="w-4 h-4 text-[#fc880d] shrink-0"></i>
-                            <div>
-                                <p class="text-[10px] text-gray-400 uppercase tracking-wider font-semibold">Timings</p>
-                                <p class="text-sm text-dark font-bold">11:30 AM – 5:30 PM</p>
-                            </div>
-                        </div>
+                    </div>
+
+                    <!-- Practicals & Recipes Badge -->
+                    <div class="flex items-center gap-3 mb-5">
+                        <span class="bg-[#fc880d]/10 text-[#fc880d] text-xs font-bold px-3 py-1.5 rounded-full">21 Recipes</span>
+                        <span class="bg-[#9333ea]/10 text-[#9333ea] text-xs font-bold px-3 py-1.5 rounded-full">Hands-On Practical</span>
                     </div>
 
                     <div class="mb-5 pb-5 border-b border-gray-100"></div>
@@ -69,7 +101,7 @@
                     <!-- What's Included -->
                     <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">What's Included</p>
                     <div class="grid grid-cols-2 gap-x-4 gap-y-2 mb-6 text-[13px]">
-                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 20+ Italian Recipes</span>
+                        <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> 21 Italian Recipes</span>
                         <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Lunch & Refreshments</span>
                         <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Printed Recipe Booklet</span>
                         <span class="flex items-center gap-2 text-muted"><i data-lucide="check" class="w-3.5 h-3.5 text-[#16a34a] shrink-0"></i> Hands-On Practical</span>
@@ -86,40 +118,83 @@
                             <i data-lucide="phone" class="w-5 h-5"></i> Call +91 8527780181
                         </a>
                     </div>
-                    <p class="text-gray-300 text-[11px] text-center mt-2">Limited seats per batch. Register early.</p>
+                    <p class="text-gray-300 text-[11px] text-center mt-2">Confirmation mandatory. Limited seats per batch.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== CURRICULUM ===== -->
+    <!-- ===== COURSE CONTENT ===== -->
     <section class="py-10 md:py-12 bg-[#FAF7F2] border-t border-[#EDE4D8]">
         <div class="max-w-[1200px] mx-auto px-5 md:px-10">
             <div class="flex items-center justify-between mb-5">
-                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">What You'll Learn</h2>
-                <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">20 Recipes</span>
+                <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Course Content</h2>
+                <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">21 Recipes</span>
             </div>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Pizza (Margarita, Farmhouse, Peppy Paneer)</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">White Sauce Pasta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Red Sauce Pasta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Pink Sauce Pasta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Alfredo Pasta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Macaroni</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Lasagne</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Baked Pasta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Spaghetti</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Penne Arrabiata</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Ravioli</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Risotto</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Bruschetta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Garlic Bread</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Focaccia Bread</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Minestrone Soup</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Tiramisu</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Panna Cotta</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Italian Dressing</div>
-                <div class="ci bg-white px-3 py-2.5 rounded-lg border border-[#EDE4D8] text-[12px] font-medium text-dark">Marinara Sauce</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Home Made Lasagna & Pasta
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Dough for Lasagna
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Farfalle Pasta in Basil Pesto Sauce
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Baked Lasagne
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Garlic Bread
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Tomato Bruschetta
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Italian Salad
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Cannelloni
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Almond Panna Cotta with Ruby Sauce
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Spaghetti in Bolognese Sauce
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Classic Pizza
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Ravioli Pasta in Pink Cream Sauce
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Vegetable Risotto Rice
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Peri Peri Pasta
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Baby Corn Crostini
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Pasta with Spinach & Sundried Tomatoes
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Fusilli Pasta with Creamy Cheese Sauce
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Baked Vegetables with Basil Pesto
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Veggie Crispy Paneer Stick
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Sicilian Feta Cheese in Peri Peri Sauce
+                </div>
+                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
+                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Home Made Peri Peri Sauce
+                </div>
             </div>
         </div>
     </section>
@@ -141,14 +216,14 @@
                     <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Professional Cake Baking Master Class</h3>
                     <p class="text-gray-400 text-xs mt-1">30+ Cake Varieties from Scratch</p>
                 </a>
-                <a href="/courses/sugar-craft" class="group block">
+                <a href="/courses/mexican" class="group block">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
-                        <img src="/assets/images/sugar-craft-1.jpeg" alt="Sugar Craft Rolled Fondant Cakes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="/assets/images/143.jpeg" alt="Mexican Cuisine Class" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
-                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Cake Decorating</span>
+                        <span class="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase px-2.5 py-1 rounded-full">Mexican Cuisine</span>
                     </div>
-                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Sugar Craft Rolled Fondant Cakes</h3>
-                    <p class="text-gray-400 text-xs mt-1">Fondant, Ganache, Sugar Paste & More</p>
+                    <h3 class="font-bold text-dark text-[15px] leading-snug group-hover:text-[#fc880d] transition-colors">Authentic Mexican Cuisines</h3>
+                    <p class="text-gray-400 text-xs mt-1">20 Practicals, 35 Recipes</p>
                 </a>
                 <a href="/courses/mughlai" class="group block">
                     <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-[#FAF7F2] mb-3 relative">
@@ -175,5 +250,19 @@
     <div class="lg:hidden h-16"></div>
 
     <?php include __DIR__ . '/../includes/footer.php'; ?>
+
+    <script>
+        function switchImg(thumb, src) {
+            document.getElementById('mainImg').src = src;
+            document.querySelectorAll('.thumb').forEach(t => {
+                t.classList.remove('active');
+                t.style.borderColor = 'transparent';
+                t.style.opacity = '0.6';
+            });
+            thumb.classList.add('active');
+            thumb.style.borderColor = '#fc880d';
+            thumb.style.opacity = '1';
+        }
+    </script>
 </body>
 </html>

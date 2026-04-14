@@ -293,16 +293,16 @@
 
                 <a href="/courses/italian" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="italian">
                     <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="/assets/images/pad-thai-dish.jpeg" alt="Italian Food Class" class="card-img w-full h-full object-cover">
+                        <img src="/assets/images/321.jpeg" alt="Italian Class" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                     </div>
                     <div class="p-4 pb-5">
                         <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Italian Cuisine</p>
-                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Italian Food Class</h3>
-                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">20+ recipes — Pizzas, Pastas, Risottos, Tiramisu and much more.</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Italian Class</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">21 recipes — Lasagna, Pizza, Ravioli, Risotto, Panna Cotta and much more.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 12:00 – 4:00 PM</span>
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
                         </div>
                     </div>
                 </a>
