@@ -174,20 +174,18 @@ With multiple layers of lip smacking taste and exotic contours of light, flaky &
                 <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">Premium
                     Creations</span>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2.5 text-[14px] text-dark mb-8">
-                <p>✅ 🥐 Khari Varieties</p>
-                <p>✅ 🥟 Veg & Cheese Puffs</p>
-                <p>✅ 🧀 Flavoured Sticks & Straws</p>
-                <p>✅ 🍦 Cream Rolls (Vanilla, Chocolate, Strawberry & Pineapple)</p>
-                <p>✅ 🍫 Chocolate Croissants</p>
-                <p>✅ 🍓 Strawberry Mille Feuille</p>
-                <p>✅ 🍎 Apple Roses</p>
-                <p>✅ ✨ And many more bakery favourites!</p>
-            </div>
-
-            <div class="max-w-[1200px] border-t border-[#EDE4D8] mb-8 pt-8"></div>
-
             <div class="columns-1 md:columns-2 gap-x-12 text-[14px] text-dark leading-relaxed">
+                <div class="break-inside-avoid mb-6 space-y-1.5">
+                    <p>✅ 🥐 Khari Varieties</p>
+                    <p>✅ 🥟 Veg & Cheese Puffs</p>
+                    <p>✅ 🧀 Flavoured Sticks & Straws</p>
+                    <p>✅ 🍦 Cream Rolls (Vanilla, Chocolate, Strawberry & Pineapple)</p>
+                    <p>✅ 🍫 Chocolate Croissants</p>
+                    <p>✅ 🍓 Strawberry Mille Feuille</p>
+                    <p>✅ 🍎 Apple Roses</p>
+                    <p>✅ ✨ And many more bakery favourites!</p>
+                </div>
+
                 <div class="break-inside-avoid mb-6">
                     <p>*Learn in professional way as bakeries do...</p>
                     <p>*Learn in healthier way without using unhealthy fat n with wheat flour too...</p>
