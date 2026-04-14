@@ -618,6 +618,23 @@
                     </div>
                 </a>
 
+                <a href="/courses/puff-pastries" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="pastries">
+                    <div class="relative overflow-hidden aspect-[4/3]">
+                        <img src="/assets/images/puff_pastry_main_1776170197994.png" alt="Exotic Puff Pastries & Cream Horn Class" class="card-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                        <span class="absolute top-3 left-3 bg-[#eab308] text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">New</span>
+                    </div>
+                    <div class="p-4 pb-5">
+                        <p class="text-[11px] text-[#fc880d] font-bold uppercase tracking-wider mb-1.5">Pastries</p>
+                        <h3 class="font-bold text-dark text-[15px] leading-snug mb-2">Puff Pastries & Cream Horn</h3>
+                        <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Master flaky khari, cream horns, croissants, mille-feuille and more premium items.</p>
+                        <div class="flex items-center gap-3 text-[11px] text-gray-500">
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM - 5:00 PM</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </div>
     </section>
