@@ -127,74 +127,32 @@
     <!-- ===== COURSE CONTENT ===== -->
     <section class="py-10 md:py-12 bg-[#FAF7F2] border-t border-[#EDE4D8]">
         <div class="max-w-[1200px] mx-auto px-5 md:px-10">
-            <div class="flex items-center justify-between mb-5">
+            <div class="flex items-center justify-between mb-6">
                 <h2 class="font-serif text-xl md:text-2xl font-bold text-dark">Course Content</h2>
                 <span class="text-[#fc880d] text-xs font-bold bg-[#fc880d]/10 px-3 py-1 rounded-full">21 Recipes</span>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Home Made Lasagna & Pasta
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Dough for Lasagna
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Farfalle Pasta in Basil Pesto Sauce
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Baked Lasagne
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Garlic Bread
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Tomato Bruschetta
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Italian Salad
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Cannelloni
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Almond Panna Cotta with Ruby Sauce
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Spaghetti in Bolognese Sauce
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Classic Pizza
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Ravioli Pasta in Pink Cream Sauce
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Vegetable Risotto Rice
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Peri Peri Pasta
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Baby Corn Crostini
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Pasta with Spinach & Sundried Tomatoes
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Fusilli Pasta with Creamy Cheese Sauce
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Baked Vegetables with Basil Pesto
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Veggie Crispy Paneer Stick
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Sicilian Feta Cheese in Peri Peri Sauce
-                </div>
-                <div class="ci bg-white px-4 py-3 rounded-lg border border-[#EDE4D8] text-[13px] font-medium text-dark flex items-start gap-2.5">
-                    <span class="text-[#16a34a] mt-0.5 shrink-0">✅</span> Home Made Peri Peri Sauce
-                </div>
+            <div class="space-y-2.5 text-[14px] text-dark">
+                <p>✅ Home Made Lasagna & Pasta</p>
+                <p>✅ Dough for Lasagna</p>
+                <p>✅ Farfalle Pasta in Basil Pesto Sauce</p>
+                <p>✅ Baked Lasagne</p>
+                <p>✅ Garlic Bread</p>
+                <p>✅ Tomato Bruschetta</p>
+                <p>✅ Italian Salad</p>
+                <p>✅ Cannelloni</p>
+                <p>✅ Almond Panna Cotta with Ruby Sauce</p>
+                <p>✅ Spaghetti in Bolognese Sauce</p>
+                <p>✅ Classic Pizza</p>
+                <p>✅ Ravioli Pasta in Pink Cream Sauce</p>
+                <p>✅ Vegetable Risotto Rice</p>
+                <p>✅ Peri Peri Pasta</p>
+                <p>✅ Baby Corn Crostini</p>
+                <p>✅ Pasta with Spinach & Sundried Tomatoes</p>
+                <p>✅ Fusilli Pasta with Creamy Cheese Sauce</p>
+                <p>✅ Baked Vegetables with Basil Pesto</p>
+                <p>✅ Veggie Crispy Paneer Stick</p>
+                <p>✅ Sicilian Feta Cheese in Peri Peri Sauce</p>
+                <p>✅ Home Made Peri Peri Sauce</p>
             </div>
         </div>
     </section>
