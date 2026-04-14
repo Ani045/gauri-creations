@@ -570,7 +570,7 @@
 
                 <a href="/courses/chocolate-truffle-cake" class="course-card course-card-new block bg-white rounded-2xl overflow-hidden border border-gray-100/80" data-category="baking">
                     <div class="relative overflow-hidden aspect-[4/3]">
-    <img src="/assets/images/truffle_cake_1_1776079412900.png" alt="Chocolate Truffle Cake" class="card-img w-full h-full object-cover">
+    <img src="/assets/images/311.jpeg" alt="Chocolate Truffle Cake" class="card-img w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                         <span class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full shadow-md">Masterclass</span>
                     </div>
