@@ -546,7 +546,7 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">43 Chocolate Varieties — Fruit & Nut, Marzipan, Center Filled Truffle, and many more.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11:30 AM – 5:00 PM</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                         </div>
                     </div>
                 </a>
@@ -563,7 +563,7 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Learn to master 13 delicious snacks & 5 special dips — Paneer Poppers, Schezwan Fingers & more.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 11 AM – 5:30 PM</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                         </div>
                     </div>
                 </a>
@@ -580,7 +580,7 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">5 Yummy variants with silkiest truffle frosting, sharp edges, and professional garnishing.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 1 Day</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                         </div>
                     </div>
                 </a>
@@ -597,7 +597,7 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">15 Varieties of traditional desserts, eggless phyllo sheet making, storage and more.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="monitor-play" class="w-3 h-3 text-[#fc880d]"></i> Online</span>
-                            <span class="flex items-center gap-1"><i data-lucide="award" class="w-3 h-3 text-[#fc880d]"></i> Sugar-Free & Vegan</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                         </div>
                     </div>
                 </a>
@@ -613,7 +613,7 @@
                         <p class="text-gray-400 text-[12px] leading-relaxed line-clamp-2 mb-3">Eggless tea cakes with different flavors — moist, fluffy and incredibly easy.</p>
                         <div class="flex items-center gap-3 text-[11px] text-gray-500">
                             <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
-                            <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3 text-[#fc880d]"></i> Gurgaon</span>
+                            <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3 text-[#fc880d]"></i> 2 Days</span>
                         </div>
                     </div>
                 </a>
