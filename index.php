@@ -741,7 +741,7 @@
                     <img src="assets/images/cake-wedding-purple.jpeg" alt="Cake Baking Master Class">
                     <div class="hero-slide-overlay slide-animate">
                         <span class="hero-slide-tag"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Bestseller</span>
-                        <h2 class="hero-slide-title">Professional Cake Baking & Icing Master Class</h2>
+                        <h2 class="hero-slide-title">PProfessional Cake Baking & Icing Master Class</h2>
                         <p class="hero-slide-desc">Learn 30+ cake varieties from scratch — Wedding Cake, Pinata, Geode, Red Velvet and more. Start your home bakery!</p>
                         <a href="/courses/home-baker" class="hero-slide-btn">Explore Course <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                     </div>
