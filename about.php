@@ -8,62 +8,7 @@
 
 <?php $activePage = "about"; ?>
 <body class="font-sans bg-light text-dark antialiased overflow-x-hidden transition-all duration-300">
-
-    <?php include 'includes/nav.php'; ?>
-
-    <!-- ===== PAGE HERO ===== -->
-    <section class="bg-[#2a2522] py-20 relative overflow-hidden">
-        <div class="absolute inset-0 opacity-[0.04] bg-[radial-gradient(#fc880d_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10 text-center">
-            <h1 class="font-serif text-4xl md:text-5xl text-white font-bold mb-4">About Gauri Creations</h1>
-            <p class="text-white/70 text-lg max-w-2xl mx-auto">Discover our story, our passion, and our dedication to culinary mastery.</p>
-        </div>
-    </section>
-
-    <!-- ===== ABOUT SECTION ===== -->
-    <section class="py-16 md:py-20 bg-white relative overflow-hidden">
-        <div class="max-w-[1300px] mx-auto px-6 md:px-12 relative z-10">
-            <div class="grid md:grid-cols-[380px_1fr] lg:grid-cols-[420px_1fr] gap-10 lg:gap-16 items-center">
-                
-                <div class="relative group mx-auto md:mx-0">
-                    <div class="w-[320px] h-[400px] md:w-[380px] md:h-[460px] lg:w-[420px] lg:h-[500px] rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.12)] relative">
-                        <img src="assets/images/sarika-teaching-class.jpeg" alt="Sarika Jindal — Founder" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"></div>
-                        <div class="absolute bottom-5 left-5 right-5 flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-full bg-[#fc880d] flex items-center justify-center text-white flex-shrink-0">
-                                <i data-lucide="chef-hat" class="w-5 h-5"></i>
-                            </div>
-                            <div>
-                                <p class="text-white font-bold text-sm leading-tight">Sarika Jindal</p>
-                                <p class="text-white/70 text-xs">Founder & Head Chef</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex flex-col">
-                    <span class="inline-flex items-center gap-2 text-[#fc880d] font-bold tracking-widest uppercase text-xs mb-3">
-                        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Our Story
-                    </span>
-                    <h2 class="font-serif text-3xl md:text-4xl text-dark font-bold tracking-tight leading-tight mb-4">
-                        Crafting Culinary Excellence Since Day One
-                    </h2>
-                    <p class="text-gray-500 text-[15px] leading-relaxed mb-4 max-w-[560px]">
-                        <strong class="text-dark">Gauri Creations</strong> was founded by Sarika Jindal — a passionate culinary expert who built her baking and cooking academy from the ground up. What started as a small kitchen experiment is now a thriving community of food lovers.
-                    </p>
-                    <p class="text-gray-500 text-[15px] leading-relaxed mb-6 max-w-[560px]">
-                        She simplifies professional-level cooking techniques for homemakers, beginners, and aspiring bakers — teaching with clarity, confidence, and perfection. Over the years, our academy has blossomed into a recognized name for exquisite recipes and impeccable training.
-                    </p>
-
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
-                        <div class="bg-[#FFF8F0] rounded-2xl px-4 py-4 text-center border border-[#fc880d]/10 hover:border-[#fc880d]/30 transition-all">
-                            <p class="text-2xl md:text-3xl font-bold text-[#fc880d] leading-none mb-1">10K+</p>
-                            <p class="text-[11px] text-gray-500 font-medium uppercase tracking-wide">Students</p>
-                        </div>
-                        <div class="bg-[#FFF8F0] rounded-2xl px-4 py-4 text-center border border-[#fc880d]/10 hover:border-[#fc880d]/30 transition-all">
-                            <p class="text-2xl md:text-3xl font-bold text-[#fc880d] leading-none mb-1">200+</p>
-                            <p class="text-[11px] text-gray-500 font-medium uppercase tracking-wide">Recipes</p>
-                        </div>
+                  </div>
                         <div class="bg-[#FFF8F0] rounded-2xl px-4 py-4 text-center border border-[#fc880d]/10 hover:border-[#fc880d]/30 transition-all">
                             <p class="text-2xl md:text-3xl font-bold text-[#fc880d] leading-none mb-1">50+</p>
                             <p class="text-[11px] text-gray-500 font-medium uppercase tracking-wide">Courses</p>
